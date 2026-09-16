@@ -1,0 +1,10 @@
+# machine-specific by design (see harness/harness-env.sh)
+harness/harness.env
+# run output never ships; the directory must exist
+harness/reports/*
+!harness/reports/.gitkeep
+harness/target/
+driver/target/
+__pycache__/
+# the default place for the skeleton-starter clone runBoxA.sh makes on its first run
+system-under-test/

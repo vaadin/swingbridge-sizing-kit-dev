@@ -1,0 +1,175 @@
+{
+  "_comment": [
+    "The user-behaviour scenario for the JOSM example: seven steps a user repeats,",
+    "each with the parts of the screen that must change as a result.",
+    "",
+    "Nothing here is a hard-coded pixel coordinate. The guest publishes",
+    "where its widgets and map objects actually are (see PATCH-LEDGER.md, patch 1),",
+    "and every point below is resolved from that at run time:",
+    "",
+    "  {\"target\": \"building/13/5163\"}   an object the application located for us",
+    "  {\"widget\": \"map\", \"at\": [fx, fy]}  a fraction inside a named widget",
+    "",
+    "Why this matters beyond tidiness: a coordinate written down from a screenshot",
+    "is only true for the window size, zoom level and layout it was read at, and",
+    "when it stops being true the driver still clicks \u2014 it just clicks the wrong",
+    "thing, which looks exactly like an application that did nothing. Resolving",
+    "names against the running application removes that whole failure mode, and the",
+    "run aborts if a name cannot be resolved rather than falling back to a guess.",
+    "",
+    "The remaining fractions are sub-widget positions the guest does not report",
+    "individually (a cell inside the layer row, blank space inside the map). They",
+    "are relative to a real widget, so they survive a panel moving or resizing.",
+    "",
+    "Deliberate: no menus, no dialogs, no window close (an uncontained guest",
+    "System.exit takes the shared JVM down with every tenant \u2014 #156).",
+    "",
+    "layerEye is the one point the guest does not publish, so it is a fraction inside the layers panel and must be re-derived whenever the window size changes. Measured at 1920x1080 by capturing the NATIVE X display at 1:1 and cropping the panel at its own published bounds: the row's visibility eye (JOSM's LayerListDialog column 3) sits at (61.7, 32.2) of 325x208, hence 0.190, 0.155. Do not measure this through the browser -- deriving it from a screenshot needs the canvas origin, and an 11 px error there produced 0.104, which was confidently wrong. The native display has no such offset.",
+    "How the old value failed is worth knowing. At 0.19 the click landed at guest y=102 against a row centred on 95, i.e. on its bottom edge, and it collapsed the Layers panel instead of toggling the layer. Everything after that clicked the Tags title bar that had moved up into the space. The visible symptom was layer-hide PASSING and layer-show failing -- the hide only appeared to work because moving the pointer off the map drops JOSM's hover highlight, which repaints the map crop. A step can pass for a reason unrelated to what it tests."
+  ],
+  "app": "josm",
+  "window": {
+    "w": 1920,
+    "h": 1080
+  },
+  "data": "grid-helsinki.osm",
+  "boundsMarker": "WIDGET-BOUNDS ",
+  "scaleTolerance": 0.02,
+  "points": {
+    "buildingA": {
+      "target": "building/13/5163"
+    },
+    "buildingB": {
+      "target": "building/9/5188"
+    },
+    "emptyMap": {
+      "widget": "map",
+      "at": [
+        0.92,
+        0.29
+      ]
+    },
+    "mapCentre": {
+      "widget": "map",
+      "at": [
+        0.5,
+        0.5
+      ]
+    },
+    "layerEye": {
+      "widget": "layers",
+      "at": [
+        0.19,
+        0.155
+      ]
+    },
+    "park": {
+      "widget": "selection",
+      "at": [
+        0.5,
+        0.95
+      ]
+    }
+  },
+  "_park": [
+    "Where the pointer is parked before an at-rest reading is taken. JOSM",
+    "highlights whatever the pointer is over, so an at-rest snapshot taken with",
+    "the pointer on the map is not comparable with one taken after the last step",
+    "left it on a panel \u2014 the 'returned to start' check then reports drift that",
+    "is only a mouse position. Parking it at the same harmless place makes that",
+    "check mean what it says: leftover state."
+  ],
+  "crops": {
+    "tags": {
+      "widget": "tags"
+    },
+    "selection": {
+      "widget": "selection"
+    },
+    "map": {
+      "widget": "map",
+      "inset": 8
+    }
+  },
+  "cycle": [
+    {
+      "id": "select-a",
+      "action": "click",
+      "at": "buildingA",
+      "expect": [
+        "tags",
+        "selection"
+      ],
+      "settleMs": 700,
+      "why": "selects one building way; both panels fill with its tags"
+    },
+    {
+      "id": "select-b",
+      "action": "click",
+      "at": "buildingB",
+      "expect": [
+        "tags",
+        "selection"
+      ],
+      "settleMs": 700,
+      "why": "selection moves to a different object, two rows and two columns away"
+    },
+    {
+      "id": "deselect",
+      "action": "click",
+      "at": "emptyMap",
+      "expect": [
+        "tags",
+        "map"
+      ],
+      "settleMs": 700,
+      "why": "clears the selection; verified 262 px clear of any object"
+    },
+    {
+      "id": "zoom-in",
+      "action": "key",
+      "key": "NumpadAdd",
+      "repeat": 3,
+      "at": "mapCentre",
+      "expect": [
+        "map"
+      ],
+      "expectScale": 0.125,
+      "settleMs": 900,
+      "why": "three zoom steps in, each halving the scale. keystrokes rather than the wheel: a keystroke is a discrete, deterministic event. expectScale is asserted so a run that zooms by a different amount fails here instead of quietly reporting different memory later"
+    },
+    {
+      "id": "zoom-out",
+      "action": "key",
+      "key": "NumpadSubtract",
+      "repeat": 3,
+      "at": "mapCentre",
+      "expect": [
+        "map"
+      ],
+      "expectScale": 8.0,
+      "settleMs": 900,
+      "why": "three steps back out, returning to the starting scale exactly \u2014 which is what makes the steady profile self-checking"
+    },
+    {
+      "id": "layer-hide",
+      "action": "click",
+      "at": "layerEye",
+      "expect": [
+        "map"
+      ],
+      "settleMs": 900,
+      "why": "hides the data layer: a full-viewport repaint with no geometry"
+    },
+    {
+      "id": "layer-show",
+      "action": "click",
+      "at": "layerEye",
+      "expect": [
+        "map"
+      ],
+      "settleMs": 900,
+      "why": "restores it, also byte-identical to the start"
+    }
+  ]
+}

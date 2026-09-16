@@ -1,0 +1,4918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="swing-bridge-memory-harness/makeExtract.py">
+  <bounds minlat="60.1695500" minlon="24.9380500" maxlat="60.1786500" maxlon="24.9559000"/>
+  <node id="1001" version="1" lat="60.1699000" lon="24.9384000"/>
+  <node id="1002" version="1" lat="60.1699000" lon="24.9391000"/>
+  <node id="1003" version="1" lat="60.1699000" lon="24.9398000"/>
+  <node id="1004" version="1" lat="60.1699000" lon="24.9405000"/>
+  <node id="1005" version="1" lat="60.1699000" lon="24.9412000"/>
+  <node id="1006" version="1" lat="60.1699000" lon="24.9419000"/>
+  <node id="1007" version="1" lat="60.1699000" lon="24.9426000"/>
+  <node id="1008" version="1" lat="60.1699000" lon="24.9433000"/>
+  <node id="1009" version="1" lat="60.1699000" lon="24.9440000"/>
+  <node id="1010" version="1" lat="60.1699000" lon="24.9447000"/>
+  <node id="1011" version="1" lat="60.1699000" lon="24.9454000"/>
+  <node id="1012" version="1" lat="60.1699000" lon="24.9461000"/>
+  <node id="1013" version="1" lat="60.1699000" lon="24.9468000"/>
+  <node id="1014" version="1" lat="60.1699000" lon="24.9475000"/>
+  <node id="1015" version="1" lat="60.1699000" lon="24.9482000"/>
+  <node id="1016" version="1" lat="60.1699000" lon="24.9489000"/>
+  <node id="1017" version="1" lat="60.1699000" lon="24.9496000"/>
+  <node id="1018" version="1" lat="60.1699000" lon="24.9503000"/>
+  <node id="1019" version="1" lat="60.1699000" lon="24.9510000"/>
+  <node id="1020" version="1" lat="60.1699000" lon="24.9517000"/>
+  <node id="1021" version="1" lat="60.1699000" lon="24.9524000"/>
+  <node id="1022" version="1" lat="60.1699000" lon="24.9531000"/>
+  <node id="1023" version="1" lat="60.1699000" lon="24.9538000"/>
+  <node id="1024" version="1" lat="60.1699000" lon="24.9545000"/>
+  <node id="1025" version="1" lat="60.1702500" lon="24.9384000"/>
+  <node id="1026" version="1" lat="60.1702500" lon="24.9391000"/>
+  <node id="1027" version="1" lat="60.1702500" lon="24.9398000"/>
+  <node id="1028" version="1" lat="60.1702500" lon="24.9405000"/>
+  <node id="1029" version="1" lat="60.1702500" lon="24.9412000"/>
+  <node id="1030" version="1" lat="60.1702500" lon="24.9419000"/>
+  <node id="1031" version="1" lat="60.1702500" lon="24.9426000"/>
+  <node id="1032" version="1" lat="60.1702500" lon="24.9433000"/>
+  <node id="1033" version="1" lat="60.1702500" lon="24.9440000"/>
+  <node id="1034" version="1" lat="60.1702500" lon="24.9447000"/>
+  <node id="1035" version="1" lat="60.1702500" lon="24.9454000"/>
+  <node id="1036" version="1" lat="60.1702500" lon="24.9461000"/>
+  <node id="1037" version="1" lat="60.1702500" lon="24.9468000"/>
+  <node id="1038" version="1" lat="60.1702500" lon="24.9475000"/>
+  <node id="1039" version="1" lat="60.1702500" lon="24.9482000"/>
+  <node id="1040" version="1" lat="60.1702500" lon="24.9489000"/>
+  <node id="1041" version="1" lat="60.1702500" lon="24.9496000"/>
+  <node id="1042" version="1" lat="60.1702500" lon="24.9503000"/>
+  <node id="1043" version="1" lat="60.1702500" lon="24.9510000"/>
+  <node id="1044" version="1" lat="60.1702500" lon="24.9517000"/>
+  <node id="1045" version="1" lat="60.1702500" lon="24.9524000"/>
+  <node id="1046" version="1" lat="60.1702500" lon="24.9531000"/>
+  <node id="1047" version="1" lat="60.1702500" lon="24.9538000"/>
+  <node id="1048" version="1" lat="60.1702500" lon="24.9545000"/>
+  <node id="1049" version="1" lat="60.1706000" lon="24.9384000"/>
+  <node id="1050" version="1" lat="60.1706000" lon="24.9391000"/>
+  <node id="1051" version="1" lat="60.1706000" lon="24.9398000"/>
+  <node id="1052" version="1" lat="60.1706000" lon="24.9405000"/>
+  <node id="1053" version="1" lat="60.1706000" lon="24.9412000"/>
+  <node id="1054" version="1" lat="60.1706000" lon="24.9419000"/>
+  <node id="1055" version="1" lat="60.1706000" lon="24.9426000"/>
+  <node id="1056" version="1" lat="60.1706000" lon="24.9433000"/>
+  <node id="1057" version="1" lat="60.1706000" lon="24.9440000"/>
+  <node id="1058" version="1" lat="60.1706000" lon="24.9447000"/>
+  <node id="1059" version="1" lat="60.1706000" lon="24.9454000"/>
+  <node id="1060" version="1" lat="60.1706000" lon="24.9461000"/>
+  <node id="1061" version="1" lat="60.1706000" lon="24.9468000"/>
+  <node id="1062" version="1" lat="60.1706000" lon="24.9475000"/>
+  <node id="1063" version="1" lat="60.1706000" lon="24.9482000"/>
+  <node id="1064" version="1" lat="60.1706000" lon="24.9489000"/>
+  <node id="1065" version="1" lat="60.1706000" lon="24.9496000"/>
+  <node id="1066" version="1" lat="60.1706000" lon="24.9503000"/>
+  <node id="1067" version="1" lat="60.1706000" lon="24.9510000"/>
+  <node id="1068" version="1" lat="60.1706000" lon="24.9517000"/>
+  <node id="1069" version="1" lat="60.1706000" lon="24.9524000"/>
+  <node id="1070" version="1" lat="60.1706000" lon="24.9531000"/>
+  <node id="1071" version="1" lat="60.1706000" lon="24.9538000"/>
+  <node id="1072" version="1" lat="60.1706000" lon="24.9545000"/>
+  <node id="1073" version="1" lat="60.1709500" lon="24.9384000"/>
+  <node id="1074" version="1" lat="60.1709500" lon="24.9391000"/>
+  <node id="1075" version="1" lat="60.1709500" lon="24.9398000"/>
+  <node id="1076" version="1" lat="60.1709500" lon="24.9405000"/>
+  <node id="1077" version="1" lat="60.1709500" lon="24.9412000"/>
+  <node id="1078" version="1" lat="60.1709500" lon="24.9419000"/>
+  <node id="1079" version="1" lat="60.1709500" lon="24.9426000"/>
+  <node id="1080" version="1" lat="60.1709500" lon="24.9433000"/>
+  <node id="1081" version="1" lat="60.1709500" lon="24.9440000"/>
+  <node id="1082" version="1" lat="60.1709500" lon="24.9447000"/>
+  <node id="1083" version="1" lat="60.1709500" lon="24.9454000"/>
+  <node id="1084" version="1" lat="60.1709500" lon="24.9461000"/>
+  <node id="1085" version="1" lat="60.1709500" lon="24.9468000"/>
+  <node id="1086" version="1" lat="60.1709500" lon="24.9475000"/>
+  <node id="1087" version="1" lat="60.1709500" lon="24.9482000"/>
+  <node id="1088" version="1" lat="60.1709500" lon="24.9489000"/>
+  <node id="1089" version="1" lat="60.1709500" lon="24.9496000"/>
+  <node id="1090" version="1" lat="60.1709500" lon="24.9503000"/>
+  <node id="1091" version="1" lat="60.1709500" lon="24.9510000"/>
+  <node id="1092" version="1" lat="60.1709500" lon="24.9517000"/>
+  <node id="1093" version="1" lat="60.1709500" lon="24.9524000"/>
+  <node id="1094" version="1" lat="60.1709500" lon="24.9531000"/>
+  <node id="1095" version="1" lat="60.1709500" lon="24.9538000"/>
+  <node id="1096" version="1" lat="60.1709500" lon="24.9545000"/>
+  <node id="1097" version="1" lat="60.1713000" lon="24.9384000"/>
+  <node id="1098" version="1" lat="60.1713000" lon="24.9391000"/>
+  <node id="1099" version="1" lat="60.1713000" lon="24.9398000"/>
+  <node id="1100" version="1" lat="60.1713000" lon="24.9405000"/>
+  <node id="1101" version="1" lat="60.1713000" lon="24.9412000"/>
+  <node id="1102" version="1" lat="60.1713000" lon="24.9419000"/>
+  <node id="1103" version="1" lat="60.1713000" lon="24.9426000"/>
+  <node id="1104" version="1" lat="60.1713000" lon="24.9433000"/>
+  <node id="1105" version="1" lat="60.1713000" lon="24.9440000"/>
+  <node id="1106" version="1" lat="60.1713000" lon="24.9447000"/>
+  <node id="1107" version="1" lat="60.1713000" lon="24.9454000"/>
+  <node id="1108" version="1" lat="60.1713000" lon="24.9461000"/>
+  <node id="1109" version="1" lat="60.1713000" lon="24.9468000"/>
+  <node id="1110" version="1" lat="60.1713000" lon="24.9475000"/>
+  <node id="1111" version="1" lat="60.1713000" lon="24.9482000"/>
+  <node id="1112" version="1" lat="60.1713000" lon="24.9489000"/>
+  <node id="1113" version="1" lat="60.1713000" lon="24.9496000"/>
+  <node id="1114" version="1" lat="60.1713000" lon="24.9503000"/>
+  <node id="1115" version="1" lat="60.1713000" lon="24.9510000"/>
+  <node id="1116" version="1" lat="60.1713000" lon="24.9517000"/>
+  <node id="1117" version="1" lat="60.1713000" lon="24.9524000"/>
+  <node id="1118" version="1" lat="60.1713000" lon="24.9531000"/>
+  <node id="1119" version="1" lat="60.1713000" lon="24.9538000"/>
+  <node id="1120" version="1" lat="60.1713000" lon="24.9545000"/>
+  <node id="1121" version="1" lat="60.1716500" lon="24.9384000"/>
+  <node id="1122" version="1" lat="60.1716500" lon="24.9391000"/>
+  <node id="1123" version="1" lat="60.1716500" lon="24.9398000"/>
+  <node id="1124" version="1" lat="60.1716500" lon="24.9405000"/>
+  <node id="1125" version="1" lat="60.1716500" lon="24.9412000"/>
+  <node id="1126" version="1" lat="60.1716500" lon="24.9419000"/>
+  <node id="1127" version="1" lat="60.1716500" lon="24.9426000"/>
+  <node id="1128" version="1" lat="60.1716500" lon="24.9433000"/>
+  <node id="1129" version="1" lat="60.1716500" lon="24.9440000"/>
+  <node id="1130" version="1" lat="60.1716500" lon="24.9447000"/>
+  <node id="1131" version="1" lat="60.1716500" lon="24.9454000"/>
+  <node id="1132" version="1" lat="60.1716500" lon="24.9461000"/>
+  <node id="1133" version="1" lat="60.1716500" lon="24.9468000"/>
+  <node id="1134" version="1" lat="60.1716500" lon="24.9475000"/>
+  <node id="1135" version="1" lat="60.1716500" lon="24.9482000"/>
+  <node id="1136" version="1" lat="60.1716500" lon="24.9489000"/>
+  <node id="1137" version="1" lat="60.1716500" lon="24.9496000"/>
+  <node id="1138" version="1" lat="60.1716500" lon="24.9503000"/>
+  <node id="1139" version="1" lat="60.1716500" lon="24.9510000"/>
+  <node id="1140" version="1" lat="60.1716500" lon="24.9517000"/>
+  <node id="1141" version="1" lat="60.1716500" lon="24.9524000"/>
+  <node id="1142" version="1" lat="60.1716500" lon="24.9531000"/>
+  <node id="1143" version="1" lat="60.1716500" lon="24.9538000"/>
+  <node id="1144" version="1" lat="60.1716500" lon="24.9545000"/>
+  <node id="1145" version="1" lat="60.1720000" lon="24.9384000"/>
+  <node id="1146" version="1" lat="60.1720000" lon="24.9391000"/>
+  <node id="1147" version="1" lat="60.1720000" lon="24.9398000"/>
+  <node id="1148" version="1" lat="60.1720000" lon="24.9405000"/>
+  <node id="1149" version="1" lat="60.1720000" lon="24.9412000"/>
+  <node id="1150" version="1" lat="60.1720000" lon="24.9419000"/>
+  <node id="1151" version="1" lat="60.1720000" lon="24.9426000"/>
+  <node id="1152" version="1" lat="60.1720000" lon="24.9433000"/>
+  <node id="1153" version="1" lat="60.1720000" lon="24.9440000"/>
+  <node id="1154" version="1" lat="60.1720000" lon="24.9447000"/>
+  <node id="1155" version="1" lat="60.1720000" lon="24.9454000"/>
+  <node id="1156" version="1" lat="60.1720000" lon="24.9461000"/>
+  <node id="1157" version="1" lat="60.1720000" lon="24.9468000"/>
+  <node id="1158" version="1" lat="60.1720000" lon="24.9475000"/>
+  <node id="1159" version="1" lat="60.1720000" lon="24.9482000"/>
+  <node id="1160" version="1" lat="60.1720000" lon="24.9489000"/>
+  <node id="1161" version="1" lat="60.1720000" lon="24.9496000"/>
+  <node id="1162" version="1" lat="60.1720000" lon="24.9503000"/>
+  <node id="1163" version="1" lat="60.1720000" lon="24.9510000"/>
+  <node id="1164" version="1" lat="60.1720000" lon="24.9517000"/>
+  <node id="1165" version="1" lat="60.1720000" lon="24.9524000"/>
+  <node id="1166" version="1" lat="60.1720000" lon="24.9531000"/>
+  <node id="1167" version="1" lat="60.1720000" lon="24.9538000"/>
+  <node id="1168" version="1" lat="60.1720000" lon="24.9545000"/>
+  <node id="1169" version="1" lat="60.1723500" lon="24.9384000"/>
+  <node id="1170" version="1" lat="60.1723500" lon="24.9391000"/>
+  <node id="1171" version="1" lat="60.1723500" lon="24.9398000"/>
+  <node id="1172" version="1" lat="60.1723500" lon="24.9405000"/>
+  <node id="1173" version="1" lat="60.1723500" lon="24.9412000"/>
+  <node id="1174" version="1" lat="60.1723500" lon="24.9419000"/>
+  <node id="1175" version="1" lat="60.1723500" lon="24.9426000"/>
+  <node id="1176" version="1" lat="60.1723500" lon="24.9433000"/>
+  <node id="1177" version="1" lat="60.1723500" lon="24.9440000"/>
+  <node id="1178" version="1" lat="60.1723500" lon="24.9447000"/>
+  <node id="1179" version="1" lat="60.1723500" lon="24.9454000"/>
+  <node id="1180" version="1" lat="60.1723500" lon="24.9461000"/>
+  <node id="1181" version="1" lat="60.1723500" lon="24.9468000"/>
+  <node id="1182" version="1" lat="60.1723500" lon="24.9475000"/>
+  <node id="1183" version="1" lat="60.1723500" lon="24.9482000"/>
+  <node id="1184" version="1" lat="60.1723500" lon="24.9489000"/>
+  <node id="1185" version="1" lat="60.1723500" lon="24.9496000"/>
+  <node id="1186" version="1" lat="60.1723500" lon="24.9503000"/>
+  <node id="1187" version="1" lat="60.1723500" lon="24.9510000"/>
+  <node id="1188" version="1" lat="60.1723500" lon="24.9517000"/>
+  <node id="1189" version="1" lat="60.1723500" lon="24.9524000"/>
+  <node id="1190" version="1" lat="60.1723500" lon="24.9531000"/>
+  <node id="1191" version="1" lat="60.1723500" lon="24.9538000"/>
+  <node id="1192" version="1" lat="60.1723500" lon="24.9545000"/>
+  <node id="1193" version="1" lat="60.1727000" lon="24.9384000"/>
+  <node id="1194" version="1" lat="60.1727000" lon="24.9391000"/>
+  <node id="1195" version="1" lat="60.1727000" lon="24.9398000"/>
+  <node id="1196" version="1" lat="60.1727000" lon="24.9405000"/>
+  <node id="1197" version="1" lat="60.1727000" lon="24.9412000"/>
+  <node id="1198" version="1" lat="60.1727000" lon="24.9419000"/>
+  <node id="1199" version="1" lat="60.1727000" lon="24.9426000"/>
+  <node id="1200" version="1" lat="60.1727000" lon="24.9433000"/>
+  <node id="1201" version="1" lat="60.1727000" lon="24.9440000"/>
+  <node id="1202" version="1" lat="60.1727000" lon="24.9447000"/>
+  <node id="1203" version="1" lat="60.1727000" lon="24.9454000"/>
+  <node id="1204" version="1" lat="60.1727000" lon="24.9461000"/>
+  <node id="1205" version="1" lat="60.1727000" lon="24.9468000"/>
+  <node id="1206" version="1" lat="60.1727000" lon="24.9475000"/>
+  <node id="1207" version="1" lat="60.1727000" lon="24.9482000"/>
+  <node id="1208" version="1" lat="60.1727000" lon="24.9489000"/>
+  <node id="1209" version="1" lat="60.1727000" lon="24.9496000"/>
+  <node id="1210" version="1" lat="60.1727000" lon="24.9503000"/>
+  <node id="1211" version="1" lat="60.1727000" lon="24.9510000"/>
+  <node id="1212" version="1" lat="60.1727000" lon="24.9517000"/>
+  <node id="1213" version="1" lat="60.1727000" lon="24.9524000"/>
+  <node id="1214" version="1" lat="60.1727000" lon="24.9531000"/>
+  <node id="1215" version="1" lat="60.1727000" lon="24.9538000"/>
+  <node id="1216" version="1" lat="60.1727000" lon="24.9545000"/>
+  <node id="1217" version="1" lat="60.1730500" lon="24.9384000"/>
+  <node id="1218" version="1" lat="60.1730500" lon="24.9391000"/>
+  <node id="1219" version="1" lat="60.1730500" lon="24.9398000"/>
+  <node id="1220" version="1" lat="60.1730500" lon="24.9405000"/>
+  <node id="1221" version="1" lat="60.1730500" lon="24.9412000"/>
+  <node id="1222" version="1" lat="60.1730500" lon="24.9419000"/>
+  <node id="1223" version="1" lat="60.1730500" lon="24.9426000"/>
+  <node id="1224" version="1" lat="60.1730500" lon="24.9433000"/>
+  <node id="1225" version="1" lat="60.1730500" lon="24.9440000"/>
+  <node id="1226" version="1" lat="60.1730500" lon="24.9447000"/>
+  <node id="1227" version="1" lat="60.1730500" lon="24.9454000"/>
+  <node id="1228" version="1" lat="60.1730500" lon="24.9461000"/>
+  <node id="1229" version="1" lat="60.1730500" lon="24.9468000"/>
+  <node id="1230" version="1" lat="60.1730500" lon="24.9475000"/>
+  <node id="1231" version="1" lat="60.1730500" lon="24.9482000"/>
+  <node id="1232" version="1" lat="60.1730500" lon="24.9489000"/>
+  <node id="1233" version="1" lat="60.1730500" lon="24.9496000"/>
+  <node id="1234" version="1" lat="60.1730500" lon="24.9503000"/>
+  <node id="1235" version="1" lat="60.1730500" lon="24.9510000"/>
+  <node id="1236" version="1" lat="60.1730500" lon="24.9517000"/>
+  <node id="1237" version="1" lat="60.1730500" lon="24.9524000"/>
+  <node id="1238" version="1" lat="60.1730500" lon="24.9531000"/>
+  <node id="1239" version="1" lat="60.1730500" lon="24.9538000"/>
+  <node id="1240" version="1" lat="60.1730500" lon="24.9545000"/>
+  <node id="1241" version="1" lat="60.1734000" lon="24.9384000"/>
+  <node id="1242" version="1" lat="60.1734000" lon="24.9391000"/>
+  <node id="1243" version="1" lat="60.1734000" lon="24.9398000"/>
+  <node id="1244" version="1" lat="60.1734000" lon="24.9405000"/>
+  <node id="1245" version="1" lat="60.1734000" lon="24.9412000"/>
+  <node id="1246" version="1" lat="60.1734000" lon="24.9419000"/>
+  <node id="1247" version="1" lat="60.1734000" lon="24.9426000"/>
+  <node id="1248" version="1" lat="60.1734000" lon="24.9433000"/>
+  <node id="1249" version="1" lat="60.1734000" lon="24.9440000"/>
+  <node id="1250" version="1" lat="60.1734000" lon="24.9447000"/>
+  <node id="1251" version="1" lat="60.1734000" lon="24.9454000"/>
+  <node id="1252" version="1" lat="60.1734000" lon="24.9461000"/>
+  <node id="1253" version="1" lat="60.1734000" lon="24.9468000"/>
+  <node id="1254" version="1" lat="60.1734000" lon="24.9475000"/>
+  <node id="1255" version="1" lat="60.1734000" lon="24.9482000"/>
+  <node id="1256" version="1" lat="60.1734000" lon="24.9489000"/>
+  <node id="1257" version="1" lat="60.1734000" lon="24.9496000"/>
+  <node id="1258" version="1" lat="60.1734000" lon="24.9503000"/>
+  <node id="1259" version="1" lat="60.1734000" lon="24.9510000"/>
+  <node id="1260" version="1" lat="60.1734000" lon="24.9517000"/>
+  <node id="1261" version="1" lat="60.1734000" lon="24.9524000"/>
+  <node id="1262" version="1" lat="60.1734000" lon="24.9531000"/>
+  <node id="1263" version="1" lat="60.1734000" lon="24.9538000"/>
+  <node id="1264" version="1" lat="60.1734000" lon="24.9545000"/>
+  <node id="1265" version="1" lat="60.1737500" lon="24.9384000"/>
+  <node id="1266" version="1" lat="60.1737500" lon="24.9391000"/>
+  <node id="1267" version="1" lat="60.1737500" lon="24.9398000"/>
+  <node id="1268" version="1" lat="60.1737500" lon="24.9405000"/>
+  <node id="1269" version="1" lat="60.1737500" lon="24.9412000"/>
+  <node id="1270" version="1" lat="60.1737500" lon="24.9419000"/>
+  <node id="1271" version="1" lat="60.1737500" lon="24.9426000"/>
+  <node id="1272" version="1" lat="60.1737500" lon="24.9433000"/>
+  <node id="1273" version="1" lat="60.1737500" lon="24.9440000"/>
+  <node id="1274" version="1" lat="60.1737500" lon="24.9447000"/>
+  <node id="1275" version="1" lat="60.1737500" lon="24.9454000"/>
+  <node id="1276" version="1" lat="60.1737500" lon="24.9461000"/>
+  <node id="1277" version="1" lat="60.1737500" lon="24.9468000"/>
+  <node id="1278" version="1" lat="60.1737500" lon="24.9475000"/>
+  <node id="1279" version="1" lat="60.1737500" lon="24.9482000"/>
+  <node id="1280" version="1" lat="60.1737500" lon="24.9489000"/>
+  <node id="1281" version="1" lat="60.1737500" lon="24.9496000"/>
+  <node id="1282" version="1" lat="60.1737500" lon="24.9503000"/>
+  <node id="1283" version="1" lat="60.1737500" lon="24.9510000"/>
+  <node id="1284" version="1" lat="60.1737500" lon="24.9517000"/>
+  <node id="1285" version="1" lat="60.1737500" lon="24.9524000"/>
+  <node id="1286" version="1" lat="60.1737500" lon="24.9531000"/>
+  <node id="1287" version="1" lat="60.1737500" lon="24.9538000"/>
+  <node id="1288" version="1" lat="60.1737500" lon="24.9545000"/>
+  <node id="1289" version="1" lat="60.1741000" lon="24.9384000"/>
+  <node id="1290" version="1" lat="60.1741000" lon="24.9391000"/>
+  <node id="1291" version="1" lat="60.1741000" lon="24.9398000"/>
+  <node id="1292" version="1" lat="60.1741000" lon="24.9405000"/>
+  <node id="1293" version="1" lat="60.1741000" lon="24.9412000"/>
+  <node id="1294" version="1" lat="60.1741000" lon="24.9419000"/>
+  <node id="1295" version="1" lat="60.1741000" lon="24.9426000"/>
+  <node id="1296" version="1" lat="60.1741000" lon="24.9433000"/>
+  <node id="1297" version="1" lat="60.1741000" lon="24.9440000"/>
+  <node id="1298" version="1" lat="60.1741000" lon="24.9447000"/>
+  <node id="1299" version="1" lat="60.1741000" lon="24.9454000"/>
+  <node id="1300" version="1" lat="60.1741000" lon="24.9461000"/>
+  <node id="1301" version="1" lat="60.1741000" lon="24.9468000"/>
+  <node id="1302" version="1" lat="60.1741000" lon="24.9475000"/>
+  <node id="1303" version="1" lat="60.1741000" lon="24.9482000"/>
+  <node id="1304" version="1" lat="60.1741000" lon="24.9489000"/>
+  <node id="1305" version="1" lat="60.1741000" lon="24.9496000"/>
+  <node id="1306" version="1" lat="60.1741000" lon="24.9503000"/>
+  <node id="1307" version="1" lat="60.1741000" lon="24.9510000"/>
+  <node id="1308" version="1" lat="60.1741000" lon="24.9517000"/>
+  <node id="1309" version="1" lat="60.1741000" lon="24.9524000"/>
+  <node id="1310" version="1" lat="60.1741000" lon="24.9531000"/>
+  <node id="1311" version="1" lat="60.1741000" lon="24.9538000"/>
+  <node id="1312" version="1" lat="60.1741000" lon="24.9545000"/>
+  <node id="1313" version="1" lat="60.1744500" lon="24.9384000"/>
+  <node id="1314" version="1" lat="60.1744500" lon="24.9391000"/>
+  <node id="1315" version="1" lat="60.1744500" lon="24.9398000"/>
+  <node id="1316" version="1" lat="60.1744500" lon="24.9405000"/>
+  <node id="1317" version="1" lat="60.1744500" lon="24.9412000"/>
+  <node id="1318" version="1" lat="60.1744500" lon="24.9419000"/>
+  <node id="1319" version="1" lat="60.1744500" lon="24.9426000"/>
+  <node id="1320" version="1" lat="60.1744500" lon="24.9433000"/>
+  <node id="1321" version="1" lat="60.1744500" lon="24.9440000"/>
+  <node id="1322" version="1" lat="60.1744500" lon="24.9447000"/>
+  <node id="1323" version="1" lat="60.1744500" lon="24.9454000"/>
+  <node id="1324" version="1" lat="60.1744500" lon="24.9461000"/>
+  <node id="1325" version="1" lat="60.1744500" lon="24.9468000"/>
+  <node id="1326" version="1" lat="60.1744500" lon="24.9475000"/>
+  <node id="1327" version="1" lat="60.1744500" lon="24.9482000"/>
+  <node id="1328" version="1" lat="60.1744500" lon="24.9489000"/>
+  <node id="1329" version="1" lat="60.1744500" lon="24.9496000"/>
+  <node id="1330" version="1" lat="60.1744500" lon="24.9503000"/>
+  <node id="1331" version="1" lat="60.1744500" lon="24.9510000"/>
+  <node id="1332" version="1" lat="60.1744500" lon="24.9517000"/>
+  <node id="1333" version="1" lat="60.1744500" lon="24.9524000"/>
+  <node id="1334" version="1" lat="60.1744500" lon="24.9531000"/>
+  <node id="1335" version="1" lat="60.1744500" lon="24.9538000"/>
+  <node id="1336" version="1" lat="60.1744500" lon="24.9545000"/>
+  <node id="1337" version="1" lat="60.1748000" lon="24.9384000"/>
+  <node id="1338" version="1" lat="60.1748000" lon="24.9391000"/>
+  <node id="1339" version="1" lat="60.1748000" lon="24.9398000"/>
+  <node id="1340" version="1" lat="60.1748000" lon="24.9405000"/>
+  <node id="1341" version="1" lat="60.1748000" lon="24.9412000"/>
+  <node id="1342" version="1" lat="60.1748000" lon="24.9419000"/>
+  <node id="1343" version="1" lat="60.1748000" lon="24.9426000"/>
+  <node id="1344" version="1" lat="60.1748000" lon="24.9433000"/>
+  <node id="1345" version="1" lat="60.1748000" lon="24.9440000"/>
+  <node id="1346" version="1" lat="60.1748000" lon="24.9447000"/>
+  <node id="1347" version="1" lat="60.1748000" lon="24.9454000"/>
+  <node id="1348" version="1" lat="60.1748000" lon="24.9461000"/>
+  <node id="1349" version="1" lat="60.1748000" lon="24.9468000"/>
+  <node id="1350" version="1" lat="60.1748000" lon="24.9475000"/>
+  <node id="1351" version="1" lat="60.1748000" lon="24.9482000"/>
+  <node id="1352" version="1" lat="60.1748000" lon="24.9489000"/>
+  <node id="1353" version="1" lat="60.1748000" lon="24.9496000"/>
+  <node id="1354" version="1" lat="60.1748000" lon="24.9503000"/>
+  <node id="1355" version="1" lat="60.1748000" lon="24.9510000"/>
+  <node id="1356" version="1" lat="60.1748000" lon="24.9517000"/>
+  <node id="1357" version="1" lat="60.1748000" lon="24.9524000"/>
+  <node id="1358" version="1" lat="60.1748000" lon="24.9531000"/>
+  <node id="1359" version="1" lat="60.1748000" lon="24.9538000"/>
+  <node id="1360" version="1" lat="60.1748000" lon="24.9545000"/>
+  <node id="1361" version="1" lat="60.1751500" lon="24.9384000"/>
+  <node id="1362" version="1" lat="60.1751500" lon="24.9391000"/>
+  <node id="1363" version="1" lat="60.1751500" lon="24.9398000"/>
+  <node id="1364" version="1" lat="60.1751500" lon="24.9405000"/>
+  <node id="1365" version="1" lat="60.1751500" lon="24.9412000"/>
+  <node id="1366" version="1" lat="60.1751500" lon="24.9419000"/>
+  <node id="1367" version="1" lat="60.1751500" lon="24.9426000"/>
+  <node id="1368" version="1" lat="60.1751500" lon="24.9433000"/>
+  <node id="1369" version="1" lat="60.1751500" lon="24.9440000"/>
+  <node id="1370" version="1" lat="60.1751500" lon="24.9447000"/>
+  <node id="1371" version="1" lat="60.1751500" lon="24.9454000"/>
+  <node id="1372" version="1" lat="60.1751500" lon="24.9461000"/>
+  <node id="1373" version="1" lat="60.1751500" lon="24.9468000"/>
+  <node id="1374" version="1" lat="60.1751500" lon="24.9475000"/>
+  <node id="1375" version="1" lat="60.1751500" lon="24.9482000"/>
+  <node id="1376" version="1" lat="60.1751500" lon="24.9489000"/>
+  <node id="1377" version="1" lat="60.1751500" lon="24.9496000"/>
+  <node id="1378" version="1" lat="60.1751500" lon="24.9503000"/>
+  <node id="1379" version="1" lat="60.1751500" lon="24.9510000"/>
+  <node id="1380" version="1" lat="60.1751500" lon="24.9517000"/>
+  <node id="1381" version="1" lat="60.1751500" lon="24.9524000"/>
+  <node id="1382" version="1" lat="60.1751500" lon="24.9531000"/>
+  <node id="1383" version="1" lat="60.1751500" lon="24.9538000"/>
+  <node id="1384" version="1" lat="60.1751500" lon="24.9545000"/>
+  <node id="1385" version="1" lat="60.1755000" lon="24.9384000"/>
+  <node id="1386" version="1" lat="60.1755000" lon="24.9391000"/>
+  <node id="1387" version="1" lat="60.1755000" lon="24.9398000"/>
+  <node id="1388" version="1" lat="60.1755000" lon="24.9405000"/>
+  <node id="1389" version="1" lat="60.1755000" lon="24.9412000"/>
+  <node id="1390" version="1" lat="60.1755000" lon="24.9419000"/>
+  <node id="1391" version="1" lat="60.1755000" lon="24.9426000"/>
+  <node id="1392" version="1" lat="60.1755000" lon="24.9433000"/>
+  <node id="1393" version="1" lat="60.1755000" lon="24.9440000"/>
+  <node id="1394" version="1" lat="60.1755000" lon="24.9447000"/>
+  <node id="1395" version="1" lat="60.1755000" lon="24.9454000"/>
+  <node id="1396" version="1" lat="60.1755000" lon="24.9461000"/>
+  <node id="1397" version="1" lat="60.1755000" lon="24.9468000"/>
+  <node id="1398" version="1" lat="60.1755000" lon="24.9475000"/>
+  <node id="1399" version="1" lat="60.1755000" lon="24.9482000"/>
+  <node id="1400" version="1" lat="60.1755000" lon="24.9489000"/>
+  <node id="1401" version="1" lat="60.1755000" lon="24.9496000"/>
+  <node id="1402" version="1" lat="60.1755000" lon="24.9503000"/>
+  <node id="1403" version="1" lat="60.1755000" lon="24.9510000"/>
+  <node id="1404" version="1" lat="60.1755000" lon="24.9517000"/>
+  <node id="1405" version="1" lat="60.1755000" lon="24.9524000"/>
+  <node id="1406" version="1" lat="60.1755000" lon="24.9531000"/>
+  <node id="1407" version="1" lat="60.1755000" lon="24.9538000"/>
+  <node id="1408" version="1" lat="60.1755000" lon="24.9545000"/>
+  <node id="1409" version="1" lat="60.1758500" lon="24.9384000"/>
+  <node id="1410" version="1" lat="60.1758500" lon="24.9391000"/>
+  <node id="1411" version="1" lat="60.1758500" lon="24.9398000"/>
+  <node id="1412" version="1" lat="60.1758500" lon="24.9405000"/>
+  <node id="1413" version="1" lat="60.1758500" lon="24.9412000"/>
+  <node id="1414" version="1" lat="60.1758500" lon="24.9419000"/>
+  <node id="1415" version="1" lat="60.1758500" lon="24.9426000"/>
+  <node id="1416" version="1" lat="60.1758500" lon="24.9433000"/>
+  <node id="1417" version="1" lat="60.1758500" lon="24.9440000"/>
+  <node id="1418" version="1" lat="60.1758500" lon="24.9447000"/>
+  <node id="1419" version="1" lat="60.1758500" lon="24.9454000"/>
+  <node id="1420" version="1" lat="60.1758500" lon="24.9461000"/>
+  <node id="1421" version="1" lat="60.1758500" lon="24.9468000"/>
+  <node id="1422" version="1" lat="60.1758500" lon="24.9475000"/>
+  <node id="1423" version="1" lat="60.1758500" lon="24.9482000"/>
+  <node id="1424" version="1" lat="60.1758500" lon="24.9489000"/>
+  <node id="1425" version="1" lat="60.1758500" lon="24.9496000"/>
+  <node id="1426" version="1" lat="60.1758500" lon="24.9503000"/>
+  <node id="1427" version="1" lat="60.1758500" lon="24.9510000"/>
+  <node id="1428" version="1" lat="60.1758500" lon="24.9517000"/>
+  <node id="1429" version="1" lat="60.1758500" lon="24.9524000"/>
+  <node id="1430" version="1" lat="60.1758500" lon="24.9531000"/>
+  <node id="1431" version="1" lat="60.1758500" lon="24.9538000"/>
+  <node id="1432" version="1" lat="60.1758500" lon="24.9545000"/>
+  <node id="1433" version="1" lat="60.1762000" lon="24.9384000"/>
+  <node id="1434" version="1" lat="60.1762000" lon="24.9391000"/>
+  <node id="1435" version="1" lat="60.1762000" lon="24.9398000"/>
+  <node id="1436" version="1" lat="60.1762000" lon="24.9405000"/>
+  <node id="1437" version="1" lat="60.1762000" lon="24.9412000"/>
+  <node id="1438" version="1" lat="60.1762000" lon="24.9419000"/>
+  <node id="1439" version="1" lat="60.1762000" lon="24.9426000"/>
+  <node id="1440" version="1" lat="60.1762000" lon="24.9433000"/>
+  <node id="1441" version="1" lat="60.1762000" lon="24.9440000"/>
+  <node id="1442" version="1" lat="60.1762000" lon="24.9447000"/>
+  <node id="1443" version="1" lat="60.1762000" lon="24.9454000"/>
+  <node id="1444" version="1" lat="60.1762000" lon="24.9461000"/>
+  <node id="1445" version="1" lat="60.1762000" lon="24.9468000"/>
+  <node id="1446" version="1" lat="60.1762000" lon="24.9475000"/>
+  <node id="1447" version="1" lat="60.1762000" lon="24.9482000"/>
+  <node id="1448" version="1" lat="60.1762000" lon="24.9489000"/>
+  <node id="1449" version="1" lat="60.1762000" lon="24.9496000"/>
+  <node id="1450" version="1" lat="60.1762000" lon="24.9503000"/>
+  <node id="1451" version="1" lat="60.1762000" lon="24.9510000"/>
+  <node id="1452" version="1" lat="60.1762000" lon="24.9517000"/>
+  <node id="1453" version="1" lat="60.1762000" lon="24.9524000"/>
+  <node id="1454" version="1" lat="60.1762000" lon="24.9531000"/>
+  <node id="1455" version="1" lat="60.1762000" lon="24.9538000"/>
+  <node id="1456" version="1" lat="60.1762000" lon="24.9545000"/>
+  <node id="1457" version="1" lat="60.1765500" lon="24.9384000"/>
+  <node id="1458" version="1" lat="60.1765500" lon="24.9391000"/>
+  <node id="1459" version="1" lat="60.1765500" lon="24.9398000"/>
+  <node id="1460" version="1" lat="60.1765500" lon="24.9405000"/>
+  <node id="1461" version="1" lat="60.1765500" lon="24.9412000"/>
+  <node id="1462" version="1" lat="60.1765500" lon="24.9419000"/>
+  <node id="1463" version="1" lat="60.1765500" lon="24.9426000"/>
+  <node id="1464" version="1" lat="60.1765500" lon="24.9433000"/>
+  <node id="1465" version="1" lat="60.1765500" lon="24.9440000"/>
+  <node id="1466" version="1" lat="60.1765500" lon="24.9447000"/>
+  <node id="1467" version="1" lat="60.1765500" lon="24.9454000"/>
+  <node id="1468" version="1" lat="60.1765500" lon="24.9461000"/>
+  <node id="1469" version="1" lat="60.1765500" lon="24.9468000"/>
+  <node id="1470" version="1" lat="60.1765500" lon="24.9475000"/>
+  <node id="1471" version="1" lat="60.1765500" lon="24.9482000"/>
+  <node id="1472" version="1" lat="60.1765500" lon="24.9489000"/>
+  <node id="1473" version="1" lat="60.1765500" lon="24.9496000"/>
+  <node id="1474" version="1" lat="60.1765500" lon="24.9503000"/>
+  <node id="1475" version="1" lat="60.1765500" lon="24.9510000"/>
+  <node id="1476" version="1" lat="60.1765500" lon="24.9517000"/>
+  <node id="1477" version="1" lat="60.1765500" lon="24.9524000"/>
+  <node id="1478" version="1" lat="60.1765500" lon="24.9531000"/>
+  <node id="1479" version="1" lat="60.1765500" lon="24.9538000"/>
+  <node id="1480" version="1" lat="60.1765500" lon="24.9545000"/>
+  <node id="1481" version="1" lat="60.1769000" lon="24.9384000"/>
+  <node id="1482" version="1" lat="60.1769000" lon="24.9391000"/>
+  <node id="1483" version="1" lat="60.1769000" lon="24.9398000"/>
+  <node id="1484" version="1" lat="60.1769000" lon="24.9405000"/>
+  <node id="1485" version="1" lat="60.1769000" lon="24.9412000"/>
+  <node id="1486" version="1" lat="60.1769000" lon="24.9419000"/>
+  <node id="1487" version="1" lat="60.1769000" lon="24.9426000"/>
+  <node id="1488" version="1" lat="60.1769000" lon="24.9433000"/>
+  <node id="1489" version="1" lat="60.1769000" lon="24.9440000"/>
+  <node id="1490" version="1" lat="60.1769000" lon="24.9447000"/>
+  <node id="1491" version="1" lat="60.1769000" lon="24.9454000"/>
+  <node id="1492" version="1" lat="60.1769000" lon="24.9461000"/>
+  <node id="1493" version="1" lat="60.1769000" lon="24.9468000"/>
+  <node id="1494" version="1" lat="60.1769000" lon="24.9475000"/>
+  <node id="1495" version="1" lat="60.1769000" lon="24.9482000"/>
+  <node id="1496" version="1" lat="60.1769000" lon="24.9489000"/>
+  <node id="1497" version="1" lat="60.1769000" lon="24.9496000"/>
+  <node id="1498" version="1" lat="60.1769000" lon="24.9503000"/>
+  <node id="1499" version="1" lat="60.1769000" lon="24.9510000"/>
+  <node id="1500" version="1" lat="60.1769000" lon="24.9517000"/>
+  <node id="1501" version="1" lat="60.1769000" lon="24.9524000"/>
+  <node id="1502" version="1" lat="60.1769000" lon="24.9531000"/>
+  <node id="1503" version="1" lat="60.1769000" lon="24.9538000"/>
+  <node id="1504" version="1" lat="60.1769000" lon="24.9545000"/>
+  <node id="1505" version="1" lat="60.1772500" lon="24.9384000"/>
+  <node id="1506" version="1" lat="60.1772500" lon="24.9391000"/>
+  <node id="1507" version="1" lat="60.1772500" lon="24.9398000"/>
+  <node id="1508" version="1" lat="60.1772500" lon="24.9405000"/>
+  <node id="1509" version="1" lat="60.1772500" lon="24.9412000"/>
+  <node id="1510" version="1" lat="60.1772500" lon="24.9419000"/>
+  <node id="1511" version="1" lat="60.1772500" lon="24.9426000"/>
+  <node id="1512" version="1" lat="60.1772500" lon="24.9433000"/>
+  <node id="1513" version="1" lat="60.1772500" lon="24.9440000"/>
+  <node id="1514" version="1" lat="60.1772500" lon="24.9447000"/>
+  <node id="1515" version="1" lat="60.1772500" lon="24.9454000"/>
+  <node id="1516" version="1" lat="60.1772500" lon="24.9461000"/>
+  <node id="1517" version="1" lat="60.1772500" lon="24.9468000"/>
+  <node id="1518" version="1" lat="60.1772500" lon="24.9475000"/>
+  <node id="1519" version="1" lat="60.1772500" lon="24.9482000"/>
+  <node id="1520" version="1" lat="60.1772500" lon="24.9489000"/>
+  <node id="1521" version="1" lat="60.1772500" lon="24.9496000"/>
+  <node id="1522" version="1" lat="60.1772500" lon="24.9503000"/>
+  <node id="1523" version="1" lat="60.1772500" lon="24.9510000"/>
+  <node id="1524" version="1" lat="60.1772500" lon="24.9517000"/>
+  <node id="1525" version="1" lat="60.1772500" lon="24.9524000"/>
+  <node id="1526" version="1" lat="60.1772500" lon="24.9531000"/>
+  <node id="1527" version="1" lat="60.1772500" lon="24.9538000"/>
+  <node id="1528" version="1" lat="60.1772500" lon="24.9545000"/>
+  <node id="1529" version="1" lat="60.1776000" lon="24.9384000"/>
+  <node id="1530" version="1" lat="60.1776000" lon="24.9391000"/>
+  <node id="1531" version="1" lat="60.1776000" lon="24.9398000"/>
+  <node id="1532" version="1" lat="60.1776000" lon="24.9405000"/>
+  <node id="1533" version="1" lat="60.1776000" lon="24.9412000"/>
+  <node id="1534" version="1" lat="60.1776000" lon="24.9419000"/>
+  <node id="1535" version="1" lat="60.1776000" lon="24.9426000"/>
+  <node id="1536" version="1" lat="60.1776000" lon="24.9433000"/>
+  <node id="1537" version="1" lat="60.1776000" lon="24.9440000"/>
+  <node id="1538" version="1" lat="60.1776000" lon="24.9447000"/>
+  <node id="1539" version="1" lat="60.1776000" lon="24.9454000"/>
+  <node id="1540" version="1" lat="60.1776000" lon="24.9461000"/>
+  <node id="1541" version="1" lat="60.1776000" lon="24.9468000"/>
+  <node id="1542" version="1" lat="60.1776000" lon="24.9475000"/>
+  <node id="1543" version="1" lat="60.1776000" lon="24.9482000"/>
+  <node id="1544" version="1" lat="60.1776000" lon="24.9489000"/>
+  <node id="1545" version="1" lat="60.1776000" lon="24.9496000"/>
+  <node id="1546" version="1" lat="60.1776000" lon="24.9503000"/>
+  <node id="1547" version="1" lat="60.1776000" lon="24.9510000"/>
+  <node id="1548" version="1" lat="60.1776000" lon="24.9517000"/>
+  <node id="1549" version="1" lat="60.1776000" lon="24.9524000"/>
+  <node id="1550" version="1" lat="60.1776000" lon="24.9531000"/>
+  <node id="1551" version="1" lat="60.1776000" lon="24.9538000"/>
+  <node id="1552" version="1" lat="60.1776000" lon="24.9545000"/>
+  <node id="1553" version="1" lat="60.1779500" lon="24.9384000"/>
+  <node id="1554" version="1" lat="60.1779500" lon="24.9391000"/>
+  <node id="1555" version="1" lat="60.1779500" lon="24.9398000"/>
+  <node id="1556" version="1" lat="60.1779500" lon="24.9405000"/>
+  <node id="1557" version="1" lat="60.1779500" lon="24.9412000"/>
+  <node id="1558" version="1" lat="60.1779500" lon="24.9419000"/>
+  <node id="1559" version="1" lat="60.1779500" lon="24.9426000"/>
+  <node id="1560" version="1" lat="60.1779500" lon="24.9433000"/>
+  <node id="1561" version="1" lat="60.1779500" lon="24.9440000"/>
+  <node id="1562" version="1" lat="60.1779500" lon="24.9447000"/>
+  <node id="1563" version="1" lat="60.1779500" lon="24.9454000"/>
+  <node id="1564" version="1" lat="60.1779500" lon="24.9461000"/>
+  <node id="1565" version="1" lat="60.1779500" lon="24.9468000"/>
+  <node id="1566" version="1" lat="60.1779500" lon="24.9475000"/>
+  <node id="1567" version="1" lat="60.1779500" lon="24.9482000"/>
+  <node id="1568" version="1" lat="60.1779500" lon="24.9489000"/>
+  <node id="1569" version="1" lat="60.1779500" lon="24.9496000"/>
+  <node id="1570" version="1" lat="60.1779500" lon="24.9503000"/>
+  <node id="1571" version="1" lat="60.1779500" lon="24.9510000"/>
+  <node id="1572" version="1" lat="60.1779500" lon="24.9517000"/>
+  <node id="1573" version="1" lat="60.1779500" lon="24.9524000"/>
+  <node id="1574" version="1" lat="60.1779500" lon="24.9531000"/>
+  <node id="1575" version="1" lat="60.1779500" lon="24.9538000"/>
+  <node id="1576" version="1" lat="60.1779500" lon="24.9545000"/>
+  <way id="5001" version="1">
+    <nd ref="1001"/>
+    <nd ref="1002"/>
+    <nd ref="1003"/>
+    <nd ref="1004"/>
+    <nd ref="1005"/>
+    <nd ref="1006"/>
+    <nd ref="1007"/>
+    <nd ref="1008"/>
+    <nd ref="1009"/>
+    <nd ref="1010"/>
+    <nd ref="1011"/>
+    <nd ref="1012"/>
+    <nd ref="1013"/>
+    <nd ref="1014"/>
+    <nd ref="1015"/>
+    <nd ref="1016"/>
+    <nd ref="1017"/>
+    <nd ref="1018"/>
+    <nd ref="1019"/>
+    <nd ref="1020"/>
+    <nd ref="1021"/>
+    <nd ref="1022"/>
+    <nd ref="1023"/>
+    <nd ref="1024"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Aleksanterinkatu 1"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5002" version="1">
+    <nd ref="1025"/>
+    <nd ref="1026"/>
+    <nd ref="1027"/>
+    <nd ref="1028"/>
+    <nd ref="1029"/>
+    <nd ref="1030"/>
+    <nd ref="1031"/>
+    <nd ref="1032"/>
+    <nd ref="1033"/>
+    <nd ref="1034"/>
+    <nd ref="1035"/>
+    <nd ref="1036"/>
+    <nd ref="1037"/>
+    <nd ref="1038"/>
+    <nd ref="1039"/>
+    <nd ref="1040"/>
+    <nd ref="1041"/>
+    <nd ref="1042"/>
+    <nd ref="1043"/>
+    <nd ref="1044"/>
+    <nd ref="1045"/>
+    <nd ref="1046"/>
+    <nd ref="1047"/>
+    <nd ref="1048"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Mannerheimintie 2"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5003" version="1">
+    <nd ref="1049"/>
+    <nd ref="1050"/>
+    <nd ref="1051"/>
+    <nd ref="1052"/>
+    <nd ref="1053"/>
+    <nd ref="1054"/>
+    <nd ref="1055"/>
+    <nd ref="1056"/>
+    <nd ref="1057"/>
+    <nd ref="1058"/>
+    <nd ref="1059"/>
+    <nd ref="1060"/>
+    <nd ref="1061"/>
+    <nd ref="1062"/>
+    <nd ref="1063"/>
+    <nd ref="1064"/>
+    <nd ref="1065"/>
+    <nd ref="1066"/>
+    <nd ref="1067"/>
+    <nd ref="1068"/>
+    <nd ref="1069"/>
+    <nd ref="1070"/>
+    <nd ref="1071"/>
+    <nd ref="1072"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Esplanadi 3"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5004" version="1">
+    <nd ref="1073"/>
+    <nd ref="1074"/>
+    <nd ref="1075"/>
+    <nd ref="1076"/>
+    <nd ref="1077"/>
+    <nd ref="1078"/>
+    <nd ref="1079"/>
+    <nd ref="1080"/>
+    <nd ref="1081"/>
+    <nd ref="1082"/>
+    <nd ref="1083"/>
+    <nd ref="1084"/>
+    <nd ref="1085"/>
+    <nd ref="1086"/>
+    <nd ref="1087"/>
+    <nd ref="1088"/>
+    <nd ref="1089"/>
+    <nd ref="1090"/>
+    <nd ref="1091"/>
+    <nd ref="1092"/>
+    <nd ref="1093"/>
+    <nd ref="1094"/>
+    <nd ref="1095"/>
+    <nd ref="1096"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Bulevardi 4"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5005" version="1">
+    <nd ref="1097"/>
+    <nd ref="1098"/>
+    <nd ref="1099"/>
+    <nd ref="1100"/>
+    <nd ref="1101"/>
+    <nd ref="1102"/>
+    <nd ref="1103"/>
+    <nd ref="1104"/>
+    <nd ref="1105"/>
+    <nd ref="1106"/>
+    <nd ref="1107"/>
+    <nd ref="1108"/>
+    <nd ref="1109"/>
+    <nd ref="1110"/>
+    <nd ref="1111"/>
+    <nd ref="1112"/>
+    <nd ref="1113"/>
+    <nd ref="1114"/>
+    <nd ref="1115"/>
+    <nd ref="1116"/>
+    <nd ref="1117"/>
+    <nd ref="1118"/>
+    <nd ref="1119"/>
+    <nd ref="1120"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Fredrikinkatu 5"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5006" version="1">
+    <nd ref="1121"/>
+    <nd ref="1122"/>
+    <nd ref="1123"/>
+    <nd ref="1124"/>
+    <nd ref="1125"/>
+    <nd ref="1126"/>
+    <nd ref="1127"/>
+    <nd ref="1128"/>
+    <nd ref="1129"/>
+    <nd ref="1130"/>
+    <nd ref="1131"/>
+    <nd ref="1132"/>
+    <nd ref="1133"/>
+    <nd ref="1134"/>
+    <nd ref="1135"/>
+    <nd ref="1136"/>
+    <nd ref="1137"/>
+    <nd ref="1138"/>
+    <nd ref="1139"/>
+    <nd ref="1140"/>
+    <nd ref="1141"/>
+    <nd ref="1142"/>
+    <nd ref="1143"/>
+    <nd ref="1144"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Runeberginkatu 6"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5007" version="1">
+    <nd ref="1145"/>
+    <nd ref="1146"/>
+    <nd ref="1147"/>
+    <nd ref="1148"/>
+    <nd ref="1149"/>
+    <nd ref="1150"/>
+    <nd ref="1151"/>
+    <nd ref="1152"/>
+    <nd ref="1153"/>
+    <nd ref="1154"/>
+    <nd ref="1155"/>
+    <nd ref="1156"/>
+    <nd ref="1157"/>
+    <nd ref="1158"/>
+    <nd ref="1159"/>
+    <nd ref="1160"/>
+    <nd ref="1161"/>
+    <nd ref="1162"/>
+    <nd ref="1163"/>
+    <nd ref="1164"/>
+    <nd ref="1165"/>
+    <nd ref="1166"/>
+    <nd ref="1167"/>
+    <nd ref="1168"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Hämeentie 7"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5008" version="1">
+    <nd ref="1169"/>
+    <nd ref="1170"/>
+    <nd ref="1171"/>
+    <nd ref="1172"/>
+    <nd ref="1173"/>
+    <nd ref="1174"/>
+    <nd ref="1175"/>
+    <nd ref="1176"/>
+    <nd ref="1177"/>
+    <nd ref="1178"/>
+    <nd ref="1179"/>
+    <nd ref="1180"/>
+    <nd ref="1181"/>
+    <nd ref="1182"/>
+    <nd ref="1183"/>
+    <nd ref="1184"/>
+    <nd ref="1185"/>
+    <nd ref="1186"/>
+    <nd ref="1187"/>
+    <nd ref="1188"/>
+    <nd ref="1189"/>
+    <nd ref="1190"/>
+    <nd ref="1191"/>
+    <nd ref="1192"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Sturenkatu 8"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5009" version="1">
+    <nd ref="1193"/>
+    <nd ref="1194"/>
+    <nd ref="1195"/>
+    <nd ref="1196"/>
+    <nd ref="1197"/>
+    <nd ref="1198"/>
+    <nd ref="1199"/>
+    <nd ref="1200"/>
+    <nd ref="1201"/>
+    <nd ref="1202"/>
+    <nd ref="1203"/>
+    <nd ref="1204"/>
+    <nd ref="1205"/>
+    <nd ref="1206"/>
+    <nd ref="1207"/>
+    <nd ref="1208"/>
+    <nd ref="1209"/>
+    <nd ref="1210"/>
+    <nd ref="1211"/>
+    <nd ref="1212"/>
+    <nd ref="1213"/>
+    <nd ref="1214"/>
+    <nd ref="1215"/>
+    <nd ref="1216"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Topeliuksenkatu 9"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5010" version="1">
+    <nd ref="1217"/>
+    <nd ref="1218"/>
+    <nd ref="1219"/>
+    <nd ref="1220"/>
+    <nd ref="1221"/>
+    <nd ref="1222"/>
+    <nd ref="1223"/>
+    <nd ref="1224"/>
+    <nd ref="1225"/>
+    <nd ref="1226"/>
+    <nd ref="1227"/>
+    <nd ref="1228"/>
+    <nd ref="1229"/>
+    <nd ref="1230"/>
+    <nd ref="1231"/>
+    <nd ref="1232"/>
+    <nd ref="1233"/>
+    <nd ref="1234"/>
+    <nd ref="1235"/>
+    <nd ref="1236"/>
+    <nd ref="1237"/>
+    <nd ref="1238"/>
+    <nd ref="1239"/>
+    <nd ref="1240"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Mechelininkatu 10"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5011" version="1">
+    <nd ref="1241"/>
+    <nd ref="1242"/>
+    <nd ref="1243"/>
+    <nd ref="1244"/>
+    <nd ref="1245"/>
+    <nd ref="1246"/>
+    <nd ref="1247"/>
+    <nd ref="1248"/>
+    <nd ref="1249"/>
+    <nd ref="1250"/>
+    <nd ref="1251"/>
+    <nd ref="1252"/>
+    <nd ref="1253"/>
+    <nd ref="1254"/>
+    <nd ref="1255"/>
+    <nd ref="1256"/>
+    <nd ref="1257"/>
+    <nd ref="1258"/>
+    <nd ref="1259"/>
+    <nd ref="1260"/>
+    <nd ref="1261"/>
+    <nd ref="1262"/>
+    <nd ref="1263"/>
+    <nd ref="1264"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Kaisaniemenkatu 11"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5012" version="1">
+    <nd ref="1265"/>
+    <nd ref="1266"/>
+    <nd ref="1267"/>
+    <nd ref="1268"/>
+    <nd ref="1269"/>
+    <nd ref="1270"/>
+    <nd ref="1271"/>
+    <nd ref="1272"/>
+    <nd ref="1273"/>
+    <nd ref="1274"/>
+    <nd ref="1275"/>
+    <nd ref="1276"/>
+    <nd ref="1277"/>
+    <nd ref="1278"/>
+    <nd ref="1279"/>
+    <nd ref="1280"/>
+    <nd ref="1281"/>
+    <nd ref="1282"/>
+    <nd ref="1283"/>
+    <nd ref="1284"/>
+    <nd ref="1285"/>
+    <nd ref="1286"/>
+    <nd ref="1287"/>
+    <nd ref="1288"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Unioninkatu 12"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5013" version="1">
+    <nd ref="1289"/>
+    <nd ref="1290"/>
+    <nd ref="1291"/>
+    <nd ref="1292"/>
+    <nd ref="1293"/>
+    <nd ref="1294"/>
+    <nd ref="1295"/>
+    <nd ref="1296"/>
+    <nd ref="1297"/>
+    <nd ref="1298"/>
+    <nd ref="1299"/>
+    <nd ref="1300"/>
+    <nd ref="1301"/>
+    <nd ref="1302"/>
+    <nd ref="1303"/>
+    <nd ref="1304"/>
+    <nd ref="1305"/>
+    <nd ref="1306"/>
+    <nd ref="1307"/>
+    <nd ref="1308"/>
+    <nd ref="1309"/>
+    <nd ref="1310"/>
+    <nd ref="1311"/>
+    <nd ref="1312"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Aleksanterinkatu 13"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5014" version="1">
+    <nd ref="1313"/>
+    <nd ref="1314"/>
+    <nd ref="1315"/>
+    <nd ref="1316"/>
+    <nd ref="1317"/>
+    <nd ref="1318"/>
+    <nd ref="1319"/>
+    <nd ref="1320"/>
+    <nd ref="1321"/>
+    <nd ref="1322"/>
+    <nd ref="1323"/>
+    <nd ref="1324"/>
+    <nd ref="1325"/>
+    <nd ref="1326"/>
+    <nd ref="1327"/>
+    <nd ref="1328"/>
+    <nd ref="1329"/>
+    <nd ref="1330"/>
+    <nd ref="1331"/>
+    <nd ref="1332"/>
+    <nd ref="1333"/>
+    <nd ref="1334"/>
+    <nd ref="1335"/>
+    <nd ref="1336"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Mannerheimintie 14"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5015" version="1">
+    <nd ref="1337"/>
+    <nd ref="1338"/>
+    <nd ref="1339"/>
+    <nd ref="1340"/>
+    <nd ref="1341"/>
+    <nd ref="1342"/>
+    <nd ref="1343"/>
+    <nd ref="1344"/>
+    <nd ref="1345"/>
+    <nd ref="1346"/>
+    <nd ref="1347"/>
+    <nd ref="1348"/>
+    <nd ref="1349"/>
+    <nd ref="1350"/>
+    <nd ref="1351"/>
+    <nd ref="1352"/>
+    <nd ref="1353"/>
+    <nd ref="1354"/>
+    <nd ref="1355"/>
+    <nd ref="1356"/>
+    <nd ref="1357"/>
+    <nd ref="1358"/>
+    <nd ref="1359"/>
+    <nd ref="1360"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Esplanadi 15"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5016" version="1">
+    <nd ref="1361"/>
+    <nd ref="1362"/>
+    <nd ref="1363"/>
+    <nd ref="1364"/>
+    <nd ref="1365"/>
+    <nd ref="1366"/>
+    <nd ref="1367"/>
+    <nd ref="1368"/>
+    <nd ref="1369"/>
+    <nd ref="1370"/>
+    <nd ref="1371"/>
+    <nd ref="1372"/>
+    <nd ref="1373"/>
+    <nd ref="1374"/>
+    <nd ref="1375"/>
+    <nd ref="1376"/>
+    <nd ref="1377"/>
+    <nd ref="1378"/>
+    <nd ref="1379"/>
+    <nd ref="1380"/>
+    <nd ref="1381"/>
+    <nd ref="1382"/>
+    <nd ref="1383"/>
+    <nd ref="1384"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Bulevardi 16"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5017" version="1">
+    <nd ref="1385"/>
+    <nd ref="1386"/>
+    <nd ref="1387"/>
+    <nd ref="1388"/>
+    <nd ref="1389"/>
+    <nd ref="1390"/>
+    <nd ref="1391"/>
+    <nd ref="1392"/>
+    <nd ref="1393"/>
+    <nd ref="1394"/>
+    <nd ref="1395"/>
+    <nd ref="1396"/>
+    <nd ref="1397"/>
+    <nd ref="1398"/>
+    <nd ref="1399"/>
+    <nd ref="1400"/>
+    <nd ref="1401"/>
+    <nd ref="1402"/>
+    <nd ref="1403"/>
+    <nd ref="1404"/>
+    <nd ref="1405"/>
+    <nd ref="1406"/>
+    <nd ref="1407"/>
+    <nd ref="1408"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Fredrikinkatu 17"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5018" version="1">
+    <nd ref="1409"/>
+    <nd ref="1410"/>
+    <nd ref="1411"/>
+    <nd ref="1412"/>
+    <nd ref="1413"/>
+    <nd ref="1414"/>
+    <nd ref="1415"/>
+    <nd ref="1416"/>
+    <nd ref="1417"/>
+    <nd ref="1418"/>
+    <nd ref="1419"/>
+    <nd ref="1420"/>
+    <nd ref="1421"/>
+    <nd ref="1422"/>
+    <nd ref="1423"/>
+    <nd ref="1424"/>
+    <nd ref="1425"/>
+    <nd ref="1426"/>
+    <nd ref="1427"/>
+    <nd ref="1428"/>
+    <nd ref="1429"/>
+    <nd ref="1430"/>
+    <nd ref="1431"/>
+    <nd ref="1432"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Runeberginkatu 18"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5019" version="1">
+    <nd ref="1433"/>
+    <nd ref="1434"/>
+    <nd ref="1435"/>
+    <nd ref="1436"/>
+    <nd ref="1437"/>
+    <nd ref="1438"/>
+    <nd ref="1439"/>
+    <nd ref="1440"/>
+    <nd ref="1441"/>
+    <nd ref="1442"/>
+    <nd ref="1443"/>
+    <nd ref="1444"/>
+    <nd ref="1445"/>
+    <nd ref="1446"/>
+    <nd ref="1447"/>
+    <nd ref="1448"/>
+    <nd ref="1449"/>
+    <nd ref="1450"/>
+    <nd ref="1451"/>
+    <nd ref="1452"/>
+    <nd ref="1453"/>
+    <nd ref="1454"/>
+    <nd ref="1455"/>
+    <nd ref="1456"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Hämeentie 19"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5020" version="1">
+    <nd ref="1457"/>
+    <nd ref="1458"/>
+    <nd ref="1459"/>
+    <nd ref="1460"/>
+    <nd ref="1461"/>
+    <nd ref="1462"/>
+    <nd ref="1463"/>
+    <nd ref="1464"/>
+    <nd ref="1465"/>
+    <nd ref="1466"/>
+    <nd ref="1467"/>
+    <nd ref="1468"/>
+    <nd ref="1469"/>
+    <nd ref="1470"/>
+    <nd ref="1471"/>
+    <nd ref="1472"/>
+    <nd ref="1473"/>
+    <nd ref="1474"/>
+    <nd ref="1475"/>
+    <nd ref="1476"/>
+    <nd ref="1477"/>
+    <nd ref="1478"/>
+    <nd ref="1479"/>
+    <nd ref="1480"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Sturenkatu 20"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5021" version="1">
+    <nd ref="1481"/>
+    <nd ref="1482"/>
+    <nd ref="1483"/>
+    <nd ref="1484"/>
+    <nd ref="1485"/>
+    <nd ref="1486"/>
+    <nd ref="1487"/>
+    <nd ref="1488"/>
+    <nd ref="1489"/>
+    <nd ref="1490"/>
+    <nd ref="1491"/>
+    <nd ref="1492"/>
+    <nd ref="1493"/>
+    <nd ref="1494"/>
+    <nd ref="1495"/>
+    <nd ref="1496"/>
+    <nd ref="1497"/>
+    <nd ref="1498"/>
+    <nd ref="1499"/>
+    <nd ref="1500"/>
+    <nd ref="1501"/>
+    <nd ref="1502"/>
+    <nd ref="1503"/>
+    <nd ref="1504"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Topeliuksenkatu 21"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5022" version="1">
+    <nd ref="1505"/>
+    <nd ref="1506"/>
+    <nd ref="1507"/>
+    <nd ref="1508"/>
+    <nd ref="1509"/>
+    <nd ref="1510"/>
+    <nd ref="1511"/>
+    <nd ref="1512"/>
+    <nd ref="1513"/>
+    <nd ref="1514"/>
+    <nd ref="1515"/>
+    <nd ref="1516"/>
+    <nd ref="1517"/>
+    <nd ref="1518"/>
+    <nd ref="1519"/>
+    <nd ref="1520"/>
+    <nd ref="1521"/>
+    <nd ref="1522"/>
+    <nd ref="1523"/>
+    <nd ref="1524"/>
+    <nd ref="1525"/>
+    <nd ref="1526"/>
+    <nd ref="1527"/>
+    <nd ref="1528"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Mechelininkatu 22"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5023" version="1">
+    <nd ref="1529"/>
+    <nd ref="1530"/>
+    <nd ref="1531"/>
+    <nd ref="1532"/>
+    <nd ref="1533"/>
+    <nd ref="1534"/>
+    <nd ref="1535"/>
+    <nd ref="1536"/>
+    <nd ref="1537"/>
+    <nd ref="1538"/>
+    <nd ref="1539"/>
+    <nd ref="1540"/>
+    <nd ref="1541"/>
+    <nd ref="1542"/>
+    <nd ref="1543"/>
+    <nd ref="1544"/>
+    <nd ref="1545"/>
+    <nd ref="1546"/>
+    <nd ref="1547"/>
+    <nd ref="1548"/>
+    <nd ref="1549"/>
+    <nd ref="1550"/>
+    <nd ref="1551"/>
+    <nd ref="1552"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Kaisaniemenkatu 23"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5024" version="1">
+    <nd ref="1553"/>
+    <nd ref="1554"/>
+    <nd ref="1555"/>
+    <nd ref="1556"/>
+    <nd ref="1557"/>
+    <nd ref="1558"/>
+    <nd ref="1559"/>
+    <nd ref="1560"/>
+    <nd ref="1561"/>
+    <nd ref="1562"/>
+    <nd ref="1563"/>
+    <nd ref="1564"/>
+    <nd ref="1565"/>
+    <nd ref="1566"/>
+    <nd ref="1567"/>
+    <nd ref="1568"/>
+    <nd ref="1569"/>
+    <nd ref="1570"/>
+    <nd ref="1571"/>
+    <nd ref="1572"/>
+    <nd ref="1573"/>
+    <nd ref="1574"/>
+    <nd ref="1575"/>
+    <nd ref="1576"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Unioninkatu 24"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5025" version="1">
+    <nd ref="1001"/>
+    <nd ref="1025"/>
+    <nd ref="1049"/>
+    <nd ref="1073"/>
+    <nd ref="1097"/>
+    <nd ref="1121"/>
+    <nd ref="1145"/>
+    <nd ref="1169"/>
+    <nd ref="1193"/>
+    <nd ref="1217"/>
+    <nd ref="1241"/>
+    <nd ref="1265"/>
+    <nd ref="1289"/>
+    <nd ref="1313"/>
+    <nd ref="1337"/>
+    <nd ref="1361"/>
+    <nd ref="1385"/>
+    <nd ref="1409"/>
+    <nd ref="1433"/>
+    <nd ref="1457"/>
+    <nd ref="1481"/>
+    <nd ref="1505"/>
+    <nd ref="1529"/>
+    <nd ref="1553"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Aleksanterinkatu kuja 1"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5026" version="1">
+    <nd ref="1002"/>
+    <nd ref="1026"/>
+    <nd ref="1050"/>
+    <nd ref="1074"/>
+    <nd ref="1098"/>
+    <nd ref="1122"/>
+    <nd ref="1146"/>
+    <nd ref="1170"/>
+    <nd ref="1194"/>
+    <nd ref="1218"/>
+    <nd ref="1242"/>
+    <nd ref="1266"/>
+    <nd ref="1290"/>
+    <nd ref="1314"/>
+    <nd ref="1338"/>
+    <nd ref="1362"/>
+    <nd ref="1386"/>
+    <nd ref="1410"/>
+    <nd ref="1434"/>
+    <nd ref="1458"/>
+    <nd ref="1482"/>
+    <nd ref="1506"/>
+    <nd ref="1530"/>
+    <nd ref="1554"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Mannerheimintie kuja 2"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5027" version="1">
+    <nd ref="1003"/>
+    <nd ref="1027"/>
+    <nd ref="1051"/>
+    <nd ref="1075"/>
+    <nd ref="1099"/>
+    <nd ref="1123"/>
+    <nd ref="1147"/>
+    <nd ref="1171"/>
+    <nd ref="1195"/>
+    <nd ref="1219"/>
+    <nd ref="1243"/>
+    <nd ref="1267"/>
+    <nd ref="1291"/>
+    <nd ref="1315"/>
+    <nd ref="1339"/>
+    <nd ref="1363"/>
+    <nd ref="1387"/>
+    <nd ref="1411"/>
+    <nd ref="1435"/>
+    <nd ref="1459"/>
+    <nd ref="1483"/>
+    <nd ref="1507"/>
+    <nd ref="1531"/>
+    <nd ref="1555"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Esplanadi kuja 3"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5028" version="1">
+    <nd ref="1004"/>
+    <nd ref="1028"/>
+    <nd ref="1052"/>
+    <nd ref="1076"/>
+    <nd ref="1100"/>
+    <nd ref="1124"/>
+    <nd ref="1148"/>
+    <nd ref="1172"/>
+    <nd ref="1196"/>
+    <nd ref="1220"/>
+    <nd ref="1244"/>
+    <nd ref="1268"/>
+    <nd ref="1292"/>
+    <nd ref="1316"/>
+    <nd ref="1340"/>
+    <nd ref="1364"/>
+    <nd ref="1388"/>
+    <nd ref="1412"/>
+    <nd ref="1436"/>
+    <nd ref="1460"/>
+    <nd ref="1484"/>
+    <nd ref="1508"/>
+    <nd ref="1532"/>
+    <nd ref="1556"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Bulevardi kuja 4"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5029" version="1">
+    <nd ref="1005"/>
+    <nd ref="1029"/>
+    <nd ref="1053"/>
+    <nd ref="1077"/>
+    <nd ref="1101"/>
+    <nd ref="1125"/>
+    <nd ref="1149"/>
+    <nd ref="1173"/>
+    <nd ref="1197"/>
+    <nd ref="1221"/>
+    <nd ref="1245"/>
+    <nd ref="1269"/>
+    <nd ref="1293"/>
+    <nd ref="1317"/>
+    <nd ref="1341"/>
+    <nd ref="1365"/>
+    <nd ref="1389"/>
+    <nd ref="1413"/>
+    <nd ref="1437"/>
+    <nd ref="1461"/>
+    <nd ref="1485"/>
+    <nd ref="1509"/>
+    <nd ref="1533"/>
+    <nd ref="1557"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Fredrikinkatu kuja 5"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5030" version="1">
+    <nd ref="1006"/>
+    <nd ref="1030"/>
+    <nd ref="1054"/>
+    <nd ref="1078"/>
+    <nd ref="1102"/>
+    <nd ref="1126"/>
+    <nd ref="1150"/>
+    <nd ref="1174"/>
+    <nd ref="1198"/>
+    <nd ref="1222"/>
+    <nd ref="1246"/>
+    <nd ref="1270"/>
+    <nd ref="1294"/>
+    <nd ref="1318"/>
+    <nd ref="1342"/>
+    <nd ref="1366"/>
+    <nd ref="1390"/>
+    <nd ref="1414"/>
+    <nd ref="1438"/>
+    <nd ref="1462"/>
+    <nd ref="1486"/>
+    <nd ref="1510"/>
+    <nd ref="1534"/>
+    <nd ref="1558"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Runeberginkatu kuja 6"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5031" version="1">
+    <nd ref="1007"/>
+    <nd ref="1031"/>
+    <nd ref="1055"/>
+    <nd ref="1079"/>
+    <nd ref="1103"/>
+    <nd ref="1127"/>
+    <nd ref="1151"/>
+    <nd ref="1175"/>
+    <nd ref="1199"/>
+    <nd ref="1223"/>
+    <nd ref="1247"/>
+    <nd ref="1271"/>
+    <nd ref="1295"/>
+    <nd ref="1319"/>
+    <nd ref="1343"/>
+    <nd ref="1367"/>
+    <nd ref="1391"/>
+    <nd ref="1415"/>
+    <nd ref="1439"/>
+    <nd ref="1463"/>
+    <nd ref="1487"/>
+    <nd ref="1511"/>
+    <nd ref="1535"/>
+    <nd ref="1559"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Hämeentie kuja 7"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5032" version="1">
+    <nd ref="1008"/>
+    <nd ref="1032"/>
+    <nd ref="1056"/>
+    <nd ref="1080"/>
+    <nd ref="1104"/>
+    <nd ref="1128"/>
+    <nd ref="1152"/>
+    <nd ref="1176"/>
+    <nd ref="1200"/>
+    <nd ref="1224"/>
+    <nd ref="1248"/>
+    <nd ref="1272"/>
+    <nd ref="1296"/>
+    <nd ref="1320"/>
+    <nd ref="1344"/>
+    <nd ref="1368"/>
+    <nd ref="1392"/>
+    <nd ref="1416"/>
+    <nd ref="1440"/>
+    <nd ref="1464"/>
+    <nd ref="1488"/>
+    <nd ref="1512"/>
+    <nd ref="1536"/>
+    <nd ref="1560"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Sturenkatu kuja 8"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5033" version="1">
+    <nd ref="1009"/>
+    <nd ref="1033"/>
+    <nd ref="1057"/>
+    <nd ref="1081"/>
+    <nd ref="1105"/>
+    <nd ref="1129"/>
+    <nd ref="1153"/>
+    <nd ref="1177"/>
+    <nd ref="1201"/>
+    <nd ref="1225"/>
+    <nd ref="1249"/>
+    <nd ref="1273"/>
+    <nd ref="1297"/>
+    <nd ref="1321"/>
+    <nd ref="1345"/>
+    <nd ref="1369"/>
+    <nd ref="1393"/>
+    <nd ref="1417"/>
+    <nd ref="1441"/>
+    <nd ref="1465"/>
+    <nd ref="1489"/>
+    <nd ref="1513"/>
+    <nd ref="1537"/>
+    <nd ref="1561"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Topeliuksenkatu kuja 9"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5034" version="1">
+    <nd ref="1010"/>
+    <nd ref="1034"/>
+    <nd ref="1058"/>
+    <nd ref="1082"/>
+    <nd ref="1106"/>
+    <nd ref="1130"/>
+    <nd ref="1154"/>
+    <nd ref="1178"/>
+    <nd ref="1202"/>
+    <nd ref="1226"/>
+    <nd ref="1250"/>
+    <nd ref="1274"/>
+    <nd ref="1298"/>
+    <nd ref="1322"/>
+    <nd ref="1346"/>
+    <nd ref="1370"/>
+    <nd ref="1394"/>
+    <nd ref="1418"/>
+    <nd ref="1442"/>
+    <nd ref="1466"/>
+    <nd ref="1490"/>
+    <nd ref="1514"/>
+    <nd ref="1538"/>
+    <nd ref="1562"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Mechelininkatu kuja 10"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5035" version="1">
+    <nd ref="1011"/>
+    <nd ref="1035"/>
+    <nd ref="1059"/>
+    <nd ref="1083"/>
+    <nd ref="1107"/>
+    <nd ref="1131"/>
+    <nd ref="1155"/>
+    <nd ref="1179"/>
+    <nd ref="1203"/>
+    <nd ref="1227"/>
+    <nd ref="1251"/>
+    <nd ref="1275"/>
+    <nd ref="1299"/>
+    <nd ref="1323"/>
+    <nd ref="1347"/>
+    <nd ref="1371"/>
+    <nd ref="1395"/>
+    <nd ref="1419"/>
+    <nd ref="1443"/>
+    <nd ref="1467"/>
+    <nd ref="1491"/>
+    <nd ref="1515"/>
+    <nd ref="1539"/>
+    <nd ref="1563"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Kaisaniemenkatu kuja 11"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5036" version="1">
+    <nd ref="1012"/>
+    <nd ref="1036"/>
+    <nd ref="1060"/>
+    <nd ref="1084"/>
+    <nd ref="1108"/>
+    <nd ref="1132"/>
+    <nd ref="1156"/>
+    <nd ref="1180"/>
+    <nd ref="1204"/>
+    <nd ref="1228"/>
+    <nd ref="1252"/>
+    <nd ref="1276"/>
+    <nd ref="1300"/>
+    <nd ref="1324"/>
+    <nd ref="1348"/>
+    <nd ref="1372"/>
+    <nd ref="1396"/>
+    <nd ref="1420"/>
+    <nd ref="1444"/>
+    <nd ref="1468"/>
+    <nd ref="1492"/>
+    <nd ref="1516"/>
+    <nd ref="1540"/>
+    <nd ref="1564"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Unioninkatu kuja 12"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5037" version="1">
+    <nd ref="1013"/>
+    <nd ref="1037"/>
+    <nd ref="1061"/>
+    <nd ref="1085"/>
+    <nd ref="1109"/>
+    <nd ref="1133"/>
+    <nd ref="1157"/>
+    <nd ref="1181"/>
+    <nd ref="1205"/>
+    <nd ref="1229"/>
+    <nd ref="1253"/>
+    <nd ref="1277"/>
+    <nd ref="1301"/>
+    <nd ref="1325"/>
+    <nd ref="1349"/>
+    <nd ref="1373"/>
+    <nd ref="1397"/>
+    <nd ref="1421"/>
+    <nd ref="1445"/>
+    <nd ref="1469"/>
+    <nd ref="1493"/>
+    <nd ref="1517"/>
+    <nd ref="1541"/>
+    <nd ref="1565"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Aleksanterinkatu kuja 13"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5038" version="1">
+    <nd ref="1014"/>
+    <nd ref="1038"/>
+    <nd ref="1062"/>
+    <nd ref="1086"/>
+    <nd ref="1110"/>
+    <nd ref="1134"/>
+    <nd ref="1158"/>
+    <nd ref="1182"/>
+    <nd ref="1206"/>
+    <nd ref="1230"/>
+    <nd ref="1254"/>
+    <nd ref="1278"/>
+    <nd ref="1302"/>
+    <nd ref="1326"/>
+    <nd ref="1350"/>
+    <nd ref="1374"/>
+    <nd ref="1398"/>
+    <nd ref="1422"/>
+    <nd ref="1446"/>
+    <nd ref="1470"/>
+    <nd ref="1494"/>
+    <nd ref="1518"/>
+    <nd ref="1542"/>
+    <nd ref="1566"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Mannerheimintie kuja 14"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5039" version="1">
+    <nd ref="1015"/>
+    <nd ref="1039"/>
+    <nd ref="1063"/>
+    <nd ref="1087"/>
+    <nd ref="1111"/>
+    <nd ref="1135"/>
+    <nd ref="1159"/>
+    <nd ref="1183"/>
+    <nd ref="1207"/>
+    <nd ref="1231"/>
+    <nd ref="1255"/>
+    <nd ref="1279"/>
+    <nd ref="1303"/>
+    <nd ref="1327"/>
+    <nd ref="1351"/>
+    <nd ref="1375"/>
+    <nd ref="1399"/>
+    <nd ref="1423"/>
+    <nd ref="1447"/>
+    <nd ref="1471"/>
+    <nd ref="1495"/>
+    <nd ref="1519"/>
+    <nd ref="1543"/>
+    <nd ref="1567"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Esplanadi kuja 15"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5040" version="1">
+    <nd ref="1016"/>
+    <nd ref="1040"/>
+    <nd ref="1064"/>
+    <nd ref="1088"/>
+    <nd ref="1112"/>
+    <nd ref="1136"/>
+    <nd ref="1160"/>
+    <nd ref="1184"/>
+    <nd ref="1208"/>
+    <nd ref="1232"/>
+    <nd ref="1256"/>
+    <nd ref="1280"/>
+    <nd ref="1304"/>
+    <nd ref="1328"/>
+    <nd ref="1352"/>
+    <nd ref="1376"/>
+    <nd ref="1400"/>
+    <nd ref="1424"/>
+    <nd ref="1448"/>
+    <nd ref="1472"/>
+    <nd ref="1496"/>
+    <nd ref="1520"/>
+    <nd ref="1544"/>
+    <nd ref="1568"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Bulevardi kuja 16"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5041" version="1">
+    <nd ref="1017"/>
+    <nd ref="1041"/>
+    <nd ref="1065"/>
+    <nd ref="1089"/>
+    <nd ref="1113"/>
+    <nd ref="1137"/>
+    <nd ref="1161"/>
+    <nd ref="1185"/>
+    <nd ref="1209"/>
+    <nd ref="1233"/>
+    <nd ref="1257"/>
+    <nd ref="1281"/>
+    <nd ref="1305"/>
+    <nd ref="1329"/>
+    <nd ref="1353"/>
+    <nd ref="1377"/>
+    <nd ref="1401"/>
+    <nd ref="1425"/>
+    <nd ref="1449"/>
+    <nd ref="1473"/>
+    <nd ref="1497"/>
+    <nd ref="1521"/>
+    <nd ref="1545"/>
+    <nd ref="1569"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Fredrikinkatu kuja 17"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5042" version="1">
+    <nd ref="1018"/>
+    <nd ref="1042"/>
+    <nd ref="1066"/>
+    <nd ref="1090"/>
+    <nd ref="1114"/>
+    <nd ref="1138"/>
+    <nd ref="1162"/>
+    <nd ref="1186"/>
+    <nd ref="1210"/>
+    <nd ref="1234"/>
+    <nd ref="1258"/>
+    <nd ref="1282"/>
+    <nd ref="1306"/>
+    <nd ref="1330"/>
+    <nd ref="1354"/>
+    <nd ref="1378"/>
+    <nd ref="1402"/>
+    <nd ref="1426"/>
+    <nd ref="1450"/>
+    <nd ref="1474"/>
+    <nd ref="1498"/>
+    <nd ref="1522"/>
+    <nd ref="1546"/>
+    <nd ref="1570"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Runeberginkatu kuja 18"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5043" version="1">
+    <nd ref="1019"/>
+    <nd ref="1043"/>
+    <nd ref="1067"/>
+    <nd ref="1091"/>
+    <nd ref="1115"/>
+    <nd ref="1139"/>
+    <nd ref="1163"/>
+    <nd ref="1187"/>
+    <nd ref="1211"/>
+    <nd ref="1235"/>
+    <nd ref="1259"/>
+    <nd ref="1283"/>
+    <nd ref="1307"/>
+    <nd ref="1331"/>
+    <nd ref="1355"/>
+    <nd ref="1379"/>
+    <nd ref="1403"/>
+    <nd ref="1427"/>
+    <nd ref="1451"/>
+    <nd ref="1475"/>
+    <nd ref="1499"/>
+    <nd ref="1523"/>
+    <nd ref="1547"/>
+    <nd ref="1571"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Hämeentie kuja 19"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5044" version="1">
+    <nd ref="1020"/>
+    <nd ref="1044"/>
+    <nd ref="1068"/>
+    <nd ref="1092"/>
+    <nd ref="1116"/>
+    <nd ref="1140"/>
+    <nd ref="1164"/>
+    <nd ref="1188"/>
+    <nd ref="1212"/>
+    <nd ref="1236"/>
+    <nd ref="1260"/>
+    <nd ref="1284"/>
+    <nd ref="1308"/>
+    <nd ref="1332"/>
+    <nd ref="1356"/>
+    <nd ref="1380"/>
+    <nd ref="1404"/>
+    <nd ref="1428"/>
+    <nd ref="1452"/>
+    <nd ref="1476"/>
+    <nd ref="1500"/>
+    <nd ref="1524"/>
+    <nd ref="1548"/>
+    <nd ref="1572"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Sturenkatu kuja 20"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5045" version="1">
+    <nd ref="1021"/>
+    <nd ref="1045"/>
+    <nd ref="1069"/>
+    <nd ref="1093"/>
+    <nd ref="1117"/>
+    <nd ref="1141"/>
+    <nd ref="1165"/>
+    <nd ref="1189"/>
+    <nd ref="1213"/>
+    <nd ref="1237"/>
+    <nd ref="1261"/>
+    <nd ref="1285"/>
+    <nd ref="1309"/>
+    <nd ref="1333"/>
+    <nd ref="1357"/>
+    <nd ref="1381"/>
+    <nd ref="1405"/>
+    <nd ref="1429"/>
+    <nd ref="1453"/>
+    <nd ref="1477"/>
+    <nd ref="1501"/>
+    <nd ref="1525"/>
+    <nd ref="1549"/>
+    <nd ref="1573"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Topeliuksenkatu kuja 21"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5046" version="1">
+    <nd ref="1022"/>
+    <nd ref="1046"/>
+    <nd ref="1070"/>
+    <nd ref="1094"/>
+    <nd ref="1118"/>
+    <nd ref="1142"/>
+    <nd ref="1166"/>
+    <nd ref="1190"/>
+    <nd ref="1214"/>
+    <nd ref="1238"/>
+    <nd ref="1262"/>
+    <nd ref="1286"/>
+    <nd ref="1310"/>
+    <nd ref="1334"/>
+    <nd ref="1358"/>
+    <nd ref="1382"/>
+    <nd ref="1406"/>
+    <nd ref="1430"/>
+    <nd ref="1454"/>
+    <nd ref="1478"/>
+    <nd ref="1502"/>
+    <nd ref="1526"/>
+    <nd ref="1550"/>
+    <nd ref="1574"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Mechelininkatu kuja 22"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5047" version="1">
+    <nd ref="1023"/>
+    <nd ref="1047"/>
+    <nd ref="1071"/>
+    <nd ref="1095"/>
+    <nd ref="1119"/>
+    <nd ref="1143"/>
+    <nd ref="1167"/>
+    <nd ref="1191"/>
+    <nd ref="1215"/>
+    <nd ref="1239"/>
+    <nd ref="1263"/>
+    <nd ref="1287"/>
+    <nd ref="1311"/>
+    <nd ref="1335"/>
+    <nd ref="1359"/>
+    <nd ref="1383"/>
+    <nd ref="1407"/>
+    <nd ref="1431"/>
+    <nd ref="1455"/>
+    <nd ref="1479"/>
+    <nd ref="1503"/>
+    <nd ref="1527"/>
+    <nd ref="1551"/>
+    <nd ref="1575"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Kaisaniemenkatu kuja 23"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="5048" version="1">
+    <nd ref="1024"/>
+    <nd ref="1048"/>
+    <nd ref="1072"/>
+    <nd ref="1096"/>
+    <nd ref="1120"/>
+    <nd ref="1144"/>
+    <nd ref="1168"/>
+    <nd ref="1192"/>
+    <nd ref="1216"/>
+    <nd ref="1240"/>
+    <nd ref="1264"/>
+    <nd ref="1288"/>
+    <nd ref="1312"/>
+    <nd ref="1336"/>
+    <nd ref="1360"/>
+    <nd ref="1384"/>
+    <nd ref="1408"/>
+    <nd ref="1432"/>
+    <nd ref="1456"/>
+    <nd ref="1480"/>
+    <nd ref="1504"/>
+    <nd ref="1528"/>
+    <nd ref="1552"/>
+    <nd ref="1576"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Unioninkatu kuja 24"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <node id="1577" version="1" lat="60.1699900" lon="24.9384900"/>
+  <node id="1578" version="1" lat="60.1699900" lon="24.9388300"/>
+  <node id="1579" version="1" lat="60.1701600" lon="24.9388300"/>
+  <node id="1580" version="1" lat="60.1701600" lon="24.9384900"/>
+  <way id="5049" version="1">
+    <nd ref="1577"/>
+    <nd ref="1578"/>
+    <nd ref="1579"/>
+    <nd ref="1580"/>
+    <nd ref="1577"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Aleksanterinkatu 1"/>
+  </way>
+  <node id="1581" version="1" lat="60.1699900" lon="24.9398900"/>
+  <node id="1582" version="1" lat="60.1699900" lon="24.9402300"/>
+  <node id="1583" version="1" lat="60.1701600" lon="24.9402300"/>
+  <node id="1584" version="1" lat="60.1701600" lon="24.9398900"/>
+  <way id="5050" version="1">
+    <nd ref="1581"/>
+    <nd ref="1582"/>
+    <nd ref="1583"/>
+    <nd ref="1584"/>
+    <nd ref="1581"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Aleksanterinkatu 1"/>
+  </way>
+  <node id="1585" version="1" lat="60.1699900" lon="24.9412900"/>
+  <node id="1586" version="1" lat="60.1699900" lon="24.9416300"/>
+  <node id="1587" version="1" lat="60.1701600" lon="24.9416300"/>
+  <node id="1588" version="1" lat="60.1701600" lon="24.9412900"/>
+  <way id="5051" version="1">
+    <nd ref="1585"/>
+    <nd ref="1586"/>
+    <nd ref="1587"/>
+    <nd ref="1588"/>
+    <nd ref="1585"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Aleksanterinkatu 1"/>
+  </way>
+  <node id="1589" version="1" lat="60.1699900" lon="24.9426900"/>
+  <node id="1590" version="1" lat="60.1699900" lon="24.9430300"/>
+  <node id="1591" version="1" lat="60.1701600" lon="24.9430300"/>
+  <node id="1592" version="1" lat="60.1701600" lon="24.9426900"/>
+  <way id="5052" version="1">
+    <nd ref="1589"/>
+    <nd ref="1590"/>
+    <nd ref="1591"/>
+    <nd ref="1592"/>
+    <nd ref="1589"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Aleksanterinkatu 1"/>
+  </way>
+  <node id="1593" version="1" lat="60.1699900" lon="24.9440900"/>
+  <node id="1594" version="1" lat="60.1699900" lon="24.9444300"/>
+  <node id="1595" version="1" lat="60.1701600" lon="24.9444300"/>
+  <node id="1596" version="1" lat="60.1701600" lon="24.9440900"/>
+  <way id="5053" version="1">
+    <nd ref="1593"/>
+    <nd ref="1594"/>
+    <nd ref="1595"/>
+    <nd ref="1596"/>
+    <nd ref="1593"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Aleksanterinkatu 1"/>
+  </way>
+  <node id="1597" version="1" lat="60.1699900" lon="24.9454900"/>
+  <node id="1598" version="1" lat="60.1699900" lon="24.9458300"/>
+  <node id="1599" version="1" lat="60.1701600" lon="24.9458300"/>
+  <node id="1600" version="1" lat="60.1701600" lon="24.9454900"/>
+  <way id="5054" version="1">
+    <nd ref="1597"/>
+    <nd ref="1598"/>
+    <nd ref="1599"/>
+    <nd ref="1600"/>
+    <nd ref="1597"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Aleksanterinkatu 1"/>
+  </way>
+  <node id="1601" version="1" lat="60.1699900" lon="24.9468900"/>
+  <node id="1602" version="1" lat="60.1699900" lon="24.9472300"/>
+  <node id="1603" version="1" lat="60.1701600" lon="24.9472300"/>
+  <node id="1604" version="1" lat="60.1701600" lon="24.9468900"/>
+  <way id="5055" version="1">
+    <nd ref="1601"/>
+    <nd ref="1602"/>
+    <nd ref="1603"/>
+    <nd ref="1604"/>
+    <nd ref="1601"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Aleksanterinkatu 1"/>
+  </way>
+  <node id="1605" version="1" lat="60.1699900" lon="24.9482900"/>
+  <node id="1606" version="1" lat="60.1699900" lon="24.9486300"/>
+  <node id="1607" version="1" lat="60.1701600" lon="24.9486300"/>
+  <node id="1608" version="1" lat="60.1701600" lon="24.9482900"/>
+  <way id="5056" version="1">
+    <nd ref="1605"/>
+    <nd ref="1606"/>
+    <nd ref="1607"/>
+    <nd ref="1608"/>
+    <nd ref="1605"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Aleksanterinkatu 1"/>
+  </way>
+  <node id="1609" version="1" lat="60.1699900" lon="24.9496900"/>
+  <node id="1610" version="1" lat="60.1699900" lon="24.9500300"/>
+  <node id="1611" version="1" lat="60.1701600" lon="24.9500300"/>
+  <node id="1612" version="1" lat="60.1701600" lon="24.9496900"/>
+  <way id="5057" version="1">
+    <nd ref="1609"/>
+    <nd ref="1610"/>
+    <nd ref="1611"/>
+    <nd ref="1612"/>
+    <nd ref="1609"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Aleksanterinkatu 1"/>
+  </way>
+  <node id="1613" version="1" lat="60.1703400" lon="24.9384900"/>
+  <node id="1614" version="1" lat="60.1703400" lon="24.9388300"/>
+  <node id="1615" version="1" lat="60.1705100" lon="24.9388300"/>
+  <node id="1616" version="1" lat="60.1705100" lon="24.9384900"/>
+  <way id="5058" version="1">
+    <nd ref="1613"/>
+    <nd ref="1614"/>
+    <nd ref="1615"/>
+    <nd ref="1616"/>
+    <nd ref="1613"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Mannerheimintie 2"/>
+  </way>
+  <node id="1617" version="1" lat="60.1703400" lon="24.9398900"/>
+  <node id="1618" version="1" lat="60.1703400" lon="24.9402300"/>
+  <node id="1619" version="1" lat="60.1705100" lon="24.9402300"/>
+  <node id="1620" version="1" lat="60.1705100" lon="24.9398900"/>
+  <way id="5059" version="1">
+    <nd ref="1617"/>
+    <nd ref="1618"/>
+    <nd ref="1619"/>
+    <nd ref="1620"/>
+    <nd ref="1617"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Mannerheimintie 2"/>
+  </way>
+  <node id="1621" version="1" lat="60.1703400" lon="24.9412900"/>
+  <node id="1622" version="1" lat="60.1703400" lon="24.9416300"/>
+  <node id="1623" version="1" lat="60.1705100" lon="24.9416300"/>
+  <node id="1624" version="1" lat="60.1705100" lon="24.9412900"/>
+  <way id="5060" version="1">
+    <nd ref="1621"/>
+    <nd ref="1622"/>
+    <nd ref="1623"/>
+    <nd ref="1624"/>
+    <nd ref="1621"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Mannerheimintie 2"/>
+  </way>
+  <node id="1625" version="1" lat="60.1703400" lon="24.9426900"/>
+  <node id="1626" version="1" lat="60.1703400" lon="24.9430300"/>
+  <node id="1627" version="1" lat="60.1705100" lon="24.9430300"/>
+  <node id="1628" version="1" lat="60.1705100" lon="24.9426900"/>
+  <way id="5061" version="1">
+    <nd ref="1625"/>
+    <nd ref="1626"/>
+    <nd ref="1627"/>
+    <nd ref="1628"/>
+    <nd ref="1625"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Mannerheimintie 2"/>
+  </way>
+  <node id="1629" version="1" lat="60.1703400" lon="24.9440900"/>
+  <node id="1630" version="1" lat="60.1703400" lon="24.9444300"/>
+  <node id="1631" version="1" lat="60.1705100" lon="24.9444300"/>
+  <node id="1632" version="1" lat="60.1705100" lon="24.9440900"/>
+  <way id="5062" version="1">
+    <nd ref="1629"/>
+    <nd ref="1630"/>
+    <nd ref="1631"/>
+    <nd ref="1632"/>
+    <nd ref="1629"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Mannerheimintie 2"/>
+  </way>
+  <node id="1633" version="1" lat="60.1703400" lon="24.9454900"/>
+  <node id="1634" version="1" lat="60.1703400" lon="24.9458300"/>
+  <node id="1635" version="1" lat="60.1705100" lon="24.9458300"/>
+  <node id="1636" version="1" lat="60.1705100" lon="24.9454900"/>
+  <way id="5063" version="1">
+    <nd ref="1633"/>
+    <nd ref="1634"/>
+    <nd ref="1635"/>
+    <nd ref="1636"/>
+    <nd ref="1633"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Mannerheimintie 2"/>
+  </way>
+  <node id="1637" version="1" lat="60.1703400" lon="24.9468900"/>
+  <node id="1638" version="1" lat="60.1703400" lon="24.9472300"/>
+  <node id="1639" version="1" lat="60.1705100" lon="24.9472300"/>
+  <node id="1640" version="1" lat="60.1705100" lon="24.9468900"/>
+  <way id="5064" version="1">
+    <nd ref="1637"/>
+    <nd ref="1638"/>
+    <nd ref="1639"/>
+    <nd ref="1640"/>
+    <nd ref="1637"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Mannerheimintie 2"/>
+  </way>
+  <node id="1641" version="1" lat="60.1703400" lon="24.9482900"/>
+  <node id="1642" version="1" lat="60.1703400" lon="24.9486300"/>
+  <node id="1643" version="1" lat="60.1705100" lon="24.9486300"/>
+  <node id="1644" version="1" lat="60.1705100" lon="24.9482900"/>
+  <way id="5065" version="1">
+    <nd ref="1641"/>
+    <nd ref="1642"/>
+    <nd ref="1643"/>
+    <nd ref="1644"/>
+    <nd ref="1641"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Mannerheimintie 2"/>
+  </way>
+  <node id="1645" version="1" lat="60.1703400" lon="24.9496900"/>
+  <node id="1646" version="1" lat="60.1703400" lon="24.9500300"/>
+  <node id="1647" version="1" lat="60.1705100" lon="24.9500300"/>
+  <node id="1648" version="1" lat="60.1705100" lon="24.9496900"/>
+  <way id="5066" version="1">
+    <nd ref="1645"/>
+    <nd ref="1646"/>
+    <nd ref="1647"/>
+    <nd ref="1648"/>
+    <nd ref="1645"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Mannerheimintie 2"/>
+  </way>
+  <node id="1649" version="1" lat="60.1706900" lon="24.9384900"/>
+  <node id="1650" version="1" lat="60.1706900" lon="24.9388300"/>
+  <node id="1651" version="1" lat="60.1708600" lon="24.9388300"/>
+  <node id="1652" version="1" lat="60.1708600" lon="24.9384900"/>
+  <way id="5067" version="1">
+    <nd ref="1649"/>
+    <nd ref="1650"/>
+    <nd ref="1651"/>
+    <nd ref="1652"/>
+    <nd ref="1649"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Esplanadi 3"/>
+  </way>
+  <node id="1653" version="1" lat="60.1706900" lon="24.9398900"/>
+  <node id="1654" version="1" lat="60.1706900" lon="24.9402300"/>
+  <node id="1655" version="1" lat="60.1708600" lon="24.9402300"/>
+  <node id="1656" version="1" lat="60.1708600" lon="24.9398900"/>
+  <way id="5068" version="1">
+    <nd ref="1653"/>
+    <nd ref="1654"/>
+    <nd ref="1655"/>
+    <nd ref="1656"/>
+    <nd ref="1653"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Esplanadi 3"/>
+  </way>
+  <node id="1657" version="1" lat="60.1706900" lon="24.9412900"/>
+  <node id="1658" version="1" lat="60.1706900" lon="24.9416300"/>
+  <node id="1659" version="1" lat="60.1708600" lon="24.9416300"/>
+  <node id="1660" version="1" lat="60.1708600" lon="24.9412900"/>
+  <way id="5069" version="1">
+    <nd ref="1657"/>
+    <nd ref="1658"/>
+    <nd ref="1659"/>
+    <nd ref="1660"/>
+    <nd ref="1657"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Esplanadi 3"/>
+  </way>
+  <node id="1661" version="1" lat="60.1706900" lon="24.9426900"/>
+  <node id="1662" version="1" lat="60.1706900" lon="24.9430300"/>
+  <node id="1663" version="1" lat="60.1708600" lon="24.9430300"/>
+  <node id="1664" version="1" lat="60.1708600" lon="24.9426900"/>
+  <way id="5070" version="1">
+    <nd ref="1661"/>
+    <nd ref="1662"/>
+    <nd ref="1663"/>
+    <nd ref="1664"/>
+    <nd ref="1661"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Esplanadi 3"/>
+  </way>
+  <node id="1665" version="1" lat="60.1706900" lon="24.9440900"/>
+  <node id="1666" version="1" lat="60.1706900" lon="24.9444300"/>
+  <node id="1667" version="1" lat="60.1708600" lon="24.9444300"/>
+  <node id="1668" version="1" lat="60.1708600" lon="24.9440900"/>
+  <way id="5071" version="1">
+    <nd ref="1665"/>
+    <nd ref="1666"/>
+    <nd ref="1667"/>
+    <nd ref="1668"/>
+    <nd ref="1665"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Esplanadi 3"/>
+  </way>
+  <node id="1669" version="1" lat="60.1706900" lon="24.9454900"/>
+  <node id="1670" version="1" lat="60.1706900" lon="24.9458300"/>
+  <node id="1671" version="1" lat="60.1708600" lon="24.9458300"/>
+  <node id="1672" version="1" lat="60.1708600" lon="24.9454900"/>
+  <way id="5072" version="1">
+    <nd ref="1669"/>
+    <nd ref="1670"/>
+    <nd ref="1671"/>
+    <nd ref="1672"/>
+    <nd ref="1669"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Esplanadi 3"/>
+  </way>
+  <node id="1673" version="1" lat="60.1706900" lon="24.9468900"/>
+  <node id="1674" version="1" lat="60.1706900" lon="24.9472300"/>
+  <node id="1675" version="1" lat="60.1708600" lon="24.9472300"/>
+  <node id="1676" version="1" lat="60.1708600" lon="24.9468900"/>
+  <way id="5073" version="1">
+    <nd ref="1673"/>
+    <nd ref="1674"/>
+    <nd ref="1675"/>
+    <nd ref="1676"/>
+    <nd ref="1673"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Esplanadi 3"/>
+  </way>
+  <node id="1677" version="1" lat="60.1706900" lon="24.9482900"/>
+  <node id="1678" version="1" lat="60.1706900" lon="24.9486300"/>
+  <node id="1679" version="1" lat="60.1708600" lon="24.9486300"/>
+  <node id="1680" version="1" lat="60.1708600" lon="24.9482900"/>
+  <way id="5074" version="1">
+    <nd ref="1677"/>
+    <nd ref="1678"/>
+    <nd ref="1679"/>
+    <nd ref="1680"/>
+    <nd ref="1677"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Esplanadi 3"/>
+  </way>
+  <node id="1681" version="1" lat="60.1706900" lon="24.9496900"/>
+  <node id="1682" version="1" lat="60.1706900" lon="24.9500300"/>
+  <node id="1683" version="1" lat="60.1708600" lon="24.9500300"/>
+  <node id="1684" version="1" lat="60.1708600" lon="24.9496900"/>
+  <way id="5075" version="1">
+    <nd ref="1681"/>
+    <nd ref="1682"/>
+    <nd ref="1683"/>
+    <nd ref="1684"/>
+    <nd ref="1681"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Esplanadi 3"/>
+  </way>
+  <node id="1685" version="1" lat="60.1710400" lon="24.9384900"/>
+  <node id="1686" version="1" lat="60.1710400" lon="24.9388300"/>
+  <node id="1687" version="1" lat="60.1712100" lon="24.9388300"/>
+  <node id="1688" version="1" lat="60.1712100" lon="24.9384900"/>
+  <way id="5076" version="1">
+    <nd ref="1685"/>
+    <nd ref="1686"/>
+    <nd ref="1687"/>
+    <nd ref="1688"/>
+    <nd ref="1685"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Bulevardi 4"/>
+  </way>
+  <node id="1689" version="1" lat="60.1710400" lon="24.9398900"/>
+  <node id="1690" version="1" lat="60.1710400" lon="24.9402300"/>
+  <node id="1691" version="1" lat="60.1712100" lon="24.9402300"/>
+  <node id="1692" version="1" lat="60.1712100" lon="24.9398900"/>
+  <way id="5077" version="1">
+    <nd ref="1689"/>
+    <nd ref="1690"/>
+    <nd ref="1691"/>
+    <nd ref="1692"/>
+    <nd ref="1689"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Bulevardi 4"/>
+  </way>
+  <node id="1693" version="1" lat="60.1710400" lon="24.9412900"/>
+  <node id="1694" version="1" lat="60.1710400" lon="24.9416300"/>
+  <node id="1695" version="1" lat="60.1712100" lon="24.9416300"/>
+  <node id="1696" version="1" lat="60.1712100" lon="24.9412900"/>
+  <way id="5078" version="1">
+    <nd ref="1693"/>
+    <nd ref="1694"/>
+    <nd ref="1695"/>
+    <nd ref="1696"/>
+    <nd ref="1693"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Bulevardi 4"/>
+  </way>
+  <node id="1697" version="1" lat="60.1710400" lon="24.9426900"/>
+  <node id="1698" version="1" lat="60.1710400" lon="24.9430300"/>
+  <node id="1699" version="1" lat="60.1712100" lon="24.9430300"/>
+  <node id="1700" version="1" lat="60.1712100" lon="24.9426900"/>
+  <way id="5079" version="1">
+    <nd ref="1697"/>
+    <nd ref="1698"/>
+    <nd ref="1699"/>
+    <nd ref="1700"/>
+    <nd ref="1697"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Bulevardi 4"/>
+  </way>
+  <node id="1701" version="1" lat="60.1710400" lon="24.9440900"/>
+  <node id="1702" version="1" lat="60.1710400" lon="24.9444300"/>
+  <node id="1703" version="1" lat="60.1712100" lon="24.9444300"/>
+  <node id="1704" version="1" lat="60.1712100" lon="24.9440900"/>
+  <way id="5080" version="1">
+    <nd ref="1701"/>
+    <nd ref="1702"/>
+    <nd ref="1703"/>
+    <nd ref="1704"/>
+    <nd ref="1701"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Bulevardi 4"/>
+  </way>
+  <node id="1705" version="1" lat="60.1710400" lon="24.9454900"/>
+  <node id="1706" version="1" lat="60.1710400" lon="24.9458300"/>
+  <node id="1707" version="1" lat="60.1712100" lon="24.9458300"/>
+  <node id="1708" version="1" lat="60.1712100" lon="24.9454900"/>
+  <way id="5081" version="1">
+    <nd ref="1705"/>
+    <nd ref="1706"/>
+    <nd ref="1707"/>
+    <nd ref="1708"/>
+    <nd ref="1705"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Bulevardi 4"/>
+  </way>
+  <node id="1709" version="1" lat="60.1710400" lon="24.9468900"/>
+  <node id="1710" version="1" lat="60.1710400" lon="24.9472300"/>
+  <node id="1711" version="1" lat="60.1712100" lon="24.9472300"/>
+  <node id="1712" version="1" lat="60.1712100" lon="24.9468900"/>
+  <way id="5082" version="1">
+    <nd ref="1709"/>
+    <nd ref="1710"/>
+    <nd ref="1711"/>
+    <nd ref="1712"/>
+    <nd ref="1709"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Bulevardi 4"/>
+  </way>
+  <node id="1713" version="1" lat="60.1710400" lon="24.9482900"/>
+  <node id="1714" version="1" lat="60.1710400" lon="24.9486300"/>
+  <node id="1715" version="1" lat="60.1712100" lon="24.9486300"/>
+  <node id="1716" version="1" lat="60.1712100" lon="24.9482900"/>
+  <way id="5083" version="1">
+    <nd ref="1713"/>
+    <nd ref="1714"/>
+    <nd ref="1715"/>
+    <nd ref="1716"/>
+    <nd ref="1713"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Bulevardi 4"/>
+  </way>
+  <node id="1717" version="1" lat="60.1710400" lon="24.9496900"/>
+  <node id="1718" version="1" lat="60.1710400" lon="24.9500300"/>
+  <node id="1719" version="1" lat="60.1712100" lon="24.9500300"/>
+  <node id="1720" version="1" lat="60.1712100" lon="24.9496900"/>
+  <way id="5084" version="1">
+    <nd ref="1717"/>
+    <nd ref="1718"/>
+    <nd ref="1719"/>
+    <nd ref="1720"/>
+    <nd ref="1717"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Bulevardi 4"/>
+  </way>
+  <node id="1721" version="1" lat="60.1713900" lon="24.9384900"/>
+  <node id="1722" version="1" lat="60.1713900" lon="24.9388300"/>
+  <node id="1723" version="1" lat="60.1715600" lon="24.9388300"/>
+  <node id="1724" version="1" lat="60.1715600" lon="24.9384900"/>
+  <way id="5085" version="1">
+    <nd ref="1721"/>
+    <nd ref="1722"/>
+    <nd ref="1723"/>
+    <nd ref="1724"/>
+    <nd ref="1721"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Fredrikinkatu 5"/>
+  </way>
+  <node id="1725" version="1" lat="60.1713900" lon="24.9398900"/>
+  <node id="1726" version="1" lat="60.1713900" lon="24.9402300"/>
+  <node id="1727" version="1" lat="60.1715600" lon="24.9402300"/>
+  <node id="1728" version="1" lat="60.1715600" lon="24.9398900"/>
+  <way id="5086" version="1">
+    <nd ref="1725"/>
+    <nd ref="1726"/>
+    <nd ref="1727"/>
+    <nd ref="1728"/>
+    <nd ref="1725"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Fredrikinkatu 5"/>
+  </way>
+  <node id="1729" version="1" lat="60.1713900" lon="24.9412900"/>
+  <node id="1730" version="1" lat="60.1713900" lon="24.9416300"/>
+  <node id="1731" version="1" lat="60.1715600" lon="24.9416300"/>
+  <node id="1732" version="1" lat="60.1715600" lon="24.9412900"/>
+  <way id="5087" version="1">
+    <nd ref="1729"/>
+    <nd ref="1730"/>
+    <nd ref="1731"/>
+    <nd ref="1732"/>
+    <nd ref="1729"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Fredrikinkatu 5"/>
+  </way>
+  <node id="1733" version="1" lat="60.1713900" lon="24.9426900"/>
+  <node id="1734" version="1" lat="60.1713900" lon="24.9430300"/>
+  <node id="1735" version="1" lat="60.1715600" lon="24.9430300"/>
+  <node id="1736" version="1" lat="60.1715600" lon="24.9426900"/>
+  <way id="5088" version="1">
+    <nd ref="1733"/>
+    <nd ref="1734"/>
+    <nd ref="1735"/>
+    <nd ref="1736"/>
+    <nd ref="1733"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Fredrikinkatu 5"/>
+  </way>
+  <node id="1737" version="1" lat="60.1713900" lon="24.9440900"/>
+  <node id="1738" version="1" lat="60.1713900" lon="24.9444300"/>
+  <node id="1739" version="1" lat="60.1715600" lon="24.9444300"/>
+  <node id="1740" version="1" lat="60.1715600" lon="24.9440900"/>
+  <way id="5089" version="1">
+    <nd ref="1737"/>
+    <nd ref="1738"/>
+    <nd ref="1739"/>
+    <nd ref="1740"/>
+    <nd ref="1737"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Fredrikinkatu 5"/>
+  </way>
+  <node id="1741" version="1" lat="60.1713900" lon="24.9454900"/>
+  <node id="1742" version="1" lat="60.1713900" lon="24.9458300"/>
+  <node id="1743" version="1" lat="60.1715600" lon="24.9458300"/>
+  <node id="1744" version="1" lat="60.1715600" lon="24.9454900"/>
+  <way id="5090" version="1">
+    <nd ref="1741"/>
+    <nd ref="1742"/>
+    <nd ref="1743"/>
+    <nd ref="1744"/>
+    <nd ref="1741"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Fredrikinkatu 5"/>
+  </way>
+  <node id="1745" version="1" lat="60.1713900" lon="24.9468900"/>
+  <node id="1746" version="1" lat="60.1713900" lon="24.9472300"/>
+  <node id="1747" version="1" lat="60.1715600" lon="24.9472300"/>
+  <node id="1748" version="1" lat="60.1715600" lon="24.9468900"/>
+  <way id="5091" version="1">
+    <nd ref="1745"/>
+    <nd ref="1746"/>
+    <nd ref="1747"/>
+    <nd ref="1748"/>
+    <nd ref="1745"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Fredrikinkatu 5"/>
+  </way>
+  <node id="1749" version="1" lat="60.1713900" lon="24.9482900"/>
+  <node id="1750" version="1" lat="60.1713900" lon="24.9486300"/>
+  <node id="1751" version="1" lat="60.1715600" lon="24.9486300"/>
+  <node id="1752" version="1" lat="60.1715600" lon="24.9482900"/>
+  <way id="5092" version="1">
+    <nd ref="1749"/>
+    <nd ref="1750"/>
+    <nd ref="1751"/>
+    <nd ref="1752"/>
+    <nd ref="1749"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Fredrikinkatu 5"/>
+  </way>
+  <node id="1753" version="1" lat="60.1713900" lon="24.9496900"/>
+  <node id="1754" version="1" lat="60.1713900" lon="24.9500300"/>
+  <node id="1755" version="1" lat="60.1715600" lon="24.9500300"/>
+  <node id="1756" version="1" lat="60.1715600" lon="24.9496900"/>
+  <way id="5093" version="1">
+    <nd ref="1753"/>
+    <nd ref="1754"/>
+    <nd ref="1755"/>
+    <nd ref="1756"/>
+    <nd ref="1753"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Fredrikinkatu 5"/>
+  </way>
+  <node id="1757" version="1" lat="60.1717400" lon="24.9384900"/>
+  <node id="1758" version="1" lat="60.1717400" lon="24.9388300"/>
+  <node id="1759" version="1" lat="60.1719100" lon="24.9388300"/>
+  <node id="1760" version="1" lat="60.1719100" lon="24.9384900"/>
+  <way id="5094" version="1">
+    <nd ref="1757"/>
+    <nd ref="1758"/>
+    <nd ref="1759"/>
+    <nd ref="1760"/>
+    <nd ref="1757"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Runeberginkatu 6"/>
+  </way>
+  <node id="1761" version="1" lat="60.1717400" lon="24.9398900"/>
+  <node id="1762" version="1" lat="60.1717400" lon="24.9402300"/>
+  <node id="1763" version="1" lat="60.1719100" lon="24.9402300"/>
+  <node id="1764" version="1" lat="60.1719100" lon="24.9398900"/>
+  <way id="5095" version="1">
+    <nd ref="1761"/>
+    <nd ref="1762"/>
+    <nd ref="1763"/>
+    <nd ref="1764"/>
+    <nd ref="1761"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Runeberginkatu 6"/>
+  </way>
+  <node id="1765" version="1" lat="60.1717400" lon="24.9412900"/>
+  <node id="1766" version="1" lat="60.1717400" lon="24.9416300"/>
+  <node id="1767" version="1" lat="60.1719100" lon="24.9416300"/>
+  <node id="1768" version="1" lat="60.1719100" lon="24.9412900"/>
+  <way id="5096" version="1">
+    <nd ref="1765"/>
+    <nd ref="1766"/>
+    <nd ref="1767"/>
+    <nd ref="1768"/>
+    <nd ref="1765"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Runeberginkatu 6"/>
+  </way>
+  <node id="1769" version="1" lat="60.1717400" lon="24.9426900"/>
+  <node id="1770" version="1" lat="60.1717400" lon="24.9430300"/>
+  <node id="1771" version="1" lat="60.1719100" lon="24.9430300"/>
+  <node id="1772" version="1" lat="60.1719100" lon="24.9426900"/>
+  <way id="5097" version="1">
+    <nd ref="1769"/>
+    <nd ref="1770"/>
+    <nd ref="1771"/>
+    <nd ref="1772"/>
+    <nd ref="1769"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Runeberginkatu 6"/>
+  </way>
+  <node id="1773" version="1" lat="60.1717400" lon="24.9440900"/>
+  <node id="1774" version="1" lat="60.1717400" lon="24.9444300"/>
+  <node id="1775" version="1" lat="60.1719100" lon="24.9444300"/>
+  <node id="1776" version="1" lat="60.1719100" lon="24.9440900"/>
+  <way id="5098" version="1">
+    <nd ref="1773"/>
+    <nd ref="1774"/>
+    <nd ref="1775"/>
+    <nd ref="1776"/>
+    <nd ref="1773"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Runeberginkatu 6"/>
+  </way>
+  <node id="1777" version="1" lat="60.1717400" lon="24.9454900"/>
+  <node id="1778" version="1" lat="60.1717400" lon="24.9458300"/>
+  <node id="1779" version="1" lat="60.1719100" lon="24.9458300"/>
+  <node id="1780" version="1" lat="60.1719100" lon="24.9454900"/>
+  <way id="5099" version="1">
+    <nd ref="1777"/>
+    <nd ref="1778"/>
+    <nd ref="1779"/>
+    <nd ref="1780"/>
+    <nd ref="1777"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Runeberginkatu 6"/>
+  </way>
+  <node id="1781" version="1" lat="60.1717400" lon="24.9468900"/>
+  <node id="1782" version="1" lat="60.1717400" lon="24.9472300"/>
+  <node id="1783" version="1" lat="60.1719100" lon="24.9472300"/>
+  <node id="1784" version="1" lat="60.1719100" lon="24.9468900"/>
+  <way id="5100" version="1">
+    <nd ref="1781"/>
+    <nd ref="1782"/>
+    <nd ref="1783"/>
+    <nd ref="1784"/>
+    <nd ref="1781"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Runeberginkatu 6"/>
+  </way>
+  <node id="1785" version="1" lat="60.1717400" lon="24.9482900"/>
+  <node id="1786" version="1" lat="60.1717400" lon="24.9486300"/>
+  <node id="1787" version="1" lat="60.1719100" lon="24.9486300"/>
+  <node id="1788" version="1" lat="60.1719100" lon="24.9482900"/>
+  <way id="5101" version="1">
+    <nd ref="1785"/>
+    <nd ref="1786"/>
+    <nd ref="1787"/>
+    <nd ref="1788"/>
+    <nd ref="1785"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Runeberginkatu 6"/>
+  </way>
+  <node id="1789" version="1" lat="60.1717400" lon="24.9496900"/>
+  <node id="1790" version="1" lat="60.1717400" lon="24.9500300"/>
+  <node id="1791" version="1" lat="60.1719100" lon="24.9500300"/>
+  <node id="1792" version="1" lat="60.1719100" lon="24.9496900"/>
+  <way id="5102" version="1">
+    <nd ref="1789"/>
+    <nd ref="1790"/>
+    <nd ref="1791"/>
+    <nd ref="1792"/>
+    <nd ref="1789"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Runeberginkatu 6"/>
+  </way>
+  <node id="1793" version="1" lat="60.1720900" lon="24.9384900"/>
+  <node id="1794" version="1" lat="60.1720900" lon="24.9388300"/>
+  <node id="1795" version="1" lat="60.1722600" lon="24.9388300"/>
+  <node id="1796" version="1" lat="60.1722600" lon="24.9384900"/>
+  <way id="5103" version="1">
+    <nd ref="1793"/>
+    <nd ref="1794"/>
+    <nd ref="1795"/>
+    <nd ref="1796"/>
+    <nd ref="1793"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Hämeentie 7"/>
+  </way>
+  <node id="1797" version="1" lat="60.1720900" lon="24.9398900"/>
+  <node id="1798" version="1" lat="60.1720900" lon="24.9402300"/>
+  <node id="1799" version="1" lat="60.1722600" lon="24.9402300"/>
+  <node id="1800" version="1" lat="60.1722600" lon="24.9398900"/>
+  <way id="5104" version="1">
+    <nd ref="1797"/>
+    <nd ref="1798"/>
+    <nd ref="1799"/>
+    <nd ref="1800"/>
+    <nd ref="1797"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Hämeentie 7"/>
+  </way>
+  <node id="1801" version="1" lat="60.1720900" lon="24.9412900"/>
+  <node id="1802" version="1" lat="60.1720900" lon="24.9416300"/>
+  <node id="1803" version="1" lat="60.1722600" lon="24.9416300"/>
+  <node id="1804" version="1" lat="60.1722600" lon="24.9412900"/>
+  <way id="5105" version="1">
+    <nd ref="1801"/>
+    <nd ref="1802"/>
+    <nd ref="1803"/>
+    <nd ref="1804"/>
+    <nd ref="1801"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Hämeentie 7"/>
+  </way>
+  <node id="1805" version="1" lat="60.1720900" lon="24.9426900"/>
+  <node id="1806" version="1" lat="60.1720900" lon="24.9430300"/>
+  <node id="1807" version="1" lat="60.1722600" lon="24.9430300"/>
+  <node id="1808" version="1" lat="60.1722600" lon="24.9426900"/>
+  <way id="5106" version="1">
+    <nd ref="1805"/>
+    <nd ref="1806"/>
+    <nd ref="1807"/>
+    <nd ref="1808"/>
+    <nd ref="1805"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Hämeentie 7"/>
+  </way>
+  <node id="1809" version="1" lat="60.1720900" lon="24.9440900"/>
+  <node id="1810" version="1" lat="60.1720900" lon="24.9444300"/>
+  <node id="1811" version="1" lat="60.1722600" lon="24.9444300"/>
+  <node id="1812" version="1" lat="60.1722600" lon="24.9440900"/>
+  <way id="5107" version="1">
+    <nd ref="1809"/>
+    <nd ref="1810"/>
+    <nd ref="1811"/>
+    <nd ref="1812"/>
+    <nd ref="1809"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Hämeentie 7"/>
+  </way>
+  <node id="1813" version="1" lat="60.1720900" lon="24.9454900"/>
+  <node id="1814" version="1" lat="60.1720900" lon="24.9458300"/>
+  <node id="1815" version="1" lat="60.1722600" lon="24.9458300"/>
+  <node id="1816" version="1" lat="60.1722600" lon="24.9454900"/>
+  <way id="5108" version="1">
+    <nd ref="1813"/>
+    <nd ref="1814"/>
+    <nd ref="1815"/>
+    <nd ref="1816"/>
+    <nd ref="1813"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Hämeentie 7"/>
+  </way>
+  <node id="1817" version="1" lat="60.1720900" lon="24.9468900"/>
+  <node id="1818" version="1" lat="60.1720900" lon="24.9472300"/>
+  <node id="1819" version="1" lat="60.1722600" lon="24.9472300"/>
+  <node id="1820" version="1" lat="60.1722600" lon="24.9468900"/>
+  <way id="5109" version="1">
+    <nd ref="1817"/>
+    <nd ref="1818"/>
+    <nd ref="1819"/>
+    <nd ref="1820"/>
+    <nd ref="1817"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Hämeentie 7"/>
+  </way>
+  <node id="1821" version="1" lat="60.1720900" lon="24.9482900"/>
+  <node id="1822" version="1" lat="60.1720900" lon="24.9486300"/>
+  <node id="1823" version="1" lat="60.1722600" lon="24.9486300"/>
+  <node id="1824" version="1" lat="60.1722600" lon="24.9482900"/>
+  <way id="5110" version="1">
+    <nd ref="1821"/>
+    <nd ref="1822"/>
+    <nd ref="1823"/>
+    <nd ref="1824"/>
+    <nd ref="1821"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Hämeentie 7"/>
+  </way>
+  <node id="1825" version="1" lat="60.1720900" lon="24.9496900"/>
+  <node id="1826" version="1" lat="60.1720900" lon="24.9500300"/>
+  <node id="1827" version="1" lat="60.1722600" lon="24.9500300"/>
+  <node id="1828" version="1" lat="60.1722600" lon="24.9496900"/>
+  <way id="5111" version="1">
+    <nd ref="1825"/>
+    <nd ref="1826"/>
+    <nd ref="1827"/>
+    <nd ref="1828"/>
+    <nd ref="1825"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Hämeentie 7"/>
+  </way>
+  <node id="1829" version="1" lat="60.1724400" lon="24.9384900"/>
+  <node id="1830" version="1" lat="60.1724400" lon="24.9388300"/>
+  <node id="1831" version="1" lat="60.1726100" lon="24.9388300"/>
+  <node id="1832" version="1" lat="60.1726100" lon="24.9384900"/>
+  <way id="5112" version="1">
+    <nd ref="1829"/>
+    <nd ref="1830"/>
+    <nd ref="1831"/>
+    <nd ref="1832"/>
+    <nd ref="1829"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Sturenkatu 8"/>
+  </way>
+  <node id="1833" version="1" lat="60.1724400" lon="24.9398900"/>
+  <node id="1834" version="1" lat="60.1724400" lon="24.9402300"/>
+  <node id="1835" version="1" lat="60.1726100" lon="24.9402300"/>
+  <node id="1836" version="1" lat="60.1726100" lon="24.9398900"/>
+  <way id="5113" version="1">
+    <nd ref="1833"/>
+    <nd ref="1834"/>
+    <nd ref="1835"/>
+    <nd ref="1836"/>
+    <nd ref="1833"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Sturenkatu 8"/>
+  </way>
+  <node id="1837" version="1" lat="60.1724400" lon="24.9412900"/>
+  <node id="1838" version="1" lat="60.1724400" lon="24.9416300"/>
+  <node id="1839" version="1" lat="60.1726100" lon="24.9416300"/>
+  <node id="1840" version="1" lat="60.1726100" lon="24.9412900"/>
+  <way id="5114" version="1">
+    <nd ref="1837"/>
+    <nd ref="1838"/>
+    <nd ref="1839"/>
+    <nd ref="1840"/>
+    <nd ref="1837"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Sturenkatu 8"/>
+  </way>
+  <node id="1841" version="1" lat="60.1724400" lon="24.9426900"/>
+  <node id="1842" version="1" lat="60.1724400" lon="24.9430300"/>
+  <node id="1843" version="1" lat="60.1726100" lon="24.9430300"/>
+  <node id="1844" version="1" lat="60.1726100" lon="24.9426900"/>
+  <way id="5115" version="1">
+    <nd ref="1841"/>
+    <nd ref="1842"/>
+    <nd ref="1843"/>
+    <nd ref="1844"/>
+    <nd ref="1841"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Sturenkatu 8"/>
+  </way>
+  <node id="1845" version="1" lat="60.1724400" lon="24.9440900"/>
+  <node id="1846" version="1" lat="60.1724400" lon="24.9444300"/>
+  <node id="1847" version="1" lat="60.1726100" lon="24.9444300"/>
+  <node id="1848" version="1" lat="60.1726100" lon="24.9440900"/>
+  <way id="5116" version="1">
+    <nd ref="1845"/>
+    <nd ref="1846"/>
+    <nd ref="1847"/>
+    <nd ref="1848"/>
+    <nd ref="1845"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Sturenkatu 8"/>
+  </way>
+  <node id="1849" version="1" lat="60.1724400" lon="24.9454900"/>
+  <node id="1850" version="1" lat="60.1724400" lon="24.9458300"/>
+  <node id="1851" version="1" lat="60.1726100" lon="24.9458300"/>
+  <node id="1852" version="1" lat="60.1726100" lon="24.9454900"/>
+  <way id="5117" version="1">
+    <nd ref="1849"/>
+    <nd ref="1850"/>
+    <nd ref="1851"/>
+    <nd ref="1852"/>
+    <nd ref="1849"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Sturenkatu 8"/>
+  </way>
+  <node id="1853" version="1" lat="60.1724400" lon="24.9468900"/>
+  <node id="1854" version="1" lat="60.1724400" lon="24.9472300"/>
+  <node id="1855" version="1" lat="60.1726100" lon="24.9472300"/>
+  <node id="1856" version="1" lat="60.1726100" lon="24.9468900"/>
+  <way id="5118" version="1">
+    <nd ref="1853"/>
+    <nd ref="1854"/>
+    <nd ref="1855"/>
+    <nd ref="1856"/>
+    <nd ref="1853"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Sturenkatu 8"/>
+  </way>
+  <node id="1857" version="1" lat="60.1724400" lon="24.9482900"/>
+  <node id="1858" version="1" lat="60.1724400" lon="24.9486300"/>
+  <node id="1859" version="1" lat="60.1726100" lon="24.9486300"/>
+  <node id="1860" version="1" lat="60.1726100" lon="24.9482900"/>
+  <way id="5119" version="1">
+    <nd ref="1857"/>
+    <nd ref="1858"/>
+    <nd ref="1859"/>
+    <nd ref="1860"/>
+    <nd ref="1857"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Sturenkatu 8"/>
+  </way>
+  <node id="1861" version="1" lat="60.1724400" lon="24.9496900"/>
+  <node id="1862" version="1" lat="60.1724400" lon="24.9500300"/>
+  <node id="1863" version="1" lat="60.1726100" lon="24.9500300"/>
+  <node id="1864" version="1" lat="60.1726100" lon="24.9496900"/>
+  <way id="5120" version="1">
+    <nd ref="1861"/>
+    <nd ref="1862"/>
+    <nd ref="1863"/>
+    <nd ref="1864"/>
+    <nd ref="1861"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Sturenkatu 8"/>
+  </way>
+  <node id="1865" version="1" lat="60.1727900" lon="24.9384900"/>
+  <node id="1866" version="1" lat="60.1727900" lon="24.9388300"/>
+  <node id="1867" version="1" lat="60.1729600" lon="24.9388300"/>
+  <node id="1868" version="1" lat="60.1729600" lon="24.9384900"/>
+  <way id="5121" version="1">
+    <nd ref="1865"/>
+    <nd ref="1866"/>
+    <nd ref="1867"/>
+    <nd ref="1868"/>
+    <nd ref="1865"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Topeliuksenkatu 9"/>
+  </way>
+  <node id="1869" version="1" lat="60.1727900" lon="24.9398900"/>
+  <node id="1870" version="1" lat="60.1727900" lon="24.9402300"/>
+  <node id="1871" version="1" lat="60.1729600" lon="24.9402300"/>
+  <node id="1872" version="1" lat="60.1729600" lon="24.9398900"/>
+  <way id="5122" version="1">
+    <nd ref="1869"/>
+    <nd ref="1870"/>
+    <nd ref="1871"/>
+    <nd ref="1872"/>
+    <nd ref="1869"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Topeliuksenkatu 9"/>
+  </way>
+  <node id="1873" version="1" lat="60.1727900" lon="24.9412900"/>
+  <node id="1874" version="1" lat="60.1727900" lon="24.9416300"/>
+  <node id="1875" version="1" lat="60.1729600" lon="24.9416300"/>
+  <node id="1876" version="1" lat="60.1729600" lon="24.9412900"/>
+  <way id="5123" version="1">
+    <nd ref="1873"/>
+    <nd ref="1874"/>
+    <nd ref="1875"/>
+    <nd ref="1876"/>
+    <nd ref="1873"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Topeliuksenkatu 9"/>
+  </way>
+  <node id="1877" version="1" lat="60.1727900" lon="24.9426900"/>
+  <node id="1878" version="1" lat="60.1727900" lon="24.9430300"/>
+  <node id="1879" version="1" lat="60.1729600" lon="24.9430300"/>
+  <node id="1880" version="1" lat="60.1729600" lon="24.9426900"/>
+  <way id="5124" version="1">
+    <nd ref="1877"/>
+    <nd ref="1878"/>
+    <nd ref="1879"/>
+    <nd ref="1880"/>
+    <nd ref="1877"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Topeliuksenkatu 9"/>
+  </way>
+  <node id="1881" version="1" lat="60.1727900" lon="24.9440900"/>
+  <node id="1882" version="1" lat="60.1727900" lon="24.9444300"/>
+  <node id="1883" version="1" lat="60.1729600" lon="24.9444300"/>
+  <node id="1884" version="1" lat="60.1729600" lon="24.9440900"/>
+  <way id="5125" version="1">
+    <nd ref="1881"/>
+    <nd ref="1882"/>
+    <nd ref="1883"/>
+    <nd ref="1884"/>
+    <nd ref="1881"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Topeliuksenkatu 9"/>
+  </way>
+  <node id="1885" version="1" lat="60.1727900" lon="24.9454900"/>
+  <node id="1886" version="1" lat="60.1727900" lon="24.9458300"/>
+  <node id="1887" version="1" lat="60.1729600" lon="24.9458300"/>
+  <node id="1888" version="1" lat="60.1729600" lon="24.9454900"/>
+  <way id="5126" version="1">
+    <nd ref="1885"/>
+    <nd ref="1886"/>
+    <nd ref="1887"/>
+    <nd ref="1888"/>
+    <nd ref="1885"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Topeliuksenkatu 9"/>
+  </way>
+  <node id="1889" version="1" lat="60.1727900" lon="24.9468900"/>
+  <node id="1890" version="1" lat="60.1727900" lon="24.9472300"/>
+  <node id="1891" version="1" lat="60.1729600" lon="24.9472300"/>
+  <node id="1892" version="1" lat="60.1729600" lon="24.9468900"/>
+  <way id="5127" version="1">
+    <nd ref="1889"/>
+    <nd ref="1890"/>
+    <nd ref="1891"/>
+    <nd ref="1892"/>
+    <nd ref="1889"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Topeliuksenkatu 9"/>
+  </way>
+  <node id="1893" version="1" lat="60.1727900" lon="24.9482900"/>
+  <node id="1894" version="1" lat="60.1727900" lon="24.9486300"/>
+  <node id="1895" version="1" lat="60.1729600" lon="24.9486300"/>
+  <node id="1896" version="1" lat="60.1729600" lon="24.9482900"/>
+  <way id="5128" version="1">
+    <nd ref="1893"/>
+    <nd ref="1894"/>
+    <nd ref="1895"/>
+    <nd ref="1896"/>
+    <nd ref="1893"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Topeliuksenkatu 9"/>
+  </way>
+  <node id="1897" version="1" lat="60.1727900" lon="24.9496900"/>
+  <node id="1898" version="1" lat="60.1727900" lon="24.9500300"/>
+  <node id="1899" version="1" lat="60.1729600" lon="24.9500300"/>
+  <node id="1900" version="1" lat="60.1729600" lon="24.9496900"/>
+  <way id="5129" version="1">
+    <nd ref="1897"/>
+    <nd ref="1898"/>
+    <nd ref="1899"/>
+    <nd ref="1900"/>
+    <nd ref="1897"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Topeliuksenkatu 9"/>
+  </way>
+  <node id="1901" version="1" lat="60.1731400" lon="24.9384900"/>
+  <node id="1902" version="1" lat="60.1731400" lon="24.9388300"/>
+  <node id="1903" version="1" lat="60.1733100" lon="24.9388300"/>
+  <node id="1904" version="1" lat="60.1733100" lon="24.9384900"/>
+  <way id="5130" version="1">
+    <nd ref="1901"/>
+    <nd ref="1902"/>
+    <nd ref="1903"/>
+    <nd ref="1904"/>
+    <nd ref="1901"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Mechelininkatu 10"/>
+  </way>
+  <node id="1905" version="1" lat="60.1731400" lon="24.9398900"/>
+  <node id="1906" version="1" lat="60.1731400" lon="24.9402300"/>
+  <node id="1907" version="1" lat="60.1733100" lon="24.9402300"/>
+  <node id="1908" version="1" lat="60.1733100" lon="24.9398900"/>
+  <way id="5131" version="1">
+    <nd ref="1905"/>
+    <nd ref="1906"/>
+    <nd ref="1907"/>
+    <nd ref="1908"/>
+    <nd ref="1905"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Mechelininkatu 10"/>
+  </way>
+  <node id="1909" version="1" lat="60.1731400" lon="24.9412900"/>
+  <node id="1910" version="1" lat="60.1731400" lon="24.9416300"/>
+  <node id="1911" version="1" lat="60.1733100" lon="24.9416300"/>
+  <node id="1912" version="1" lat="60.1733100" lon="24.9412900"/>
+  <way id="5132" version="1">
+    <nd ref="1909"/>
+    <nd ref="1910"/>
+    <nd ref="1911"/>
+    <nd ref="1912"/>
+    <nd ref="1909"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Mechelininkatu 10"/>
+  </way>
+  <node id="1913" version="1" lat="60.1731400" lon="24.9426900"/>
+  <node id="1914" version="1" lat="60.1731400" lon="24.9430300"/>
+  <node id="1915" version="1" lat="60.1733100" lon="24.9430300"/>
+  <node id="1916" version="1" lat="60.1733100" lon="24.9426900"/>
+  <way id="5133" version="1">
+    <nd ref="1913"/>
+    <nd ref="1914"/>
+    <nd ref="1915"/>
+    <nd ref="1916"/>
+    <nd ref="1913"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Mechelininkatu 10"/>
+  </way>
+  <node id="1917" version="1" lat="60.1731400" lon="24.9440900"/>
+  <node id="1918" version="1" lat="60.1731400" lon="24.9444300"/>
+  <node id="1919" version="1" lat="60.1733100" lon="24.9444300"/>
+  <node id="1920" version="1" lat="60.1733100" lon="24.9440900"/>
+  <way id="5134" version="1">
+    <nd ref="1917"/>
+    <nd ref="1918"/>
+    <nd ref="1919"/>
+    <nd ref="1920"/>
+    <nd ref="1917"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Mechelininkatu 10"/>
+  </way>
+  <node id="1921" version="1" lat="60.1731400" lon="24.9454900"/>
+  <node id="1922" version="1" lat="60.1731400" lon="24.9458300"/>
+  <node id="1923" version="1" lat="60.1733100" lon="24.9458300"/>
+  <node id="1924" version="1" lat="60.1733100" lon="24.9454900"/>
+  <way id="5135" version="1">
+    <nd ref="1921"/>
+    <nd ref="1922"/>
+    <nd ref="1923"/>
+    <nd ref="1924"/>
+    <nd ref="1921"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Mechelininkatu 10"/>
+  </way>
+  <node id="1925" version="1" lat="60.1731400" lon="24.9468900"/>
+  <node id="1926" version="1" lat="60.1731400" lon="24.9472300"/>
+  <node id="1927" version="1" lat="60.1733100" lon="24.9472300"/>
+  <node id="1928" version="1" lat="60.1733100" lon="24.9468900"/>
+  <way id="5136" version="1">
+    <nd ref="1925"/>
+    <nd ref="1926"/>
+    <nd ref="1927"/>
+    <nd ref="1928"/>
+    <nd ref="1925"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Mechelininkatu 10"/>
+  </way>
+  <node id="1929" version="1" lat="60.1731400" lon="24.9482900"/>
+  <node id="1930" version="1" lat="60.1731400" lon="24.9486300"/>
+  <node id="1931" version="1" lat="60.1733100" lon="24.9486300"/>
+  <node id="1932" version="1" lat="60.1733100" lon="24.9482900"/>
+  <way id="5137" version="1">
+    <nd ref="1929"/>
+    <nd ref="1930"/>
+    <nd ref="1931"/>
+    <nd ref="1932"/>
+    <nd ref="1929"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Mechelininkatu 10"/>
+  </way>
+  <node id="1933" version="1" lat="60.1731400" lon="24.9496900"/>
+  <node id="1934" version="1" lat="60.1731400" lon="24.9500300"/>
+  <node id="1935" version="1" lat="60.1733100" lon="24.9500300"/>
+  <node id="1936" version="1" lat="60.1733100" lon="24.9496900"/>
+  <way id="5138" version="1">
+    <nd ref="1933"/>
+    <nd ref="1934"/>
+    <nd ref="1935"/>
+    <nd ref="1936"/>
+    <nd ref="1933"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Mechelininkatu 10"/>
+  </way>
+  <node id="1937" version="1" lat="60.1734900" lon="24.9384900"/>
+  <node id="1938" version="1" lat="60.1734900" lon="24.9388300"/>
+  <node id="1939" version="1" lat="60.1736600" lon="24.9388300"/>
+  <node id="1940" version="1" lat="60.1736600" lon="24.9384900"/>
+  <way id="5139" version="1">
+    <nd ref="1937"/>
+    <nd ref="1938"/>
+    <nd ref="1939"/>
+    <nd ref="1940"/>
+    <nd ref="1937"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 11"/>
+  </way>
+  <node id="1941" version="1" lat="60.1734900" lon="24.9398900"/>
+  <node id="1942" version="1" lat="60.1734900" lon="24.9402300"/>
+  <node id="1943" version="1" lat="60.1736600" lon="24.9402300"/>
+  <node id="1944" version="1" lat="60.1736600" lon="24.9398900"/>
+  <way id="5140" version="1">
+    <nd ref="1941"/>
+    <nd ref="1942"/>
+    <nd ref="1943"/>
+    <nd ref="1944"/>
+    <nd ref="1941"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 11"/>
+  </way>
+  <node id="1945" version="1" lat="60.1734900" lon="24.9412900"/>
+  <node id="1946" version="1" lat="60.1734900" lon="24.9416300"/>
+  <node id="1947" version="1" lat="60.1736600" lon="24.9416300"/>
+  <node id="1948" version="1" lat="60.1736600" lon="24.9412900"/>
+  <way id="5141" version="1">
+    <nd ref="1945"/>
+    <nd ref="1946"/>
+    <nd ref="1947"/>
+    <nd ref="1948"/>
+    <nd ref="1945"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 11"/>
+  </way>
+  <node id="1949" version="1" lat="60.1734900" lon="24.9426900"/>
+  <node id="1950" version="1" lat="60.1734900" lon="24.9430300"/>
+  <node id="1951" version="1" lat="60.1736600" lon="24.9430300"/>
+  <node id="1952" version="1" lat="60.1736600" lon="24.9426900"/>
+  <way id="5142" version="1">
+    <nd ref="1949"/>
+    <nd ref="1950"/>
+    <nd ref="1951"/>
+    <nd ref="1952"/>
+    <nd ref="1949"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 11"/>
+  </way>
+  <node id="1953" version="1" lat="60.1734900" lon="24.9440900"/>
+  <node id="1954" version="1" lat="60.1734900" lon="24.9444300"/>
+  <node id="1955" version="1" lat="60.1736600" lon="24.9444300"/>
+  <node id="1956" version="1" lat="60.1736600" lon="24.9440900"/>
+  <way id="5143" version="1">
+    <nd ref="1953"/>
+    <nd ref="1954"/>
+    <nd ref="1955"/>
+    <nd ref="1956"/>
+    <nd ref="1953"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 11"/>
+  </way>
+  <node id="1957" version="1" lat="60.1734900" lon="24.9454900"/>
+  <node id="1958" version="1" lat="60.1734900" lon="24.9458300"/>
+  <node id="1959" version="1" lat="60.1736600" lon="24.9458300"/>
+  <node id="1960" version="1" lat="60.1736600" lon="24.9454900"/>
+  <way id="5144" version="1">
+    <nd ref="1957"/>
+    <nd ref="1958"/>
+    <nd ref="1959"/>
+    <nd ref="1960"/>
+    <nd ref="1957"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 11"/>
+  </way>
+  <node id="1961" version="1" lat="60.1734900" lon="24.9468900"/>
+  <node id="1962" version="1" lat="60.1734900" lon="24.9472300"/>
+  <node id="1963" version="1" lat="60.1736600" lon="24.9472300"/>
+  <node id="1964" version="1" lat="60.1736600" lon="24.9468900"/>
+  <way id="5145" version="1">
+    <nd ref="1961"/>
+    <nd ref="1962"/>
+    <nd ref="1963"/>
+    <nd ref="1964"/>
+    <nd ref="1961"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 11"/>
+  </way>
+  <node id="1965" version="1" lat="60.1734900" lon="24.9482900"/>
+  <node id="1966" version="1" lat="60.1734900" lon="24.9486300"/>
+  <node id="1967" version="1" lat="60.1736600" lon="24.9486300"/>
+  <node id="1968" version="1" lat="60.1736600" lon="24.9482900"/>
+  <way id="5146" version="1">
+    <nd ref="1965"/>
+    <nd ref="1966"/>
+    <nd ref="1967"/>
+    <nd ref="1968"/>
+    <nd ref="1965"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 11"/>
+  </way>
+  <node id="1969" version="1" lat="60.1734900" lon="24.9496900"/>
+  <node id="1970" version="1" lat="60.1734900" lon="24.9500300"/>
+  <node id="1971" version="1" lat="60.1736600" lon="24.9500300"/>
+  <node id="1972" version="1" lat="60.1736600" lon="24.9496900"/>
+  <way id="5147" version="1">
+    <nd ref="1969"/>
+    <nd ref="1970"/>
+    <nd ref="1971"/>
+    <nd ref="1972"/>
+    <nd ref="1969"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 11"/>
+  </way>
+  <node id="1973" version="1" lat="60.1738400" lon="24.9384900"/>
+  <node id="1974" version="1" lat="60.1738400" lon="24.9388300"/>
+  <node id="1975" version="1" lat="60.1740100" lon="24.9388300"/>
+  <node id="1976" version="1" lat="60.1740100" lon="24.9384900"/>
+  <way id="5148" version="1">
+    <nd ref="1973"/>
+    <nd ref="1974"/>
+    <nd ref="1975"/>
+    <nd ref="1976"/>
+    <nd ref="1973"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Unioninkatu 12"/>
+  </way>
+  <node id="1977" version="1" lat="60.1738400" lon="24.9398900"/>
+  <node id="1978" version="1" lat="60.1738400" lon="24.9402300"/>
+  <node id="1979" version="1" lat="60.1740100" lon="24.9402300"/>
+  <node id="1980" version="1" lat="60.1740100" lon="24.9398900"/>
+  <way id="5149" version="1">
+    <nd ref="1977"/>
+    <nd ref="1978"/>
+    <nd ref="1979"/>
+    <nd ref="1980"/>
+    <nd ref="1977"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Unioninkatu 12"/>
+  </way>
+  <node id="1981" version="1" lat="60.1738400" lon="24.9412900"/>
+  <node id="1982" version="1" lat="60.1738400" lon="24.9416300"/>
+  <node id="1983" version="1" lat="60.1740100" lon="24.9416300"/>
+  <node id="1984" version="1" lat="60.1740100" lon="24.9412900"/>
+  <way id="5150" version="1">
+    <nd ref="1981"/>
+    <nd ref="1982"/>
+    <nd ref="1983"/>
+    <nd ref="1984"/>
+    <nd ref="1981"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Unioninkatu 12"/>
+  </way>
+  <node id="1985" version="1" lat="60.1738400" lon="24.9426900"/>
+  <node id="1986" version="1" lat="60.1738400" lon="24.9430300"/>
+  <node id="1987" version="1" lat="60.1740100" lon="24.9430300"/>
+  <node id="1988" version="1" lat="60.1740100" lon="24.9426900"/>
+  <way id="5151" version="1">
+    <nd ref="1985"/>
+    <nd ref="1986"/>
+    <nd ref="1987"/>
+    <nd ref="1988"/>
+    <nd ref="1985"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Unioninkatu 12"/>
+  </way>
+  <node id="1989" version="1" lat="60.1738400" lon="24.9440900"/>
+  <node id="1990" version="1" lat="60.1738400" lon="24.9444300"/>
+  <node id="1991" version="1" lat="60.1740100" lon="24.9444300"/>
+  <node id="1992" version="1" lat="60.1740100" lon="24.9440900"/>
+  <way id="5152" version="1">
+    <nd ref="1989"/>
+    <nd ref="1990"/>
+    <nd ref="1991"/>
+    <nd ref="1992"/>
+    <nd ref="1989"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Unioninkatu 12"/>
+  </way>
+  <node id="1993" version="1" lat="60.1738400" lon="24.9454900"/>
+  <node id="1994" version="1" lat="60.1738400" lon="24.9458300"/>
+  <node id="1995" version="1" lat="60.1740100" lon="24.9458300"/>
+  <node id="1996" version="1" lat="60.1740100" lon="24.9454900"/>
+  <way id="5153" version="1">
+    <nd ref="1993"/>
+    <nd ref="1994"/>
+    <nd ref="1995"/>
+    <nd ref="1996"/>
+    <nd ref="1993"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Unioninkatu 12"/>
+  </way>
+  <node id="1997" version="1" lat="60.1738400" lon="24.9468900"/>
+  <node id="1998" version="1" lat="60.1738400" lon="24.9472300"/>
+  <node id="1999" version="1" lat="60.1740100" lon="24.9472300"/>
+  <node id="2000" version="1" lat="60.1740100" lon="24.9468900"/>
+  <way id="5154" version="1">
+    <nd ref="1997"/>
+    <nd ref="1998"/>
+    <nd ref="1999"/>
+    <nd ref="2000"/>
+    <nd ref="1997"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Unioninkatu 12"/>
+  </way>
+  <node id="2001" version="1" lat="60.1738400" lon="24.9482900"/>
+  <node id="2002" version="1" lat="60.1738400" lon="24.9486300"/>
+  <node id="2003" version="1" lat="60.1740100" lon="24.9486300"/>
+  <node id="2004" version="1" lat="60.1740100" lon="24.9482900"/>
+  <way id="5155" version="1">
+    <nd ref="2001"/>
+    <nd ref="2002"/>
+    <nd ref="2003"/>
+    <nd ref="2004"/>
+    <nd ref="2001"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Unioninkatu 12"/>
+  </way>
+  <node id="2005" version="1" lat="60.1738400" lon="24.9496900"/>
+  <node id="2006" version="1" lat="60.1738400" lon="24.9500300"/>
+  <node id="2007" version="1" lat="60.1740100" lon="24.9500300"/>
+  <node id="2008" version="1" lat="60.1740100" lon="24.9496900"/>
+  <way id="5156" version="1">
+    <nd ref="2005"/>
+    <nd ref="2006"/>
+    <nd ref="2007"/>
+    <nd ref="2008"/>
+    <nd ref="2005"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Unioninkatu 12"/>
+  </way>
+  <node id="2009" version="1" lat="60.1741900" lon="24.9384900"/>
+  <node id="2010" version="1" lat="60.1741900" lon="24.9388300"/>
+  <node id="2011" version="1" lat="60.1743600" lon="24.9388300"/>
+  <node id="2012" version="1" lat="60.1743600" lon="24.9384900"/>
+  <way id="5157" version="1">
+    <nd ref="2009"/>
+    <nd ref="2010"/>
+    <nd ref="2011"/>
+    <nd ref="2012"/>
+    <nd ref="2009"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Aleksanterinkatu 13"/>
+  </way>
+  <node id="2013" version="1" lat="60.1741900" lon="24.9398900"/>
+  <node id="2014" version="1" lat="60.1741900" lon="24.9402300"/>
+  <node id="2015" version="1" lat="60.1743600" lon="24.9402300"/>
+  <node id="2016" version="1" lat="60.1743600" lon="24.9398900"/>
+  <way id="5158" version="1">
+    <nd ref="2013"/>
+    <nd ref="2014"/>
+    <nd ref="2015"/>
+    <nd ref="2016"/>
+    <nd ref="2013"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Aleksanterinkatu 13"/>
+  </way>
+  <node id="2017" version="1" lat="60.1741900" lon="24.9412900"/>
+  <node id="2018" version="1" lat="60.1741900" lon="24.9416300"/>
+  <node id="2019" version="1" lat="60.1743600" lon="24.9416300"/>
+  <node id="2020" version="1" lat="60.1743600" lon="24.9412900"/>
+  <way id="5159" version="1">
+    <nd ref="2017"/>
+    <nd ref="2018"/>
+    <nd ref="2019"/>
+    <nd ref="2020"/>
+    <nd ref="2017"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Aleksanterinkatu 13"/>
+  </way>
+  <node id="2021" version="1" lat="60.1741900" lon="24.9426900"/>
+  <node id="2022" version="1" lat="60.1741900" lon="24.9430300"/>
+  <node id="2023" version="1" lat="60.1743600" lon="24.9430300"/>
+  <node id="2024" version="1" lat="60.1743600" lon="24.9426900"/>
+  <way id="5160" version="1">
+    <nd ref="2021"/>
+    <nd ref="2022"/>
+    <nd ref="2023"/>
+    <nd ref="2024"/>
+    <nd ref="2021"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Aleksanterinkatu 13"/>
+  </way>
+  <node id="2025" version="1" lat="60.1741900" lon="24.9440900"/>
+  <node id="2026" version="1" lat="60.1741900" lon="24.9444300"/>
+  <node id="2027" version="1" lat="60.1743600" lon="24.9444300"/>
+  <node id="2028" version="1" lat="60.1743600" lon="24.9440900"/>
+  <way id="5161" version="1">
+    <nd ref="2025"/>
+    <nd ref="2026"/>
+    <nd ref="2027"/>
+    <nd ref="2028"/>
+    <nd ref="2025"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Aleksanterinkatu 13"/>
+  </way>
+  <node id="2029" version="1" lat="60.1741900" lon="24.9454900"/>
+  <node id="2030" version="1" lat="60.1741900" lon="24.9458300"/>
+  <node id="2031" version="1" lat="60.1743600" lon="24.9458300"/>
+  <node id="2032" version="1" lat="60.1743600" lon="24.9454900"/>
+  <way id="5162" version="1">
+    <nd ref="2029"/>
+    <nd ref="2030"/>
+    <nd ref="2031"/>
+    <nd ref="2032"/>
+    <nd ref="2029"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Aleksanterinkatu 13"/>
+  </way>
+  <node id="2033" version="1" lat="60.1741900" lon="24.9468900"/>
+  <node id="2034" version="1" lat="60.1741900" lon="24.9472300"/>
+  <node id="2035" version="1" lat="60.1743600" lon="24.9472300"/>
+  <node id="2036" version="1" lat="60.1743600" lon="24.9468900"/>
+  <way id="5163" version="1">
+    <nd ref="2033"/>
+    <nd ref="2034"/>
+    <nd ref="2035"/>
+    <nd ref="2036"/>
+    <nd ref="2033"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Aleksanterinkatu 13"/>
+  </way>
+  <node id="2037" version="1" lat="60.1741900" lon="24.9482900"/>
+  <node id="2038" version="1" lat="60.1741900" lon="24.9486300"/>
+  <node id="2039" version="1" lat="60.1743600" lon="24.9486300"/>
+  <node id="2040" version="1" lat="60.1743600" lon="24.9482900"/>
+  <way id="5164" version="1">
+    <nd ref="2037"/>
+    <nd ref="2038"/>
+    <nd ref="2039"/>
+    <nd ref="2040"/>
+    <nd ref="2037"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Aleksanterinkatu 13"/>
+  </way>
+  <node id="2041" version="1" lat="60.1741900" lon="24.9496900"/>
+  <node id="2042" version="1" lat="60.1741900" lon="24.9500300"/>
+  <node id="2043" version="1" lat="60.1743600" lon="24.9500300"/>
+  <node id="2044" version="1" lat="60.1743600" lon="24.9496900"/>
+  <way id="5165" version="1">
+    <nd ref="2041"/>
+    <nd ref="2042"/>
+    <nd ref="2043"/>
+    <nd ref="2044"/>
+    <nd ref="2041"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Aleksanterinkatu 13"/>
+  </way>
+  <node id="2045" version="1" lat="60.1745400" lon="24.9384900"/>
+  <node id="2046" version="1" lat="60.1745400" lon="24.9388300"/>
+  <node id="2047" version="1" lat="60.1747100" lon="24.9388300"/>
+  <node id="2048" version="1" lat="60.1747100" lon="24.9384900"/>
+  <way id="5166" version="1">
+    <nd ref="2045"/>
+    <nd ref="2046"/>
+    <nd ref="2047"/>
+    <nd ref="2048"/>
+    <nd ref="2045"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Mannerheimintie 14"/>
+  </way>
+  <node id="2049" version="1" lat="60.1745400" lon="24.9398900"/>
+  <node id="2050" version="1" lat="60.1745400" lon="24.9402300"/>
+  <node id="2051" version="1" lat="60.1747100" lon="24.9402300"/>
+  <node id="2052" version="1" lat="60.1747100" lon="24.9398900"/>
+  <way id="5167" version="1">
+    <nd ref="2049"/>
+    <nd ref="2050"/>
+    <nd ref="2051"/>
+    <nd ref="2052"/>
+    <nd ref="2049"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Mannerheimintie 14"/>
+  </way>
+  <node id="2053" version="1" lat="60.1745400" lon="24.9412900"/>
+  <node id="2054" version="1" lat="60.1745400" lon="24.9416300"/>
+  <node id="2055" version="1" lat="60.1747100" lon="24.9416300"/>
+  <node id="2056" version="1" lat="60.1747100" lon="24.9412900"/>
+  <way id="5168" version="1">
+    <nd ref="2053"/>
+    <nd ref="2054"/>
+    <nd ref="2055"/>
+    <nd ref="2056"/>
+    <nd ref="2053"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Mannerheimintie 14"/>
+  </way>
+  <node id="2057" version="1" lat="60.1745400" lon="24.9426900"/>
+  <node id="2058" version="1" lat="60.1745400" lon="24.9430300"/>
+  <node id="2059" version="1" lat="60.1747100" lon="24.9430300"/>
+  <node id="2060" version="1" lat="60.1747100" lon="24.9426900"/>
+  <way id="5169" version="1">
+    <nd ref="2057"/>
+    <nd ref="2058"/>
+    <nd ref="2059"/>
+    <nd ref="2060"/>
+    <nd ref="2057"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Mannerheimintie 14"/>
+  </way>
+  <node id="2061" version="1" lat="60.1745400" lon="24.9440900"/>
+  <node id="2062" version="1" lat="60.1745400" lon="24.9444300"/>
+  <node id="2063" version="1" lat="60.1747100" lon="24.9444300"/>
+  <node id="2064" version="1" lat="60.1747100" lon="24.9440900"/>
+  <way id="5170" version="1">
+    <nd ref="2061"/>
+    <nd ref="2062"/>
+    <nd ref="2063"/>
+    <nd ref="2064"/>
+    <nd ref="2061"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Mannerheimintie 14"/>
+  </way>
+  <node id="2065" version="1" lat="60.1745400" lon="24.9454900"/>
+  <node id="2066" version="1" lat="60.1745400" lon="24.9458300"/>
+  <node id="2067" version="1" lat="60.1747100" lon="24.9458300"/>
+  <node id="2068" version="1" lat="60.1747100" lon="24.9454900"/>
+  <way id="5171" version="1">
+    <nd ref="2065"/>
+    <nd ref="2066"/>
+    <nd ref="2067"/>
+    <nd ref="2068"/>
+    <nd ref="2065"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Mannerheimintie 14"/>
+  </way>
+  <node id="2069" version="1" lat="60.1745400" lon="24.9468900"/>
+  <node id="2070" version="1" lat="60.1745400" lon="24.9472300"/>
+  <node id="2071" version="1" lat="60.1747100" lon="24.9472300"/>
+  <node id="2072" version="1" lat="60.1747100" lon="24.9468900"/>
+  <way id="5172" version="1">
+    <nd ref="2069"/>
+    <nd ref="2070"/>
+    <nd ref="2071"/>
+    <nd ref="2072"/>
+    <nd ref="2069"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Mannerheimintie 14"/>
+  </way>
+  <node id="2073" version="1" lat="60.1745400" lon="24.9482900"/>
+  <node id="2074" version="1" lat="60.1745400" lon="24.9486300"/>
+  <node id="2075" version="1" lat="60.1747100" lon="24.9486300"/>
+  <node id="2076" version="1" lat="60.1747100" lon="24.9482900"/>
+  <way id="5173" version="1">
+    <nd ref="2073"/>
+    <nd ref="2074"/>
+    <nd ref="2075"/>
+    <nd ref="2076"/>
+    <nd ref="2073"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Mannerheimintie 14"/>
+  </way>
+  <node id="2077" version="1" lat="60.1745400" lon="24.9496900"/>
+  <node id="2078" version="1" lat="60.1745400" lon="24.9500300"/>
+  <node id="2079" version="1" lat="60.1747100" lon="24.9500300"/>
+  <node id="2080" version="1" lat="60.1747100" lon="24.9496900"/>
+  <way id="5174" version="1">
+    <nd ref="2077"/>
+    <nd ref="2078"/>
+    <nd ref="2079"/>
+    <nd ref="2080"/>
+    <nd ref="2077"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Mannerheimintie 14"/>
+  </way>
+  <node id="2081" version="1" lat="60.1748900" lon="24.9384900"/>
+  <node id="2082" version="1" lat="60.1748900" lon="24.9388300"/>
+  <node id="2083" version="1" lat="60.1750600" lon="24.9388300"/>
+  <node id="2084" version="1" lat="60.1750600" lon="24.9384900"/>
+  <way id="5175" version="1">
+    <nd ref="2081"/>
+    <nd ref="2082"/>
+    <nd ref="2083"/>
+    <nd ref="2084"/>
+    <nd ref="2081"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Esplanadi 15"/>
+  </way>
+  <node id="2085" version="1" lat="60.1748900" lon="24.9398900"/>
+  <node id="2086" version="1" lat="60.1748900" lon="24.9402300"/>
+  <node id="2087" version="1" lat="60.1750600" lon="24.9402300"/>
+  <node id="2088" version="1" lat="60.1750600" lon="24.9398900"/>
+  <way id="5176" version="1">
+    <nd ref="2085"/>
+    <nd ref="2086"/>
+    <nd ref="2087"/>
+    <nd ref="2088"/>
+    <nd ref="2085"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Esplanadi 15"/>
+  </way>
+  <node id="2089" version="1" lat="60.1748900" lon="24.9412900"/>
+  <node id="2090" version="1" lat="60.1748900" lon="24.9416300"/>
+  <node id="2091" version="1" lat="60.1750600" lon="24.9416300"/>
+  <node id="2092" version="1" lat="60.1750600" lon="24.9412900"/>
+  <way id="5177" version="1">
+    <nd ref="2089"/>
+    <nd ref="2090"/>
+    <nd ref="2091"/>
+    <nd ref="2092"/>
+    <nd ref="2089"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Esplanadi 15"/>
+  </way>
+  <node id="2093" version="1" lat="60.1748900" lon="24.9426900"/>
+  <node id="2094" version="1" lat="60.1748900" lon="24.9430300"/>
+  <node id="2095" version="1" lat="60.1750600" lon="24.9430300"/>
+  <node id="2096" version="1" lat="60.1750600" lon="24.9426900"/>
+  <way id="5178" version="1">
+    <nd ref="2093"/>
+    <nd ref="2094"/>
+    <nd ref="2095"/>
+    <nd ref="2096"/>
+    <nd ref="2093"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Esplanadi 15"/>
+  </way>
+  <node id="2097" version="1" lat="60.1748900" lon="24.9440900"/>
+  <node id="2098" version="1" lat="60.1748900" lon="24.9444300"/>
+  <node id="2099" version="1" lat="60.1750600" lon="24.9444300"/>
+  <node id="2100" version="1" lat="60.1750600" lon="24.9440900"/>
+  <way id="5179" version="1">
+    <nd ref="2097"/>
+    <nd ref="2098"/>
+    <nd ref="2099"/>
+    <nd ref="2100"/>
+    <nd ref="2097"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Esplanadi 15"/>
+  </way>
+  <node id="2101" version="1" lat="60.1748900" lon="24.9454900"/>
+  <node id="2102" version="1" lat="60.1748900" lon="24.9458300"/>
+  <node id="2103" version="1" lat="60.1750600" lon="24.9458300"/>
+  <node id="2104" version="1" lat="60.1750600" lon="24.9454900"/>
+  <way id="5180" version="1">
+    <nd ref="2101"/>
+    <nd ref="2102"/>
+    <nd ref="2103"/>
+    <nd ref="2104"/>
+    <nd ref="2101"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Esplanadi 15"/>
+  </way>
+  <node id="2105" version="1" lat="60.1748900" lon="24.9468900"/>
+  <node id="2106" version="1" lat="60.1748900" lon="24.9472300"/>
+  <node id="2107" version="1" lat="60.1750600" lon="24.9472300"/>
+  <node id="2108" version="1" lat="60.1750600" lon="24.9468900"/>
+  <way id="5181" version="1">
+    <nd ref="2105"/>
+    <nd ref="2106"/>
+    <nd ref="2107"/>
+    <nd ref="2108"/>
+    <nd ref="2105"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Esplanadi 15"/>
+  </way>
+  <node id="2109" version="1" lat="60.1748900" lon="24.9482900"/>
+  <node id="2110" version="1" lat="60.1748900" lon="24.9486300"/>
+  <node id="2111" version="1" lat="60.1750600" lon="24.9486300"/>
+  <node id="2112" version="1" lat="60.1750600" lon="24.9482900"/>
+  <way id="5182" version="1">
+    <nd ref="2109"/>
+    <nd ref="2110"/>
+    <nd ref="2111"/>
+    <nd ref="2112"/>
+    <nd ref="2109"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Esplanadi 15"/>
+  </way>
+  <node id="2113" version="1" lat="60.1748900" lon="24.9496900"/>
+  <node id="2114" version="1" lat="60.1748900" lon="24.9500300"/>
+  <node id="2115" version="1" lat="60.1750600" lon="24.9500300"/>
+  <node id="2116" version="1" lat="60.1750600" lon="24.9496900"/>
+  <way id="5183" version="1">
+    <nd ref="2113"/>
+    <nd ref="2114"/>
+    <nd ref="2115"/>
+    <nd ref="2116"/>
+    <nd ref="2113"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Esplanadi 15"/>
+  </way>
+  <node id="2117" version="1" lat="60.1752400" lon="24.9384900"/>
+  <node id="2118" version="1" lat="60.1752400" lon="24.9388300"/>
+  <node id="2119" version="1" lat="60.1754100" lon="24.9388300"/>
+  <node id="2120" version="1" lat="60.1754100" lon="24.9384900"/>
+  <way id="5184" version="1">
+    <nd ref="2117"/>
+    <nd ref="2118"/>
+    <nd ref="2119"/>
+    <nd ref="2120"/>
+    <nd ref="2117"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Bulevardi 16"/>
+  </way>
+  <node id="2121" version="1" lat="60.1752400" lon="24.9398900"/>
+  <node id="2122" version="1" lat="60.1752400" lon="24.9402300"/>
+  <node id="2123" version="1" lat="60.1754100" lon="24.9402300"/>
+  <node id="2124" version="1" lat="60.1754100" lon="24.9398900"/>
+  <way id="5185" version="1">
+    <nd ref="2121"/>
+    <nd ref="2122"/>
+    <nd ref="2123"/>
+    <nd ref="2124"/>
+    <nd ref="2121"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Bulevardi 16"/>
+  </way>
+  <node id="2125" version="1" lat="60.1752400" lon="24.9412900"/>
+  <node id="2126" version="1" lat="60.1752400" lon="24.9416300"/>
+  <node id="2127" version="1" lat="60.1754100" lon="24.9416300"/>
+  <node id="2128" version="1" lat="60.1754100" lon="24.9412900"/>
+  <way id="5186" version="1">
+    <nd ref="2125"/>
+    <nd ref="2126"/>
+    <nd ref="2127"/>
+    <nd ref="2128"/>
+    <nd ref="2125"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Bulevardi 16"/>
+  </way>
+  <node id="2129" version="1" lat="60.1752400" lon="24.9426900"/>
+  <node id="2130" version="1" lat="60.1752400" lon="24.9430300"/>
+  <node id="2131" version="1" lat="60.1754100" lon="24.9430300"/>
+  <node id="2132" version="1" lat="60.1754100" lon="24.9426900"/>
+  <way id="5187" version="1">
+    <nd ref="2129"/>
+    <nd ref="2130"/>
+    <nd ref="2131"/>
+    <nd ref="2132"/>
+    <nd ref="2129"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Bulevardi 16"/>
+  </way>
+  <node id="2133" version="1" lat="60.1752400" lon="24.9440900"/>
+  <node id="2134" version="1" lat="60.1752400" lon="24.9444300"/>
+  <node id="2135" version="1" lat="60.1754100" lon="24.9444300"/>
+  <node id="2136" version="1" lat="60.1754100" lon="24.9440900"/>
+  <way id="5188" version="1">
+    <nd ref="2133"/>
+    <nd ref="2134"/>
+    <nd ref="2135"/>
+    <nd ref="2136"/>
+    <nd ref="2133"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Bulevardi 16"/>
+  </way>
+  <node id="2137" version="1" lat="60.1752400" lon="24.9454900"/>
+  <node id="2138" version="1" lat="60.1752400" lon="24.9458300"/>
+  <node id="2139" version="1" lat="60.1754100" lon="24.9458300"/>
+  <node id="2140" version="1" lat="60.1754100" lon="24.9454900"/>
+  <way id="5189" version="1">
+    <nd ref="2137"/>
+    <nd ref="2138"/>
+    <nd ref="2139"/>
+    <nd ref="2140"/>
+    <nd ref="2137"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Bulevardi 16"/>
+  </way>
+  <node id="2141" version="1" lat="60.1752400" lon="24.9468900"/>
+  <node id="2142" version="1" lat="60.1752400" lon="24.9472300"/>
+  <node id="2143" version="1" lat="60.1754100" lon="24.9472300"/>
+  <node id="2144" version="1" lat="60.1754100" lon="24.9468900"/>
+  <way id="5190" version="1">
+    <nd ref="2141"/>
+    <nd ref="2142"/>
+    <nd ref="2143"/>
+    <nd ref="2144"/>
+    <nd ref="2141"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Bulevardi 16"/>
+  </way>
+  <node id="2145" version="1" lat="60.1752400" lon="24.9482900"/>
+  <node id="2146" version="1" lat="60.1752400" lon="24.9486300"/>
+  <node id="2147" version="1" lat="60.1754100" lon="24.9486300"/>
+  <node id="2148" version="1" lat="60.1754100" lon="24.9482900"/>
+  <way id="5191" version="1">
+    <nd ref="2145"/>
+    <nd ref="2146"/>
+    <nd ref="2147"/>
+    <nd ref="2148"/>
+    <nd ref="2145"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Bulevardi 16"/>
+  </way>
+  <node id="2149" version="1" lat="60.1752400" lon="24.9496900"/>
+  <node id="2150" version="1" lat="60.1752400" lon="24.9500300"/>
+  <node id="2151" version="1" lat="60.1754100" lon="24.9500300"/>
+  <node id="2152" version="1" lat="60.1754100" lon="24.9496900"/>
+  <way id="5192" version="1">
+    <nd ref="2149"/>
+    <nd ref="2150"/>
+    <nd ref="2151"/>
+    <nd ref="2152"/>
+    <nd ref="2149"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Bulevardi 16"/>
+  </way>
+  <node id="2153" version="1" lat="60.1755900" lon="24.9384900"/>
+  <node id="2154" version="1" lat="60.1755900" lon="24.9388300"/>
+  <node id="2155" version="1" lat="60.1757600" lon="24.9388300"/>
+  <node id="2156" version="1" lat="60.1757600" lon="24.9384900"/>
+  <way id="5193" version="1">
+    <nd ref="2153"/>
+    <nd ref="2154"/>
+    <nd ref="2155"/>
+    <nd ref="2156"/>
+    <nd ref="2153"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Fredrikinkatu 17"/>
+  </way>
+  <node id="2157" version="1" lat="60.1755900" lon="24.9398900"/>
+  <node id="2158" version="1" lat="60.1755900" lon="24.9402300"/>
+  <node id="2159" version="1" lat="60.1757600" lon="24.9402300"/>
+  <node id="2160" version="1" lat="60.1757600" lon="24.9398900"/>
+  <way id="5194" version="1">
+    <nd ref="2157"/>
+    <nd ref="2158"/>
+    <nd ref="2159"/>
+    <nd ref="2160"/>
+    <nd ref="2157"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Fredrikinkatu 17"/>
+  </way>
+  <node id="2161" version="1" lat="60.1755900" lon="24.9412900"/>
+  <node id="2162" version="1" lat="60.1755900" lon="24.9416300"/>
+  <node id="2163" version="1" lat="60.1757600" lon="24.9416300"/>
+  <node id="2164" version="1" lat="60.1757600" lon="24.9412900"/>
+  <way id="5195" version="1">
+    <nd ref="2161"/>
+    <nd ref="2162"/>
+    <nd ref="2163"/>
+    <nd ref="2164"/>
+    <nd ref="2161"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Fredrikinkatu 17"/>
+  </way>
+  <node id="2165" version="1" lat="60.1755900" lon="24.9426900"/>
+  <node id="2166" version="1" lat="60.1755900" lon="24.9430300"/>
+  <node id="2167" version="1" lat="60.1757600" lon="24.9430300"/>
+  <node id="2168" version="1" lat="60.1757600" lon="24.9426900"/>
+  <way id="5196" version="1">
+    <nd ref="2165"/>
+    <nd ref="2166"/>
+    <nd ref="2167"/>
+    <nd ref="2168"/>
+    <nd ref="2165"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Fredrikinkatu 17"/>
+  </way>
+  <node id="2169" version="1" lat="60.1755900" lon="24.9440900"/>
+  <node id="2170" version="1" lat="60.1755900" lon="24.9444300"/>
+  <node id="2171" version="1" lat="60.1757600" lon="24.9444300"/>
+  <node id="2172" version="1" lat="60.1757600" lon="24.9440900"/>
+  <way id="5197" version="1">
+    <nd ref="2169"/>
+    <nd ref="2170"/>
+    <nd ref="2171"/>
+    <nd ref="2172"/>
+    <nd ref="2169"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Fredrikinkatu 17"/>
+  </way>
+  <node id="2173" version="1" lat="60.1755900" lon="24.9454900"/>
+  <node id="2174" version="1" lat="60.1755900" lon="24.9458300"/>
+  <node id="2175" version="1" lat="60.1757600" lon="24.9458300"/>
+  <node id="2176" version="1" lat="60.1757600" lon="24.9454900"/>
+  <way id="5198" version="1">
+    <nd ref="2173"/>
+    <nd ref="2174"/>
+    <nd ref="2175"/>
+    <nd ref="2176"/>
+    <nd ref="2173"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Fredrikinkatu 17"/>
+  </way>
+  <node id="2177" version="1" lat="60.1755900" lon="24.9468900"/>
+  <node id="2178" version="1" lat="60.1755900" lon="24.9472300"/>
+  <node id="2179" version="1" lat="60.1757600" lon="24.9472300"/>
+  <node id="2180" version="1" lat="60.1757600" lon="24.9468900"/>
+  <way id="5199" version="1">
+    <nd ref="2177"/>
+    <nd ref="2178"/>
+    <nd ref="2179"/>
+    <nd ref="2180"/>
+    <nd ref="2177"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Fredrikinkatu 17"/>
+  </way>
+  <node id="2181" version="1" lat="60.1755900" lon="24.9482900"/>
+  <node id="2182" version="1" lat="60.1755900" lon="24.9486300"/>
+  <node id="2183" version="1" lat="60.1757600" lon="24.9486300"/>
+  <node id="2184" version="1" lat="60.1757600" lon="24.9482900"/>
+  <way id="5200" version="1">
+    <nd ref="2181"/>
+    <nd ref="2182"/>
+    <nd ref="2183"/>
+    <nd ref="2184"/>
+    <nd ref="2181"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Fredrikinkatu 17"/>
+  </way>
+  <node id="2185" version="1" lat="60.1755900" lon="24.9496900"/>
+  <node id="2186" version="1" lat="60.1755900" lon="24.9500300"/>
+  <node id="2187" version="1" lat="60.1757600" lon="24.9500300"/>
+  <node id="2188" version="1" lat="60.1757600" lon="24.9496900"/>
+  <way id="5201" version="1">
+    <nd ref="2185"/>
+    <nd ref="2186"/>
+    <nd ref="2187"/>
+    <nd ref="2188"/>
+    <nd ref="2185"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Fredrikinkatu 17"/>
+  </way>
+  <node id="2189" version="1" lat="60.1759400" lon="24.9384900"/>
+  <node id="2190" version="1" lat="60.1759400" lon="24.9388300"/>
+  <node id="2191" version="1" lat="60.1761100" lon="24.9388300"/>
+  <node id="2192" version="1" lat="60.1761100" lon="24.9384900"/>
+  <way id="5202" version="1">
+    <nd ref="2189"/>
+    <nd ref="2190"/>
+    <nd ref="2191"/>
+    <nd ref="2192"/>
+    <nd ref="2189"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Runeberginkatu 18"/>
+  </way>
+  <node id="2193" version="1" lat="60.1759400" lon="24.9398900"/>
+  <node id="2194" version="1" lat="60.1759400" lon="24.9402300"/>
+  <node id="2195" version="1" lat="60.1761100" lon="24.9402300"/>
+  <node id="2196" version="1" lat="60.1761100" lon="24.9398900"/>
+  <way id="5203" version="1">
+    <nd ref="2193"/>
+    <nd ref="2194"/>
+    <nd ref="2195"/>
+    <nd ref="2196"/>
+    <nd ref="2193"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Runeberginkatu 18"/>
+  </way>
+  <node id="2197" version="1" lat="60.1759400" lon="24.9412900"/>
+  <node id="2198" version="1" lat="60.1759400" lon="24.9416300"/>
+  <node id="2199" version="1" lat="60.1761100" lon="24.9416300"/>
+  <node id="2200" version="1" lat="60.1761100" lon="24.9412900"/>
+  <way id="5204" version="1">
+    <nd ref="2197"/>
+    <nd ref="2198"/>
+    <nd ref="2199"/>
+    <nd ref="2200"/>
+    <nd ref="2197"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Runeberginkatu 18"/>
+  </way>
+  <node id="2201" version="1" lat="60.1759400" lon="24.9426900"/>
+  <node id="2202" version="1" lat="60.1759400" lon="24.9430300"/>
+  <node id="2203" version="1" lat="60.1761100" lon="24.9430300"/>
+  <node id="2204" version="1" lat="60.1761100" lon="24.9426900"/>
+  <way id="5205" version="1">
+    <nd ref="2201"/>
+    <nd ref="2202"/>
+    <nd ref="2203"/>
+    <nd ref="2204"/>
+    <nd ref="2201"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Runeberginkatu 18"/>
+  </way>
+  <node id="2205" version="1" lat="60.1759400" lon="24.9440900"/>
+  <node id="2206" version="1" lat="60.1759400" lon="24.9444300"/>
+  <node id="2207" version="1" lat="60.1761100" lon="24.9444300"/>
+  <node id="2208" version="1" lat="60.1761100" lon="24.9440900"/>
+  <way id="5206" version="1">
+    <nd ref="2205"/>
+    <nd ref="2206"/>
+    <nd ref="2207"/>
+    <nd ref="2208"/>
+    <nd ref="2205"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Runeberginkatu 18"/>
+  </way>
+  <node id="2209" version="1" lat="60.1759400" lon="24.9454900"/>
+  <node id="2210" version="1" lat="60.1759400" lon="24.9458300"/>
+  <node id="2211" version="1" lat="60.1761100" lon="24.9458300"/>
+  <node id="2212" version="1" lat="60.1761100" lon="24.9454900"/>
+  <way id="5207" version="1">
+    <nd ref="2209"/>
+    <nd ref="2210"/>
+    <nd ref="2211"/>
+    <nd ref="2212"/>
+    <nd ref="2209"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Runeberginkatu 18"/>
+  </way>
+  <node id="2213" version="1" lat="60.1759400" lon="24.9468900"/>
+  <node id="2214" version="1" lat="60.1759400" lon="24.9472300"/>
+  <node id="2215" version="1" lat="60.1761100" lon="24.9472300"/>
+  <node id="2216" version="1" lat="60.1761100" lon="24.9468900"/>
+  <way id="5208" version="1">
+    <nd ref="2213"/>
+    <nd ref="2214"/>
+    <nd ref="2215"/>
+    <nd ref="2216"/>
+    <nd ref="2213"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Runeberginkatu 18"/>
+  </way>
+  <node id="2217" version="1" lat="60.1759400" lon="24.9482900"/>
+  <node id="2218" version="1" lat="60.1759400" lon="24.9486300"/>
+  <node id="2219" version="1" lat="60.1761100" lon="24.9486300"/>
+  <node id="2220" version="1" lat="60.1761100" lon="24.9482900"/>
+  <way id="5209" version="1">
+    <nd ref="2217"/>
+    <nd ref="2218"/>
+    <nd ref="2219"/>
+    <nd ref="2220"/>
+    <nd ref="2217"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Runeberginkatu 18"/>
+  </way>
+  <node id="2221" version="1" lat="60.1759400" lon="24.9496900"/>
+  <node id="2222" version="1" lat="60.1759400" lon="24.9500300"/>
+  <node id="2223" version="1" lat="60.1761100" lon="24.9500300"/>
+  <node id="2224" version="1" lat="60.1761100" lon="24.9496900"/>
+  <way id="5210" version="1">
+    <nd ref="2221"/>
+    <nd ref="2222"/>
+    <nd ref="2223"/>
+    <nd ref="2224"/>
+    <nd ref="2221"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Runeberginkatu 18"/>
+  </way>
+  <node id="2225" version="1" lat="60.1762900" lon="24.9384900"/>
+  <node id="2226" version="1" lat="60.1762900" lon="24.9388300"/>
+  <node id="2227" version="1" lat="60.1764600" lon="24.9388300"/>
+  <node id="2228" version="1" lat="60.1764600" lon="24.9384900"/>
+  <way id="5211" version="1">
+    <nd ref="2225"/>
+    <nd ref="2226"/>
+    <nd ref="2227"/>
+    <nd ref="2228"/>
+    <nd ref="2225"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Hämeentie 19"/>
+  </way>
+  <node id="2229" version="1" lat="60.1762900" lon="24.9398900"/>
+  <node id="2230" version="1" lat="60.1762900" lon="24.9402300"/>
+  <node id="2231" version="1" lat="60.1764600" lon="24.9402300"/>
+  <node id="2232" version="1" lat="60.1764600" lon="24.9398900"/>
+  <way id="5212" version="1">
+    <nd ref="2229"/>
+    <nd ref="2230"/>
+    <nd ref="2231"/>
+    <nd ref="2232"/>
+    <nd ref="2229"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Hämeentie 19"/>
+  </way>
+  <node id="2233" version="1" lat="60.1762900" lon="24.9412900"/>
+  <node id="2234" version="1" lat="60.1762900" lon="24.9416300"/>
+  <node id="2235" version="1" lat="60.1764600" lon="24.9416300"/>
+  <node id="2236" version="1" lat="60.1764600" lon="24.9412900"/>
+  <way id="5213" version="1">
+    <nd ref="2233"/>
+    <nd ref="2234"/>
+    <nd ref="2235"/>
+    <nd ref="2236"/>
+    <nd ref="2233"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Hämeentie 19"/>
+  </way>
+  <node id="2237" version="1" lat="60.1762900" lon="24.9426900"/>
+  <node id="2238" version="1" lat="60.1762900" lon="24.9430300"/>
+  <node id="2239" version="1" lat="60.1764600" lon="24.9430300"/>
+  <node id="2240" version="1" lat="60.1764600" lon="24.9426900"/>
+  <way id="5214" version="1">
+    <nd ref="2237"/>
+    <nd ref="2238"/>
+    <nd ref="2239"/>
+    <nd ref="2240"/>
+    <nd ref="2237"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Hämeentie 19"/>
+  </way>
+  <node id="2241" version="1" lat="60.1762900" lon="24.9440900"/>
+  <node id="2242" version="1" lat="60.1762900" lon="24.9444300"/>
+  <node id="2243" version="1" lat="60.1764600" lon="24.9444300"/>
+  <node id="2244" version="1" lat="60.1764600" lon="24.9440900"/>
+  <way id="5215" version="1">
+    <nd ref="2241"/>
+    <nd ref="2242"/>
+    <nd ref="2243"/>
+    <nd ref="2244"/>
+    <nd ref="2241"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Hämeentie 19"/>
+  </way>
+  <node id="2245" version="1" lat="60.1762900" lon="24.9454900"/>
+  <node id="2246" version="1" lat="60.1762900" lon="24.9458300"/>
+  <node id="2247" version="1" lat="60.1764600" lon="24.9458300"/>
+  <node id="2248" version="1" lat="60.1764600" lon="24.9454900"/>
+  <way id="5216" version="1">
+    <nd ref="2245"/>
+    <nd ref="2246"/>
+    <nd ref="2247"/>
+    <nd ref="2248"/>
+    <nd ref="2245"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Hämeentie 19"/>
+  </way>
+  <node id="2249" version="1" lat="60.1762900" lon="24.9468900"/>
+  <node id="2250" version="1" lat="60.1762900" lon="24.9472300"/>
+  <node id="2251" version="1" lat="60.1764600" lon="24.9472300"/>
+  <node id="2252" version="1" lat="60.1764600" lon="24.9468900"/>
+  <way id="5217" version="1">
+    <nd ref="2249"/>
+    <nd ref="2250"/>
+    <nd ref="2251"/>
+    <nd ref="2252"/>
+    <nd ref="2249"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Hämeentie 19"/>
+  </way>
+  <node id="2253" version="1" lat="60.1762900" lon="24.9482900"/>
+  <node id="2254" version="1" lat="60.1762900" lon="24.9486300"/>
+  <node id="2255" version="1" lat="60.1764600" lon="24.9486300"/>
+  <node id="2256" version="1" lat="60.1764600" lon="24.9482900"/>
+  <way id="5218" version="1">
+    <nd ref="2253"/>
+    <nd ref="2254"/>
+    <nd ref="2255"/>
+    <nd ref="2256"/>
+    <nd ref="2253"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Hämeentie 19"/>
+  </way>
+  <node id="2257" version="1" lat="60.1762900" lon="24.9496900"/>
+  <node id="2258" version="1" lat="60.1762900" lon="24.9500300"/>
+  <node id="2259" version="1" lat="60.1764600" lon="24.9500300"/>
+  <node id="2260" version="1" lat="60.1764600" lon="24.9496900"/>
+  <way id="5219" version="1">
+    <nd ref="2257"/>
+    <nd ref="2258"/>
+    <nd ref="2259"/>
+    <nd ref="2260"/>
+    <nd ref="2257"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Hämeentie 19"/>
+  </way>
+  <node id="2261" version="1" lat="60.1766400" lon="24.9384900"/>
+  <node id="2262" version="1" lat="60.1766400" lon="24.9388300"/>
+  <node id="2263" version="1" lat="60.1768100" lon="24.9388300"/>
+  <node id="2264" version="1" lat="60.1768100" lon="24.9384900"/>
+  <way id="5220" version="1">
+    <nd ref="2261"/>
+    <nd ref="2262"/>
+    <nd ref="2263"/>
+    <nd ref="2264"/>
+    <nd ref="2261"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Sturenkatu 20"/>
+  </way>
+  <node id="2265" version="1" lat="60.1766400" lon="24.9398900"/>
+  <node id="2266" version="1" lat="60.1766400" lon="24.9402300"/>
+  <node id="2267" version="1" lat="60.1768100" lon="24.9402300"/>
+  <node id="2268" version="1" lat="60.1768100" lon="24.9398900"/>
+  <way id="5221" version="1">
+    <nd ref="2265"/>
+    <nd ref="2266"/>
+    <nd ref="2267"/>
+    <nd ref="2268"/>
+    <nd ref="2265"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Sturenkatu 20"/>
+  </way>
+  <node id="2269" version="1" lat="60.1766400" lon="24.9412900"/>
+  <node id="2270" version="1" lat="60.1766400" lon="24.9416300"/>
+  <node id="2271" version="1" lat="60.1768100" lon="24.9416300"/>
+  <node id="2272" version="1" lat="60.1768100" lon="24.9412900"/>
+  <way id="5222" version="1">
+    <nd ref="2269"/>
+    <nd ref="2270"/>
+    <nd ref="2271"/>
+    <nd ref="2272"/>
+    <nd ref="2269"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Sturenkatu 20"/>
+  </way>
+  <node id="2273" version="1" lat="60.1766400" lon="24.9426900"/>
+  <node id="2274" version="1" lat="60.1766400" lon="24.9430300"/>
+  <node id="2275" version="1" lat="60.1768100" lon="24.9430300"/>
+  <node id="2276" version="1" lat="60.1768100" lon="24.9426900"/>
+  <way id="5223" version="1">
+    <nd ref="2273"/>
+    <nd ref="2274"/>
+    <nd ref="2275"/>
+    <nd ref="2276"/>
+    <nd ref="2273"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Sturenkatu 20"/>
+  </way>
+  <node id="2277" version="1" lat="60.1766400" lon="24.9440900"/>
+  <node id="2278" version="1" lat="60.1766400" lon="24.9444300"/>
+  <node id="2279" version="1" lat="60.1768100" lon="24.9444300"/>
+  <node id="2280" version="1" lat="60.1768100" lon="24.9440900"/>
+  <way id="5224" version="1">
+    <nd ref="2277"/>
+    <nd ref="2278"/>
+    <nd ref="2279"/>
+    <nd ref="2280"/>
+    <nd ref="2277"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Sturenkatu 20"/>
+  </way>
+  <node id="2281" version="1" lat="60.1766400" lon="24.9454900"/>
+  <node id="2282" version="1" lat="60.1766400" lon="24.9458300"/>
+  <node id="2283" version="1" lat="60.1768100" lon="24.9458300"/>
+  <node id="2284" version="1" lat="60.1768100" lon="24.9454900"/>
+  <way id="5225" version="1">
+    <nd ref="2281"/>
+    <nd ref="2282"/>
+    <nd ref="2283"/>
+    <nd ref="2284"/>
+    <nd ref="2281"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Sturenkatu 20"/>
+  </way>
+  <node id="2285" version="1" lat="60.1766400" lon="24.9468900"/>
+  <node id="2286" version="1" lat="60.1766400" lon="24.9472300"/>
+  <node id="2287" version="1" lat="60.1768100" lon="24.9472300"/>
+  <node id="2288" version="1" lat="60.1768100" lon="24.9468900"/>
+  <way id="5226" version="1">
+    <nd ref="2285"/>
+    <nd ref="2286"/>
+    <nd ref="2287"/>
+    <nd ref="2288"/>
+    <nd ref="2285"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Sturenkatu 20"/>
+  </way>
+  <node id="2289" version="1" lat="60.1766400" lon="24.9482900"/>
+  <node id="2290" version="1" lat="60.1766400" lon="24.9486300"/>
+  <node id="2291" version="1" lat="60.1768100" lon="24.9486300"/>
+  <node id="2292" version="1" lat="60.1768100" lon="24.9482900"/>
+  <way id="5227" version="1">
+    <nd ref="2289"/>
+    <nd ref="2290"/>
+    <nd ref="2291"/>
+    <nd ref="2292"/>
+    <nd ref="2289"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Sturenkatu 20"/>
+  </way>
+  <node id="2293" version="1" lat="60.1766400" lon="24.9496900"/>
+  <node id="2294" version="1" lat="60.1766400" lon="24.9500300"/>
+  <node id="2295" version="1" lat="60.1768100" lon="24.9500300"/>
+  <node id="2296" version="1" lat="60.1768100" lon="24.9496900"/>
+  <way id="5228" version="1">
+    <nd ref="2293"/>
+    <nd ref="2294"/>
+    <nd ref="2295"/>
+    <nd ref="2296"/>
+    <nd ref="2293"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Sturenkatu 20"/>
+  </way>
+  <node id="2297" version="1" lat="60.1769900" lon="24.9384900"/>
+  <node id="2298" version="1" lat="60.1769900" lon="24.9388300"/>
+  <node id="2299" version="1" lat="60.1771600" lon="24.9388300"/>
+  <node id="2300" version="1" lat="60.1771600" lon="24.9384900"/>
+  <way id="5229" version="1">
+    <nd ref="2297"/>
+    <nd ref="2298"/>
+    <nd ref="2299"/>
+    <nd ref="2300"/>
+    <nd ref="2297"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Topeliuksenkatu 21"/>
+  </way>
+  <node id="2301" version="1" lat="60.1769900" lon="24.9398900"/>
+  <node id="2302" version="1" lat="60.1769900" lon="24.9402300"/>
+  <node id="2303" version="1" lat="60.1771600" lon="24.9402300"/>
+  <node id="2304" version="1" lat="60.1771600" lon="24.9398900"/>
+  <way id="5230" version="1">
+    <nd ref="2301"/>
+    <nd ref="2302"/>
+    <nd ref="2303"/>
+    <nd ref="2304"/>
+    <nd ref="2301"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Topeliuksenkatu 21"/>
+  </way>
+  <node id="2305" version="1" lat="60.1769900" lon="24.9412900"/>
+  <node id="2306" version="1" lat="60.1769900" lon="24.9416300"/>
+  <node id="2307" version="1" lat="60.1771600" lon="24.9416300"/>
+  <node id="2308" version="1" lat="60.1771600" lon="24.9412900"/>
+  <way id="5231" version="1">
+    <nd ref="2305"/>
+    <nd ref="2306"/>
+    <nd ref="2307"/>
+    <nd ref="2308"/>
+    <nd ref="2305"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Topeliuksenkatu 21"/>
+  </way>
+  <node id="2309" version="1" lat="60.1769900" lon="24.9426900"/>
+  <node id="2310" version="1" lat="60.1769900" lon="24.9430300"/>
+  <node id="2311" version="1" lat="60.1771600" lon="24.9430300"/>
+  <node id="2312" version="1" lat="60.1771600" lon="24.9426900"/>
+  <way id="5232" version="1">
+    <nd ref="2309"/>
+    <nd ref="2310"/>
+    <nd ref="2311"/>
+    <nd ref="2312"/>
+    <nd ref="2309"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Topeliuksenkatu 21"/>
+  </way>
+  <node id="2313" version="1" lat="60.1769900" lon="24.9440900"/>
+  <node id="2314" version="1" lat="60.1769900" lon="24.9444300"/>
+  <node id="2315" version="1" lat="60.1771600" lon="24.9444300"/>
+  <node id="2316" version="1" lat="60.1771600" lon="24.9440900"/>
+  <way id="5233" version="1">
+    <nd ref="2313"/>
+    <nd ref="2314"/>
+    <nd ref="2315"/>
+    <nd ref="2316"/>
+    <nd ref="2313"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Topeliuksenkatu 21"/>
+  </way>
+  <node id="2317" version="1" lat="60.1769900" lon="24.9454900"/>
+  <node id="2318" version="1" lat="60.1769900" lon="24.9458300"/>
+  <node id="2319" version="1" lat="60.1771600" lon="24.9458300"/>
+  <node id="2320" version="1" lat="60.1771600" lon="24.9454900"/>
+  <way id="5234" version="1">
+    <nd ref="2317"/>
+    <nd ref="2318"/>
+    <nd ref="2319"/>
+    <nd ref="2320"/>
+    <nd ref="2317"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Topeliuksenkatu 21"/>
+  </way>
+  <node id="2321" version="1" lat="60.1769900" lon="24.9468900"/>
+  <node id="2322" version="1" lat="60.1769900" lon="24.9472300"/>
+  <node id="2323" version="1" lat="60.1771600" lon="24.9472300"/>
+  <node id="2324" version="1" lat="60.1771600" lon="24.9468900"/>
+  <way id="5235" version="1">
+    <nd ref="2321"/>
+    <nd ref="2322"/>
+    <nd ref="2323"/>
+    <nd ref="2324"/>
+    <nd ref="2321"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Topeliuksenkatu 21"/>
+  </way>
+  <node id="2325" version="1" lat="60.1769900" lon="24.9482900"/>
+  <node id="2326" version="1" lat="60.1769900" lon="24.9486300"/>
+  <node id="2327" version="1" lat="60.1771600" lon="24.9486300"/>
+  <node id="2328" version="1" lat="60.1771600" lon="24.9482900"/>
+  <way id="5236" version="1">
+    <nd ref="2325"/>
+    <nd ref="2326"/>
+    <nd ref="2327"/>
+    <nd ref="2328"/>
+    <nd ref="2325"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Topeliuksenkatu 21"/>
+  </way>
+  <node id="2329" version="1" lat="60.1769900" lon="24.9496900"/>
+  <node id="2330" version="1" lat="60.1769900" lon="24.9500300"/>
+  <node id="2331" version="1" lat="60.1771600" lon="24.9500300"/>
+  <node id="2332" version="1" lat="60.1771600" lon="24.9496900"/>
+  <way id="5237" version="1">
+    <nd ref="2329"/>
+    <nd ref="2330"/>
+    <nd ref="2331"/>
+    <nd ref="2332"/>
+    <nd ref="2329"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Topeliuksenkatu 21"/>
+  </way>
+  <node id="2333" version="1" lat="60.1773400" lon="24.9384900"/>
+  <node id="2334" version="1" lat="60.1773400" lon="24.9388300"/>
+  <node id="2335" version="1" lat="60.1775100" lon="24.9388300"/>
+  <node id="2336" version="1" lat="60.1775100" lon="24.9384900"/>
+  <way id="5238" version="1">
+    <nd ref="2333"/>
+    <nd ref="2334"/>
+    <nd ref="2335"/>
+    <nd ref="2336"/>
+    <nd ref="2333"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Mechelininkatu 22"/>
+  </way>
+  <node id="2337" version="1" lat="60.1773400" lon="24.9398900"/>
+  <node id="2338" version="1" lat="60.1773400" lon="24.9402300"/>
+  <node id="2339" version="1" lat="60.1775100" lon="24.9402300"/>
+  <node id="2340" version="1" lat="60.1775100" lon="24.9398900"/>
+  <way id="5239" version="1">
+    <nd ref="2337"/>
+    <nd ref="2338"/>
+    <nd ref="2339"/>
+    <nd ref="2340"/>
+    <nd ref="2337"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Mechelininkatu 22"/>
+  </way>
+  <node id="2341" version="1" lat="60.1773400" lon="24.9412900"/>
+  <node id="2342" version="1" lat="60.1773400" lon="24.9416300"/>
+  <node id="2343" version="1" lat="60.1775100" lon="24.9416300"/>
+  <node id="2344" version="1" lat="60.1775100" lon="24.9412900"/>
+  <way id="5240" version="1">
+    <nd ref="2341"/>
+    <nd ref="2342"/>
+    <nd ref="2343"/>
+    <nd ref="2344"/>
+    <nd ref="2341"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Mechelininkatu 22"/>
+  </way>
+  <node id="2345" version="1" lat="60.1773400" lon="24.9426900"/>
+  <node id="2346" version="1" lat="60.1773400" lon="24.9430300"/>
+  <node id="2347" version="1" lat="60.1775100" lon="24.9430300"/>
+  <node id="2348" version="1" lat="60.1775100" lon="24.9426900"/>
+  <way id="5241" version="1">
+    <nd ref="2345"/>
+    <nd ref="2346"/>
+    <nd ref="2347"/>
+    <nd ref="2348"/>
+    <nd ref="2345"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Mechelininkatu 22"/>
+  </way>
+  <node id="2349" version="1" lat="60.1773400" lon="24.9440900"/>
+  <node id="2350" version="1" lat="60.1773400" lon="24.9444300"/>
+  <node id="2351" version="1" lat="60.1775100" lon="24.9444300"/>
+  <node id="2352" version="1" lat="60.1775100" lon="24.9440900"/>
+  <way id="5242" version="1">
+    <nd ref="2349"/>
+    <nd ref="2350"/>
+    <nd ref="2351"/>
+    <nd ref="2352"/>
+    <nd ref="2349"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Mechelininkatu 22"/>
+  </way>
+  <node id="2353" version="1" lat="60.1773400" lon="24.9454900"/>
+  <node id="2354" version="1" lat="60.1773400" lon="24.9458300"/>
+  <node id="2355" version="1" lat="60.1775100" lon="24.9458300"/>
+  <node id="2356" version="1" lat="60.1775100" lon="24.9454900"/>
+  <way id="5243" version="1">
+    <nd ref="2353"/>
+    <nd ref="2354"/>
+    <nd ref="2355"/>
+    <nd ref="2356"/>
+    <nd ref="2353"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Mechelininkatu 22"/>
+  </way>
+  <node id="2357" version="1" lat="60.1773400" lon="24.9468900"/>
+  <node id="2358" version="1" lat="60.1773400" lon="24.9472300"/>
+  <node id="2359" version="1" lat="60.1775100" lon="24.9472300"/>
+  <node id="2360" version="1" lat="60.1775100" lon="24.9468900"/>
+  <way id="5244" version="1">
+    <nd ref="2357"/>
+    <nd ref="2358"/>
+    <nd ref="2359"/>
+    <nd ref="2360"/>
+    <nd ref="2357"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Mechelininkatu 22"/>
+  </way>
+  <node id="2361" version="1" lat="60.1773400" lon="24.9482900"/>
+  <node id="2362" version="1" lat="60.1773400" lon="24.9486300"/>
+  <node id="2363" version="1" lat="60.1775100" lon="24.9486300"/>
+  <node id="2364" version="1" lat="60.1775100" lon="24.9482900"/>
+  <way id="5245" version="1">
+    <nd ref="2361"/>
+    <nd ref="2362"/>
+    <nd ref="2363"/>
+    <nd ref="2364"/>
+    <nd ref="2361"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Mechelininkatu 22"/>
+  </way>
+  <node id="2365" version="1" lat="60.1773400" lon="24.9496900"/>
+  <node id="2366" version="1" lat="60.1773400" lon="24.9500300"/>
+  <node id="2367" version="1" lat="60.1775100" lon="24.9500300"/>
+  <node id="2368" version="1" lat="60.1775100" lon="24.9496900"/>
+  <way id="5246" version="1">
+    <nd ref="2365"/>
+    <nd ref="2366"/>
+    <nd ref="2367"/>
+    <nd ref="2368"/>
+    <nd ref="2365"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Mechelininkatu 22"/>
+  </way>
+  <node id="2369" version="1" lat="60.1776900" lon="24.9384900"/>
+  <node id="2370" version="1" lat="60.1776900" lon="24.9388300"/>
+  <node id="2371" version="1" lat="60.1778600" lon="24.9388300"/>
+  <node id="2372" version="1" lat="60.1778600" lon="24.9384900"/>
+  <way id="5247" version="1">
+    <nd ref="2369"/>
+    <nd ref="2370"/>
+    <nd ref="2371"/>
+    <nd ref="2372"/>
+    <nd ref="2369"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 23"/>
+  </way>
+  <node id="2373" version="1" lat="60.1776900" lon="24.9398900"/>
+  <node id="2374" version="1" lat="60.1776900" lon="24.9402300"/>
+  <node id="2375" version="1" lat="60.1778600" lon="24.9402300"/>
+  <node id="2376" version="1" lat="60.1778600" lon="24.9398900"/>
+  <way id="5248" version="1">
+    <nd ref="2373"/>
+    <nd ref="2374"/>
+    <nd ref="2375"/>
+    <nd ref="2376"/>
+    <nd ref="2373"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 23"/>
+  </way>
+  <node id="2377" version="1" lat="60.1776900" lon="24.9412900"/>
+  <node id="2378" version="1" lat="60.1776900" lon="24.9416300"/>
+  <node id="2379" version="1" lat="60.1778600" lon="24.9416300"/>
+  <node id="2380" version="1" lat="60.1778600" lon="24.9412900"/>
+  <way id="5249" version="1">
+    <nd ref="2377"/>
+    <nd ref="2378"/>
+    <nd ref="2379"/>
+    <nd ref="2380"/>
+    <nd ref="2377"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 23"/>
+  </way>
+  <node id="2381" version="1" lat="60.1776900" lon="24.9426900"/>
+  <node id="2382" version="1" lat="60.1776900" lon="24.9430300"/>
+  <node id="2383" version="1" lat="60.1778600" lon="24.9430300"/>
+  <node id="2384" version="1" lat="60.1778600" lon="24.9426900"/>
+  <way id="5250" version="1">
+    <nd ref="2381"/>
+    <nd ref="2382"/>
+    <nd ref="2383"/>
+    <nd ref="2384"/>
+    <nd ref="2381"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 23"/>
+  </way>
+  <node id="2385" version="1" lat="60.1776900" lon="24.9440900"/>
+  <node id="2386" version="1" lat="60.1776900" lon="24.9444300"/>
+  <node id="2387" version="1" lat="60.1778600" lon="24.9444300"/>
+  <node id="2388" version="1" lat="60.1778600" lon="24.9440900"/>
+  <way id="5251" version="1">
+    <nd ref="2385"/>
+    <nd ref="2386"/>
+    <nd ref="2387"/>
+    <nd ref="2388"/>
+    <nd ref="2385"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 23"/>
+  </way>
+  <node id="2389" version="1" lat="60.1776900" lon="24.9454900"/>
+  <node id="2390" version="1" lat="60.1776900" lon="24.9458300"/>
+  <node id="2391" version="1" lat="60.1778600" lon="24.9458300"/>
+  <node id="2392" version="1" lat="60.1778600" lon="24.9454900"/>
+  <way id="5252" version="1">
+    <nd ref="2389"/>
+    <nd ref="2390"/>
+    <nd ref="2391"/>
+    <nd ref="2392"/>
+    <nd ref="2389"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 23"/>
+  </way>
+  <node id="2393" version="1" lat="60.1776900" lon="24.9468900"/>
+  <node id="2394" version="1" lat="60.1776900" lon="24.9472300"/>
+  <node id="2395" version="1" lat="60.1778600" lon="24.9472300"/>
+  <node id="2396" version="1" lat="60.1778600" lon="24.9468900"/>
+  <way id="5253" version="1">
+    <nd ref="2393"/>
+    <nd ref="2394"/>
+    <nd ref="2395"/>
+    <nd ref="2396"/>
+    <nd ref="2393"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 23"/>
+  </way>
+  <node id="2397" version="1" lat="60.1776900" lon="24.9482900"/>
+  <node id="2398" version="1" lat="60.1776900" lon="24.9486300"/>
+  <node id="2399" version="1" lat="60.1778600" lon="24.9486300"/>
+  <node id="2400" version="1" lat="60.1778600" lon="24.9482900"/>
+  <way id="5254" version="1">
+    <nd ref="2397"/>
+    <nd ref="2398"/>
+    <nd ref="2399"/>
+    <nd ref="2400"/>
+    <nd ref="2397"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 23"/>
+  </way>
+  <node id="2401" version="1" lat="60.1776900" lon="24.9496900"/>
+  <node id="2402" version="1" lat="60.1776900" lon="24.9500300"/>
+  <node id="2403" version="1" lat="60.1778600" lon="24.9500300"/>
+  <node id="2404" version="1" lat="60.1778600" lon="24.9496900"/>
+  <way id="5255" version="1">
+    <nd ref="2401"/>
+    <nd ref="2402"/>
+    <nd ref="2403"/>
+    <nd ref="2404"/>
+    <nd ref="2401"/>
+    <tag k="building" v="yes"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:street" v="Kaisaniemenkatu 23"/>
+  </way>
+</osm>

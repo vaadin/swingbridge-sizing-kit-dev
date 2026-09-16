@@ -1,0 +1,1504 @@
+# ceiling run  channel=sb  heap=2560m  budget=4G  maxTenants=60
+# scope=ceil-sb-20260911091231.scope  A=192.168.2.2  git=7cff6d8
+# server command: 36 argv entries from server-argv.cache
+# dropped from the captured command: -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005
+# guest jar: /home/eftunv/dev/josm/josm-web-patched.jar (6df567638a9acd95)
+# starting the server in the scope with -Xmx2560m
+# server on :8088 -> 200
+# monitor -> /home/eftunv/dev/git/vaadin-swing-bridge/swing-bridge-memory-harness/reports/20260911091231-ceiling-sb-2560m.monitor.csv
+# samples -> /home/eftunv/dev/git/vaadin-swing-bridge/swing-bridge-memory-harness/reports/20260911091231-ceiling-sb-2560m.samples.csv
+# ramping active users from the load box
+browser temp: boxb:/dev/shm/sbbench  free 55215 MB, ramp to 60 needs ~32400 MB
+started
+remote log: boxb:/home/eftun/dev_load_v2/supplemental/scenario-sb-20260911091305-p8088.log
+driving:    http://192.168.2.2:8088/  bounds http://192.168.2.2:8099/log
+# ramp target: http://192.168.2.2:8088/  bounds: http://192.168.2.2:8099/log
+# scenario: sb  1 cycles  2026-09-11T09:13:06Z
+# url=http://192.168.2.2:8088/ view=josm client=vaadin
+# bounds=http://192.168.2.2:8099/log
+# git=7cff6d8
+prop load.url                     = http://192.168.2.2:8088/           [set]
+prop load.view                    = josm                               [set]
+prop load.client                  = vaadin                             [set]
+prop scenario.cycles              = 1                                  [set]
+prop scenario.guestWaitMs         = 180000                             [default]
+prop scenario.file                = /home/eftun/dev_load_v2/vaadin-swing-bridge/swing-bridge-memory-harness/scenario/josm-cycle.json [set]
+prop scenario.boundsLog           = http://192.168.2.2:8099/log        [set]
+prop scenario.tenant              = <unset>                            [default]
+scenario: josm -> http://192.168.2.2:8088/josm (client=vaadin, 1 cycles)
+prop scenario.activeRamp          = true                               [set]
+prop scenario.headless            = true                               [default]
+prop scenario.maxTenants          = 60                                 [set]
+prop scenario.rampSettleMs        = 15000                              [set]
+prop scenario.slowFactor          = 3.0                                [default]
+prop scenario.tenantCountFile     = <unset>                            [default]
+prop scenario.fineFrom            = 0                                  [default]
+prop scenario.coarseStep          = 3                                  [default]
+prop scenario.browserArgs         = <unset>                            [default]
+prop scenario.useDevShm           = false                              [default]
+prop scenario.video               = <unset>                            [default]
+prop scenario.hashMaxDim          = 160                                [default]
+tenant 1 ready: [swing:n491t2]  canvas 1920x1080
+
+=== 1 active tenant(s): [swing:n491t2] ===
+prop scenario.memoryCmd           = curl -sf "http://192.168.2.2:8099/sample?cycle={cycle}&tenants={tenants}&tenant={tenant}" [set]
+prop scenario.memoryCsv           = <unset>                            [default]
+  mem -1,1,sb,swing:n491t2,2026-09-11T09:13:30Z,1,252.2,,280.0,99.1,100.1,525.1,518.1,525.2,518.2,202,274,28866.3,0.0,0,0,
+    cycles=1  slowest cycle 9720 ms (1 tenant: 9720)  slowest step 793 ms (budget 2379)  stalest 5584 ms  failed 0 -> healthy
+tenant 2 ready: [swing:d8gteu]  canvas 1920x1080
+
+=== 2 active tenant(s): [swing:d8gteu] ===
+  mem -1,2,sb,swing:d8gteu,2026-09-11T09:13:52Z,1,200.7,,342.0,113.3,114.3,629.6,622.6,629.6,622.6,279,285,28719.3,0.0,0,0,
+    cycles=3,1  slowest cycle 9671 ms (1 tenant: 9720)  slowest step 793 ms (budget 2379)  stalest 7376 ms  failed 0 -> healthy
+tenant 3 ready: [swing:tm40wv]  canvas 1920x1080
+
+=== 3 active tenant(s): [swing:tm40wv] ===
+  mem -1,3,sb,swing:tm40wv,2026-09-11T09:14:13Z,1,316.2,,440.0,127.4,128.6,765.5,758.5,765.5,758.5,364,292,28520.8,0.0,0,0,
+    cycles=5,3,1  slowest cycle 9643 ms (1 tenant: 9720)  slowest step 793 ms (budget 2379)  stalest 9139 ms  failed 0 -> healthy
+tenant 4 ready: [swing:t74ue7]  canvas 1920x1080
+
+=== 4 active tenant(s): [swing:t74ue7] ===
+  mem -1,4,sb,swing:t74ue7,2026-09-11T09:14:34Z,1,507.5,,540.0,141.6,142.7,904.3,897.3,904.4,897.4,450,299,28265.0,0.0,0,0,
+    cycles=8,5,3,1  slowest cycle 9648 ms (1 tenant: 9720)  slowest step 793 ms (budget 2379)  stalest 9161 ms  failed 0 -> healthy
+tenant 5 ready: [swing:q66f8t]  canvas 1920x1080
+
+=== 5 active tenant(s): [swing:q66f8t] ===
+  mem -1,5,sb,swing:q66f8t,2026-09-11T09:14:55Z,1,379.6,,640.0,155.7,156.9,1035.5,1028.5,1035.7,1028.6,503,306,27905.0,0.0,0,0,
+    cycles=10,8,5,3,1  slowest cycle 9642 ms (1 tenant: 9720)  slowest step 793 ms (budget 2379)  stalest 9258 ms  failed 0 -> healthy
+tenant 6 ready: [swing:3c4756]  canvas 1920x1080
+
+=== 6 active tenant(s): [swing:3c4756] ===
+  mem -1,6,sb,swing:3c4756,2026-09-11T09:15:16Z,1,506.3,,748.0,169.8,171.1,1170.3,1163.3,1170.3,1163.3,534,313,27435.9,0.0,0,0,
+    cycles=12,10,8,5,3,1  slowest cycle 9687 ms (1 tenant: 9720)  slowest step 793 ms (budget 2379)  stalest 9296 ms  failed 0 -> healthy
+tenant 7 ready: [swing:fm29ul]  canvas 1920x1080
+
+=== 7 active tenant(s): [swing:fm29ul] ===
+  mem -1,7,sb,swing:fm29ul,2026-09-11T09:15:37Z,1,673.3,,840.0,184.0,185.2,1291.2,1284.2,1291.2,1284.2,567,320,25983.2,0.0,0,0,
+    cycles=14,12,10,8,5,3,1  slowest cycle 9704 ms (1 tenant: 9720)  slowest step 793 ms (budget 2379)  stalest 9284 ms  failed 0 -> healthy
+tenant 8 ready: [swing:45kh0p]  canvas 1920x1080
+
+=== 8 active tenant(s): [swing:45kh0p] ===
+  mem -1,8,sb,swing:45kh0p,2026-09-11T09:15:58Z,1,587.7,,924.0,198.1,199.4,1403.2,1396.2,1403.2,1396.2,601,327,26178.9,0.0,0,0,
+    cycles=16,14,12,10,8,5,3,1  slowest cycle 9736 ms (1 tenant: 9720)  slowest step 793 ms (budget 2379)  stalest 9279 ms  failed 0 -> healthy
+tenant 9 ready: [swing:gfrnnk]  canvas 1920x1080
+
+=== 9 active tenant(s): [swing:gfrnnk] ===
+  mem -1,9,sb,swing:gfrnnk,2026-09-11T09:16:20Z,1,626.4,,1034.0,212.2,213.6,1542.7,1535.7,1542.7,1535.7,631,334,26541.0,0.0,0,0,
+    cycles=19,16,14,12,10,8,5,3,1  slowest cycle 9750 ms (1 tenant: 9720)  slowest step 793 ms (budget 2379)  stalest 9317 ms  failed 0 -> healthy
+tenant 10 ready: [swing:8mjpjf]  canvas 1920x1080
+
+=== 10 active tenant(s): [swing:8mjpjf] ===
+  mem -1,10,sb,swing:8mjpjf,2026-09-11T09:16:41Z,1,827.3,,1108.0,226.4,227.9,1642.7,1635.7,1642.7,1635.7,665,341,26403.1,0.0,0,0,
+    cycles=21,19,16,14,12,10,8,5,3,1  slowest cycle 9707 ms (1 tenant: 9720)  slowest step 793 ms (budget 2379)  stalest 9294 ms  failed 0 -> healthy
+tenant 11 ready: [swing:dhmyig]  canvas 1920x1080
+
+=== 11 active tenant(s): [swing:dhmyig] ===
+  mem -1,11,sb,swing:dhmyig,2026-09-11T09:17:02Z,1,930.0,,1208.0,240.5,242.0,1771.8,1764.8,1771.8,1764.8,699,348,26058.6,0.0,0,0,
+    cycles=23,21,19,16,14,12,10,8,5,3,1  slowest cycle 9708 ms (1 tenant: 9720)  slowest step 793 ms (budget 2379)  stalest 9348 ms  failed 0 -> healthy
+tenant 12 ready: [swing:9o1gi3]  canvas 1920x1080
+
+=== 12 active tenant(s): [swing:9o1gi3] ===
+  mem -1,12,sb,swing:9o1gi3,2026-09-11T09:17:24Z,1,980.3,,1314.0,254.6,256.2,1906.0,1899.0,1906.0,1899.0,737,355,25417.4,0.0,0,0,
+    cycles=25,23,21,19,16,14,12,10,8,5,3,1  slowest cycle 9736 ms (1 tenant: 9720)  slowest step 793 ms (budget 2379)  stalest 9390 ms  failed 0 -> healthy
+tenant 13 ready: [swing:paeg9h]  canvas 1920x1080
+
+=== 13 active tenant(s): [swing:paeg9h] ===
+  mem -1,13,sb,swing:paeg9h,2026-09-11T09:17:45Z,1,1309.9,,1404.0,268.8,270.4,2018.7,2011.7,2020.7,2013.8,765,362,24556.6,0.0,0,0,
+    cycles=27,25,23,21,19,16,14,12,10,8,6,3,1  slowest cycle 9737 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 9706 ms  failed 0 -> healthy
+tenant 14 ready: [swing:r9suvt]  canvas 1920x1080
+
+=== 14 active tenant(s): [swing:r9suvt] ===
+  mem -1,14,sb,swing:r9suvt,2026-09-11T09:18:07Z,1,1231.3,,1500.0,282.9,284.6,2145.8,2138.8,2145.8,2138.7,802,369,25845.8,0.0,0,0,
+    cycles=30,28,25,23,21,19,17,14,12,10,8,6,3,1  slowest cycle 9747 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 8380 ms  failed 0 -> healthy
+tenant 15 ready: [swing:cfbyoa]  canvas 1920x1080
+
+=== 15 active tenant(s): [swing:cfbyoa] ===
+  mem -1,15,sb,swing:cfbyoa,2026-09-11T09:18:29Z,1,1033.6,,1634.0,297.0,298.8,2309.3,2302.3,2309.3,2302.3,834,376,24389.8,0.0,0,0,
+    cycles=32,30,28,25,23,21,19,17,14,12,10,8,6,3,1  slowest cycle 9752 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 8913 ms  failed 0 -> healthy
+tenant 16 ready: [swing:ttkubo]  canvas 1920x1080
+
+=== 16 active tenant(s): [swing:ttkubo] ===
+  mem -1,16,sb,swing:ttkubo,2026-09-11T09:18:51Z,1,1037.5,,1698.0,311.1,312.9,2401.8,2394.8,2401.8,2394.8,872,383,25194.9,0.0,0,0,
+    cycles=34,32,30,28,25,23,21,19,17,15,12,10,8,6,3,1  slowest cycle 9749 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 9594 ms  failed 0 -> healthy
+tenant 17 ready: [swing:7yjvea]  canvas 1920x1080
+
+=== 17 active tenant(s): [swing:7yjvea] ===
+  mem -1,17,sb,swing:7yjvea,2026-09-11T09:19:13Z,1,1158.8,,1798.0,325.2,327.1,2529.7,2522.7,2529.7,2522.7,903,390,25594.7,0.0,0,0,
+    cycles=37,34,32,30,28,26,23,21,19,17,15,12,10,8,6,3,1  slowest cycle 9768 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 8603 ms  failed 0 -> healthy
+tenant 18 ready: [swing:rgt9pl]  canvas 1920x1080
+
+=== 18 active tenant(s): [swing:rgt9pl] ===
+  mem -1,18,sb,swing:rgt9pl,2026-09-11T09:19:36Z,1,1425.6,,1918.0,339.4,341.4,2676.2,2669.2,2676.2,2669.2,936,397,25436.7,0.0,0,0,
+    cycles=39,37,34,32,30,28,26,23,21,19,17,15,12,10,8,6,3,1  slowest cycle 9796 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 9263 ms  failed 0 -> healthy
+tenant 19 ready: [swing:mazbf0]  canvas 1920x1080
+
+=== 19 active tenant(s): [swing:mazbf0] ===
+  mem -1,19,sb,swing:mazbf0,2026-09-11T09:19:58Z,1,1542.6,,2000.0,353.5,355.5,2784.4,2777.4,2784.4,2777.4,969,404,25498.8,0.0,0,0,
+    cycles=41,39,37,34,32,30,28,26,24,21,19,17,15,12,10,8,6,3,1  slowest cycle 9927 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 9708 ms  failed 0 -> healthy
+tenant 20 ready: [swing:nirvt8]  canvas 1920x1080
+
+=== 20 active tenant(s): [swing:nirvt8] ===
+  mem -1,20,sb,swing:nirvt8,2026-09-11T09:20:20Z,1,1316.1,,2090.0,367.6,369.7,2897.0,2890.0,2897.0,2890.0,1001,410,25371.0,0.0,0,0,
+    cycles=43,41,39,37,35,32,30,28,26,24,21,19,17,15,12,10,8,6,3,1  slowest cycle 9835 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 9160 ms  failed 0 -> healthy
+tenant 21 ready: [swing:165g2l]  canvas 1920x1080
+
+=== 21 active tenant(s): [swing:165g2l] ===
+  mem -1,21,sb,swing:165g2l,2026-09-11T09:20:43Z,1,1338.0,,2194.0,381.8,383.9,3024.6,3017.6,3024.6,3017.6,1034,418,24844.4,0.0,0,0,
+    cycles=46,43,41,39,37,35,32,30,28,26,24,22,19,17,15,12,10,8,6,3,1  slowest cycle 9835 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 9431 ms  failed 0 -> healthy
+tenant 22 ready: [swing:svkfl1]  canvas 1920x1080
+
+=== 22 active tenant(s): [swing:svkfl1] ===
+  mem -1,22,sb,swing:svkfl1,2026-09-11T09:21:05Z,1,1580.2,,2304.0,395.9,398.1,3157.1,3150.1,3157.1,3150.1,1067,425,24030.7,0.0,0,0,
+    cycles=48,46,44,41,39,37,35,33,30,28,26,24,22,19,17,15,13,10,8,6,3,1  slowest cycle 9793 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 8876 ms  failed 0 -> healthy
+tenant 23 ready: [swing:5nys6v]  canvas 1920x1080
+
+=== 23 active tenant(s): [swing:5nys6v] ===
+  mem -1,23,sb,swing:5nys6v,2026-09-11T09:21:28Z,1,1944.1,,2380.0,410.0,412.2,3264.3,3257.3,3264.3,3257.3,1097,430,25018.9,0.0,0,0,
+    cycles=50,48,46,44,41,39,37,35,33,31,28,26,24,22,19,17,15,13,10,8,6,3,1  slowest cycle 9870 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 9690 ms  failed 0 -> healthy
+tenant 24 ready: [swing:ecmz6f]  canvas 1920x1080
+
+=== 24 active tenant(s): [swing:ecmz6f] ===
+  mem -1,24,sb,swing:ecmz6f,2026-09-11T09:21:50Z,1,1576.1,,2480.0,424.1,426.4,3388.4,3381.4,3388.4,3381.4,1125,439,23835.3,0.0,0,0,
+    cycles=53,50,48,46,44,42,39,37,35,33,31,28,26,24,22,19,17,15,13,10,8,6,3,1  slowest cycle 9933 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 8758 ms  failed 0 -> healthy
+tenant 25 ready: [swing:blep6s]  canvas 1920x1080
+
+=== 25 active tenant(s): [swing:blep6s] ===
+  mem -1,25,sb,swing:blep6s,2026-09-11T09:22:13Z,1,2130.4,,2560.0,438.2,440.6,3489.5,3482.5,3489.5,3482.5,1159,446,24382.9,0.0,0,0,
+    cycles=55,53,50,48,46,44,42,39,37,35,33,31,28,26,24,22,19,17,15,13,10,8,6,3,1  slowest cycle 9871 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 9673 ms  failed 0 -> healthy
+tenant 26 ready: [swing:yv504c]  canvas 1920x1080
+
+=== 26 active tenant(s): [swing:yv504c] ===
+  mem -1,26,sb,swing:yv504c,2026-09-11T09:22:35Z,1,1908.5,,2560.0,452.4,454.8,3508.7,3501.6,3508.6,3501.6,1191,453,24572.8,0.0,0,0,
+    cycles=57,55,53,51,48,46,44,42,40,37,35,33,31,29,26,24,22,19,17,15,13,10,8,6,3,1  slowest cycle 9934 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 8862 ms  failed 0 -> healthy
+tenant 27 ready: [swing:r35fdg]  canvas 1920x1080
+
+=== 27 active tenant(s): [swing:r35fdg] ===
+  mem -1,27,sb,swing:r35fdg,2026-09-11T09:22:59Z,1,2238.4,,2560.0,466.5,469.0,3528.6,3521.6,3528.6,3521.6,1223,460,24608.7,0.0,0,0,
+    cycles=60,57,55,53,51,49,46,44,42,40,38,35,33,31,29,26,24,22,20,17,15,13,10,8,6,3,1  slowest cycle 10109 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 9235 ms  failed 0 -> healthy
+tenant 28 ready: [swing:hncgh5]  canvas 1920x1080
+
+=== 28 active tenant(s): [swing:hncgh5] ===
+  mem -1,28,sb,swing:hncgh5,2026-09-11T09:23:21Z,1,1877.6,,2560.0,480.6,483.1,3553.3,3546.3,3553.3,3546.3,1256,467,24473.2,0.0,0,0,
+    cycles=62,60,57,55,53,51,49,46,44,42,40,38,35,33,31,29,26,24,22,20,17,15,13,10,8,6,3,1  slowest cycle 10115 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 8674 ms  failed 0 -> healthy
+tenant 29 ready: [swing:75ychg]  canvas 1920x1080
+
+=== 29 active tenant(s): [swing:75ychg] ===
+  mem -1,29,sb,swing:75ychg,2026-09-11T09:23:44Z,1,2167.6,,2560.0,494.8,497.4,3573.4,3566.4,3573.4,3566.4,1288,474,23770.2,0.0,0,0,
+    cycles=64,62,60,57,55,53,51,49,46,44,42,40,38,35,33,31,29,26,24,22,19,17,15,13,10,8,6,3,1  slowest cycle 10272 ms (1 tenant: 9720)  slowest step 797 ms (budget 2379)  stalest 9717 ms  failed 0 -> healthy
+tenant 30 ready: [swing:igsnjr]  canvas 1920x1080
+
+=== 30 active tenant(s): [swing:igsnjr] ===
+  mem -1,30,sb,swing:igsnjr,2026-09-11T09:24:07Z,1,2058.1,,2560.0,508.9,511.5,3595.1,3588.0,3595.1,3588.0,1320,481,24534.2,0.0,0,0,
+    cycles=66,64,62,60,57,55,53,51,49,47,44,42,40,38,35,33,31,29,26,24,22,19,17,15,12,10,8,6,3,1  slowest cycle 10262 ms (1 tenant: 9720)  slowest step 798 ms (budget 2379)  stalest 9873 ms  failed 0 -> healthy
+tenant 31 ready: [swing:6tce5x]  canvas 1920x1080
+
+=== 31 active tenant(s): [swing:6tce5x] ===
+  mem -1,31,sb,swing:6tce5x,2026-09-11T09:24:34Z,1,2381.9,,2560.0,522.7,525.5,3616.0,3609.0,3616.0,3609.0,1353,487,24482.9,0.0,0,0,
+    cycles=69,67,65,62,60,58,56,54,51,49,47,45,43,40,38,36,34,31,29,27,24,22,20,18,15,13,11,8,6,4,1  slowest cycle 10259 ms (1 tenant: 9720)  slowest step 1056 ms (budget 2379)  stalest 9040 ms  failed 0 -> healthy
+tenant 32 ready: [swing:mtb8pv]  canvas 1920x1080
+
+=== 32 active tenant(s): [swing:mtb8pv] ===
+  mem -1,32,sb,swing:mtb8pv,2026-09-11T09:25:01Z,1,2118.1,,2560.0,536.6,539.2,3636.2,3629.2,3636.2,3629.2,1385,495,23902.0,0.0,0,0,
+    cycles=72,70,67,65,63,61,58,56,54,52,50,48,45,43,41,39,36,34,32,29,27,25,23,20,18,16,13,11,9,6,4,1  slowest cycle 10298 ms (1 tenant: 9720)  slowest step 1056 ms (budget 2379)  stalest 9631 ms  failed 0 -> healthy
+  cycle 30 [swing:nirvt8]: crops differing from start: selection
+tenant 33 ready: [swing:pr7bxw]  canvas 1920x1080
+
+=== 33 active tenant(s): [swing:pr7bxw] ===
+  cycle 29 [swing:165g2l]: crops differing from start: tags
+  cycle 61 [swing:fm29ul]: crops differing from start: selection
+  mem -1,33,sb,swing:pr7bxw,2026-09-11T09:25:28Z,1,2362.4,,2560.0,550.5,553.0,3657.2,3650.2,3657.2,3650.2,1419,502,23481.3,0.0,0,0,
+    cycles=74,72,70,68,65,63,61,59,57,55,52,50,48,46,43,41,39,37,34,32,30,27,25,23,21,18,16,14,11,9,6,4,1  slowest cycle 11409 ms (1 tenant: 9720)  slowest step 1056 ms (budget 2379)  stalest 9940 ms  failed 0 -> healthy
+tenant 34 ready: [swing:9ao4qp]  canvas 1920x1080
+
+=== 34 active tenant(s): [swing:9ao4qp] ===
+  cycle 11 [swing:igsnjr]: crops differing from start: selection
+  mem -1,34,sb,swing:9ao4qp,2026-09-11T09:25:56Z,1,2136.2,,2560.0,564.4,566.8,3677.6,3670.6,3677.6,3670.6,1454,509,24062.5,0.0,0,0,
+    cycles=77,75,73,70,68,66,64,62,59,57,55,53,51,48,46,44,42,39,37,35,32,30,28,26,23,21,19,16,14,12,9,6,4,1  slowest cycle 11566 ms (1 tenant: 9720)  slowest step 1201 ms (budget 2379)  stalest 9740 ms  failed 0 -> healthy
+tenant 35 ready: [swing:yolqiw]  canvas 1920x1080
+
+=== 35 active tenant(s): [swing:yolqiw] ===
+  mem -1,35,sb,swing:yolqiw,2026-09-11T09:26:25Z,1,2404.3,,2560.0,578.3,580.7,3697.2,3690.2,3697.2,3690.2,1486,515,24164.0,0.0,0,0,
+    cycles=80,78,75,73,71,69,66,64,62,60,58,56,53,51,49,47,44,42,40,38,35,33,31,28,26,24,21,19,17,14,12,9,6,4,1  slowest cycle 11059 ms (1 tenant: 9720)  slowest step 1201 ms (budget 2379)  stalest 10174 ms  failed 0 -> healthy
+tenant 36 ready: [swing:c19lrh]  canvas 1920x1080
+
+=== 36 active tenant(s): [swing:c19lrh] ===
+  cycle 12 [swing:mtb8pv]: crops differing from start: selection
+  mem -1,36,sb,swing:c19lrh,2026-09-11T09:26:55Z,1,2304.6,,2560.0,592.2,594.5,3716.6,3709.6,3716.6,3709.6,1522,523,23839.6,0.0,0,0,
+    cycles=83,81,78,76,74,72,69,67,65,63,61,58,56,54,52,50,47,45,43,41,38,36,34,31,29,26,24,22,20,17,15,12,9,7,4,1  slowest cycle 11515 ms (1 tenant: 9720)  slowest step 1201 ms (budget 2379)  stalest 9994 ms  failed 0 -> healthy
+tenant 37 ready: [swing:pk5aza]  canvas 1920x1080
+
+=== 37 active tenant(s): [swing:pk5aza] ===
+  mem -1,37,sb,swing:pk5aza,2026-09-11T09:27:23Z,1,2350.1,,2560.0,606.1,608.2,3735.9,3728.9,3735.9,3728.9,1554,530,23512.9,0.0,0,0,
+    cycles=85,83,81,79,76,74,72,70,68,66,63,61,59,57,54,52,50,48,45,43,41,38,36,34,32,29,27,25,22,20,17,15,12,9,6,4,1  slowest cycle 11977 ms (1 tenant: 9720)  slowest step 1201 ms (budget 2379)  stalest 10540 ms  failed 0 -> healthy
+tenant 38 ready: [swing:e8pg6h]  canvas 1920x1080
+
+=== 38 active tenant(s): [swing:e8pg6h] ===
+  mem -1,38,sb,swing:e8pg6h,2026-09-11T09:28:06Z,1,2362.8,,2560.0,619.9,622.1,3756.8,3749.8,3756.8,3749.8,1588,533,23692.2,0.0,0,0,
+    cycles=89,87,85,83,80,79,76,74,72,70,67,65,63,61,58,56,54,52,49,47,45,43,40,38,36,33,31,29,26,24,21,18,16,13,11,8,5,1  slowest cycle 12074 ms (1 tenant: 9720)  slowest step 1349 ms (budget 2379)  stalest 9841 ms  failed 0 -> healthy
+  cycle 39 [swing:ecmz6f]: crops differing from start: selection
+  cycle 15 [swing:9ao4qp]: crops differing from start: selection
+  cycle 51 [swing:mazbf0]: crops differing from start: selection
+  cycle 38 [swing:blep6s]: crops differing from start: selection
+tenant 39 ready: [swing:5poj18]  canvas 1920x1080
+
+=== 39 active tenant(s): [swing:5poj18] ===
+  cycle 19 [swing:pr7bxw]: crops differing from start: selection
+  cycle 89 [swing:tm40wv]: crops differing from start: selection
+  mem -1,39,sb,swing:5poj18,2026-09-11T09:28:47Z,1,2420.7,,2560.0,633.9,635.9,3777.9,3770.9,3777.9,3770.9,1621,540,24231.2,0.0,0,0,
+    cycles=93,91,89,86,84,82,80,77,75,73,71,69,67,65,62,60,57,55,53,51,48,46,44,41,39,37,35,32,30,28,25,22,20,17,14,12,9,4,1  slowest cycle 12578 ms (1 tenant: 9720)  slowest step 1505 ms (budget 2379)  stalest 11106 ms  failed 0 -> healthy
+  cycle 36 [swing:r35fdg]: crops differing from start: selection
+  cycle 29 [swing:igsnjr]: crops differing from start: selection
+  cycle 68 [swing:paeg9h]: crops differing from start: selection
+  cycle 71 [swing:9o1gi3]: crops differing from start: selection
+  cycle 30 [swing:igsnjr]: crops differing from start: selection
+  cycle 89 [swing:t74ue7]: crops differing from start: selection
+  cycle 61 zoom-out     FAIL [swing:7yjvea] expected=map changed=map 777ms scale x4.0000 (want x8.0000) <-- MISMATCH
+tenant 40 ready: [swing:s9siht]  canvas 1920x1080
+
+=== 40 active tenant(s): [swing:s9siht] ===
+  cycle 43 [swing:blep6s]: crops differing from start: selection
+  cycle 44 [swing:blep6s]: crops differing from start: selection
+  cycle 98 zoom-in      FAIL [swing:n491t2] expected=map changed=map 788ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  mem -1,40,sb,swing:s9siht,2026-09-11T09:29:36Z,1,2343.1,,2560.0,647.4,649.2,3816.0,3809.0,3816.0,3809.0,1657,547,24440.7,0.0,0,0,
+    cycles=97,95,93,90,88,87,84,82,80,77,75,73,71,69,66,64,62,59,57,55,52,50,48,46,44,41,39,37,34,32,29,26,24,21,18,16,13,9,5,1  slowest cycle 13481 ms (1 tenant: 9720)  slowest step 1968 ms (budget 2379)  stalest 12327 ms  failed 1 -> DEGRADED
+  cycle 67 [swing:cfbyoa]: crops differing from start: selection
+  cycle 96 [swing:d8gteu]: crops differing from start: selection
+  cycle 27 zoom-out     FAIL [swing:mtb8pv] expected=map changed=map 776ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 98 [swing:n491t2]: crops differing from start: selection
+  cycle 83 [swing:45kh0p]: crops differing from start: selection
+  cycle 95 [swing:tm40wv]: crops differing from start: selection
+  cycle 64 [swing:7yjvea]: crops differing from start: selection
+  cycle 71 [swing:r9suvt]: crops differing from start: selection
+  cycle 51 [swing:5nys6v]: crops differing from start: selection
+  cycle 8 [swing:5poj18]: crops differing from start: selection
+tenant 41 ready: [swing:94oynq]  canvas 1920x1080
+
+=== 41 active tenant(s): [swing:94oynq] ===
+  cycle 70 [swing:cfbyoa]: crops differing from start: selection
+  cycle 83 [swing:gfrnnk]: crops differing from start: tags
+  cycle 52 [swing:5nys6v]: crops differing from start: selection
+  mem -1,41,sb,swing:94oynq,2026-09-11T09:30:25Z,1,2462.5,,2560.0,661.7,663.5,3835.1,3828.1,3835.1,3828.1,1691,554,24062.5,0.0,0,0,
+    cycles=101,99,97,94,92,91,88,86,83,82,79,77,75,73,70,68,66,63,61,59,57,54,52,49,48,44,43,40,38,36,33,30,28,25,23,20,17,13,9,5,1  slowest cycle 14459 ms (1 tenant: 9720)  slowest step 1968 ms (budget 2379)  stalest 11785 ms  failed 3 -> DEGRADED
+  cycle 80 [swing:dhmyig]: crops differing from start: selection
+  cycle 78 zoom-out     FAIL [swing:9o1gi3] expected=map changed=map 772ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 78 [swing:9o1gi3]: crops differing from start: selection
+  cycle 29 [swing:pr7bxw]: crops differing from start: selection
+  cycle 87 [swing:45kh0p]: crops differing from start: selection
+  cycle 21 [swing:c19lrh]: crops differing from start: selection
+  cycle 67 [swing:7yjvea]: crops differing from start: selection
+  cycle 81 zoom-in      FAIL [swing:dhmyig] expected=map changed=map 777ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 74 [swing:r9suvt]: crops differing from start: selection
+  cycle 58 [swing:165g2l]: crops differing from start: selection
+  cycle 18 [swing:pk5aza]: crops differing from start: selection
+  cycle 83 [swing:8mjpjf]: crops differing from start: selection
+  cycle 101 zoom-in      FAIL [swing:d8gteu] expected=map changed=map 777ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 24 [swing:yolqiw]: crops differing from start: selection
+  cycle 65 zoom-out     FAIL [swing:rgt9pl] expected=map changed=map 1245ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 49 [swing:blep6s]: crops differing from start: selection
+  cycle 92 [swing:3c4756]: crops differing from start: selection
+  cycle 27 [swing:9ao4qp]: crops differing from start: tags
+  cycle 65 [swing:rgt9pl]: crops differing from start: selection
+  cycle 35 [swing:6tce5x]: crops differing from start: selection
+  cycle 72 [swing:cfbyoa]: crops differing from start: selection
+  cycle 63 [swing:mazbf0]: crops differing from start: selection
+  cycle 7 [swing:s9siht]: crops differing from start: selection
+  cycle 15 [swing:e8pg6h]: crops differing from start: selection
+  cycle 79 [swing:9o1gi3]: crops differing from start: selection
+  cycle 50 [swing:blep6s]: crops differing from start: selection
+  cycle 84 [swing:8mjpjf]: crops differing from start: selection
+  cycle 62 zoom-in      FAIL [swing:nirvt8] expected=map changed=map 779ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 38 [swing:igsnjr]: crops differing from start: selection
+  cycle 104 zoom-in      FAIL [swing:n491t2] expected=map changed=tags,selection,map 780ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 102 zoom-out     FAIL [swing:d8gteu] expected=map changed=map 790ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 36 zoom-out     FAIL [swing:6tce5x] expected=map changed=map 773ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 19 [swing:pk5aza]: crops differing from start: selection
+  cycle 22 [swing:c19lrh]: crops differing from start: selection
+  cycle 64 zoom-in      FAIL [swing:mazbf0] expected=map changed=map 1380ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 47 [swing:yv504c]: crops differing from start: selection
+  cycle 97 [swing:t74ue7]: crops differing from start: selection
+  cycle 57 [swing:svkfl1]: crops differing from start: selection
+  cycle 95 [swing:q66f8t]: crops differing from start: selection
+  cycle 46 zoom-in      FAIL [swing:r35fdg] expected=map changed=map 791ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 93 [swing:3c4756]: crops differing from start: selection
+  cycle 28 [swing:9ao4qp]: crops differing from start: selection
+  cycle 8 zoom-in      FAIL [swing:s9siht] expected=map changed=map 1097ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 66 [swing:rgt9pl]: crops differing from start: selection
+  cycle 71 zoom-out     FAIL [swing:ttkubo] expected=map changed=map 774ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 73 [swing:cfbyoa]: crops differing from start: selection
+  cycle 86 [swing:gfrnnk]: crops differing from start: selection
+  cycle 102 [swing:d8gteu]: crops differing from start: selection
+  cycle 41 [swing:75ychg]: crops differing from start: selection
+  cycle 4 zoom-in      FAIL [swing:94oynq] expected=map changed=tags,map 2002ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 82 [swing:dhmyig]: crops differing from start: selection
+  cycle 91 zoom-in      FAIL [swing:fm29ul] expected=map changed=tags,map 1230ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 52 [swing:ecmz6f]: crops differing from start: selection
+  cycle 36 [swing:6tce5x]: crops differing from start: selection
+  cycle 76 zoom-in      FAIL [swing:r9suvt] expected=map changed=map 929ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 71 [swing:ttkubo]: crops differing from start: selection
+  cycle 43 [swing:hncgh5]: crops differing from start: selection
+  cycle 55 zoom-out     FAIL [swing:5nys6v] expected=map changed=map 924ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 89 zoom-in      FAIL [swing:45kh0p] expected=map changed=map 773ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 100 zoom-in      FAIL [swing:tm40wv] expected=map changed=tags,map 1845ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 76 zoom-out     FAIL [swing:r9suvt] expected=map changed=tags,map 784ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 64 [swing:mazbf0]: crops differing from start: selection
+  cycle 8 [swing:s9siht]: crops differing from start: selection
+  cycle 89 zoom-out     FAIL [swing:45kh0p] expected=map changed=tags,map 771ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 4 [swing:94oynq]: crops differing from start: selection
+  cycle 80 zoom-in      FAIL [swing:9o1gi3] expected=map changed=map 1074ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 16 zoom-in      FAIL [swing:e8pg6h] expected=map changed=map 778ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 96 zoom-in      FAIL [swing:q66f8t] expected=map changed=map 926ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 85 zoom-in      FAIL [swing:8mjpjf] expected=map changed=tags,map 1234ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 87 zoom-in      FAIL [swing:gfrnnk] expected=map changed=map 771ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 83 zoom-out     FAIL [swing:dhmyig] expected=map changed=map 773ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 51 [swing:blep6s]: crops differing from start: selection
+  cycle 80 [swing:9o1gi3]: crops differing from start: selection
+  cycle 83 [swing:dhmyig]: crops differing from start: selection
+  cycle 69 [swing:7yjvea]: crops differing from start: selection
+  cycle 103 [swing:d8gteu]: crops differing from start: selection
+  cycle 105 zoom-in      FAIL [swing:n491t2] expected=map changed=map 774ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 85 [swing:8mjpjf]: crops differing from start: selection
+  cycle 32 zoom-in      FAIL [swing:pr7bxw] expected=map changed=map 772ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 96 [swing:q66f8t]: crops differing from start: selection
+  cycle 29 [swing:9ao4qp]: crops differing from start: selection
+  cycle 23 [swing:c19lrh]: crops differing from start: selection
+  cycle 79 [swing:paeg9h]: crops differing from start: selection
+  cycle 13 [swing:5poj18]: crops differing from start: selection
+  cycle 42 [swing:75ychg]: crops differing from start: selection
+  cycle 34 [swing:mtb8pv]: crops differing from start: selection
+  cycle 90 zoom-out     FAIL [swing:45kh0p] expected=map changed=map 774ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 94 [swing:3c4756]: crops differing from start: selection
+  cycle 68 zoom-in      FAIL [swing:rgt9pl] expected=map changed=tags,selection,map 774ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 81 zoom-in      FAIL [swing:9o1gi3] expected=map changed=tags,map 1241ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 63 [swing:nirvt8]: crops differing from start: selection
+  cycle 74 [swing:cfbyoa]: crops differing from start: selection
+  cycle 48 [swing:yv504c]: crops differing from start: selection
+  cycle 52 zoom-out     FAIL [swing:blep6s] expected=map changed=map 771ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 77 [swing:r9suvt]: crops differing from start: selection
+  cycle 65 [swing:mazbf0]: crops differing from start: selection
+  cycle 27 zoom-out     FAIL [swing:yolqiw] expected=map changed=map 773ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 72 [swing:ttkubo]: crops differing from start: selection
+  cycle 105 [swing:n491t2]: crops differing from start: selection
+  cycle 56 [swing:5nys6v]: crops differing from start: selection
+  cycle 90 [swing:45kh0p]: crops differing from start: selection
+  cycle 68 zoom-out     FAIL [swing:rgt9pl] expected=map changed=tags,map 777ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 5 [swing:94oynq]: crops differing from start: selection
+  cycle 81 zoom-out     FAIL [swing:9o1gi3] expected=map changed=tags,map 1389ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 9 [swing:s9siht]: crops differing from start: selection
+  cycle 61 [swing:165g2l]: crops differing from start: selection
+  cycle 52 [swing:blep6s]: crops differing from start: selection
+  cycle 27 [swing:yolqiw]: crops differing from start: selection
+  cycle 101 [swing:tm40wv]: crops differing from start: selection
+  cycle 68 [swing:rgt9pl]: crops differing from start: selection
+  cycle 86 zoom-in      FAIL [swing:8mjpjf] expected=map changed=map 1695ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 30 zoom-in      FAIL [swing:9ao4qp] expected=map changed=tags,map 930ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 70 zoom-out     FAIL [swing:7yjvea] expected=map changed=map 923ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 80 zoom-in      FAIL [swing:paeg9h] expected=map changed=map 1236ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 24 zoom-in      FAIL [swing:c19lrh] expected=map changed=map 773ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 99 zoom-in      FAIL [swing:t74ue7] expected=map changed=tags,selection,map 774ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 43 zoom-in      FAIL [swing:75ychg] expected=map changed=map 926ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 97 zoom-out     FAIL [swing:q66f8t] expected=map changed=map 774ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 40 [swing:igsnjr]: crops differing from start: selection
+  cycle 35 zoom-in      FAIL [swing:mtb8pv] expected=map changed=tags,selection,map 929ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 95 zoom-in      FAIL [swing:3c4756] expected=map changed=map 778ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 70 [swing:7yjvea]: crops differing from start: selection
+  cycle 14 zoom-out     FAIL [swing:5poj18] expected=map changed=map 781ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 24 zoom-out     FAIL [swing:c19lrh] expected=map changed=tags,map 1543ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 84 [swing:dhmyig]: crops differing from start: selection
+  cycle 59 zoom-out     FAIL [swing:svkfl1] expected=map changed=map 773ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 97 [swing:q66f8t]: crops differing from start: selection,map
+  cycle 38 zoom-in      FAIL [swing:6tce5x] expected=map changed=map 949ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 80 zoom-out     FAIL [swing:paeg9h] expected=map changed=tags,map 1689ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 104 [swing:d8gteu]: crops differing from start: selection
+  cycle 17 [swing:e8pg6h]: crops differing from start: selection
+  cycle 48 zoom-in      FAIL [swing:r35fdg] expected=map changed=map 1081ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 57 zoom-in      FAIL [swing:5nys6v] expected=map changed=map 1241ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 30 [swing:9ao4qp]: crops differing from start: selection
+  cycle 66 zoom-in      FAIL [swing:mazbf0] expected=map changed=map 925ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 14 [swing:5poj18]: crops differing from start: selection
+  cycle 24 [swing:c19lrh]: crops differing from start: selection
+  cycle 59 [swing:svkfl1]: crops differing from start: selection,map
+  cycle 80 [swing:paeg9h]: crops differing from start: selection
+  cycle 99 [swing:t74ue7]: crops differing from start: selection
+  cycle 88 zoom-out     FAIL [swing:gfrnnk] expected=map changed=tags,map 1077ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 21 [swing:pk5aza]: crops differing from start: selection
+  cycle 35 [swing:mtb8pv]: crops differing from start: selection
+  cycle 88 [swing:gfrnnk]: crops differing from start: selection
+  cycle 10 zoom-out     FAIL [swing:s9siht] expected=map changed=map 780ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 33 zoom-out     FAIL [swing:pr7bxw] expected=map changed=map 927ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 66 [swing:mazbf0]: crops differing from start: tags,selection
+  cycle 93 zoom-out     FAIL [swing:fm29ul] expected=map changed=map 774ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 105 zoom-in      FAIL [swing:d8gteu] expected=map changed=tags,selection,map 772ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 62 zoom-out     FAIL [swing:165g2l] expected=map changed=map 1234ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 48 [swing:r35fdg]: crops differing from start: selection
+  cycle 73 [swing:ttkubo]: crops differing from start: tags,selection
+  cycle 71 zoom-in      FAIL [swing:7yjvea] expected=map changed=map 1230ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 64 [swing:nirvt8]: crops differing from start: selection
+  cycle 102 zoom-out     FAIL [swing:tm40wv] expected=map changed=map 778ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 91 [swing:45kh0p]: crops differing from start: selection
+  cycle 18 zoom-in      FAIL [swing:e8pg6h] expected=map changed=tags,map 1533ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 54 [swing:ecmz6f]: crops differing from start: selection
+  cycle 57 [swing:5nys6v]: crops differing from start: selection
+  cycle 33 [swing:pr7bxw]: crops differing from start: selection
+  cycle 10 [swing:s9siht]: crops differing from start: selection
+  cycle 15 zoom-in      FAIL [swing:5poj18] expected=map changed=map 927ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 93 [swing:fm29ul]: crops differing from start: selection
+  cycle 31 zoom-in      FAIL [swing:9ao4qp] expected=map changed=map 1683ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 78 [swing:r9suvt]: crops differing from start: selection
+  cycle 62 [swing:165g2l]: crops differing from start: selection
+  cycle 69 [swing:rgt9pl]: crops differing from start: selection
+  cycle 82 [swing:9o1gi3]: crops differing from start: selection
+  cycle 49 [swing:yv504c]: crops differing from start: selection
+  cycle 71 zoom-out     FAIL [swing:7yjvea] expected=map changed=tags,map 777ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 53 [swing:blep6s]: crops differing from start: selection
+  cycle 28 [swing:yolqiw]: crops differing from start: selection
+  cycle 18 zoom-out     FAIL [swing:e8pg6h] expected=map changed=tags,map 777ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 102 [swing:tm40wv]: crops differing from start: selection
+  cycle 87 zoom-out     FAIL [swing:8mjpjf] expected=map changed=map 774ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 31 zoom-out     FAIL [swing:9ao4qp] expected=map changed=map 769ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 81 zoom-in      FAIL [swing:paeg9h] expected=map changed=map 1076ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 105 [swing:d8gteu]: crops differing from start: selection
+  cycle 71 [swing:7yjvea]: crops differing from start: selection
+  cycle 85 zoom-out     FAIL [swing:dhmyig] expected=map changed=map 926ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 18 [swing:e8pg6h]: crops differing from start: selection
+  cycle 41 [swing:igsnjr]: crops differing from start: selection
+  cycle 44 zoom-in      FAIL [swing:75ychg] expected=map changed=map 773ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 22 zoom-out     FAIL [swing:pk5aza] expected=map changed=map 772ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 60 zoom-out     FAIL [swing:svkfl1] expected=map changed=map 777ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 87 [swing:8mjpjf]: crops differing from start: selection,map
+  cycle 31 [swing:9ao4qp]: crops differing from start: selection,map
+  cycle 46 zoom-in      FAIL [swing:hncgh5] expected=map changed=map 2149ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 98 [swing:q66f8t]: crops differing from start: selection
+  cycle 36 zoom-out     FAIL [swing:mtb8pv] expected=map changed=map 770ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 15 [swing:5poj18]: crops differing from start: selection
+  cycle 25 zoom-out     FAIL [swing:c19lrh] expected=map changed=map 768ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 81 zoom-out     FAIL [swing:paeg9h] expected=map changed=tags,map 1241ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 85 [swing:dhmyig]: crops differing from start: tags,selection,map
+  cycle 89 zoom-out     FAIL [swing:gfrnnk] expected=map changed=map 1227ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 100 [swing:t74ue7]: crops differing from start: selection
+  cycle 60 [swing:svkfl1]: crops differing from start: tags,selection,map
+  cycle 22 [swing:pk5aza]: crops differing from start: tags,selection,map
+  cycle 76 zoom-in      FAIL [swing:cfbyoa] expected=map changed=tags,map 2755ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 39 zoom-in      FAIL [swing:6tce5x] expected=map changed=map 774ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 44 zoom-out     FAIL [swing:75ychg] expected=map changed=tags,map 769ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 46 zoom-out     FAIL [swing:hncgh5] expected=map changed=tags,map 768ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 96 zoom-out     FAIL [swing:3c4756] expected=map changed=map 775ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 49 zoom-in      FAIL [swing:r35fdg] expected=map changed=map 1697ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 25 [swing:c19lrh]: crops differing from start: selection,map
+  cycle 81 [swing:paeg9h]: crops differing from start: selection,map
+  cycle 36 [swing:mtb8pv]: crops differing from start: selection
+  cycle 107 zoom-in      FAIL [swing:n491t2] expected=map changed=map 1377ms scale x0.2500 (want x0.1250) <-- MISMATCH
+tenant 42 ready: [swing:leavje]  canvas 1920x1080
+
+=== 42 active tenant(s): [swing:leavje] ===
+  cycle 76 zoom-out     FAIL [swing:cfbyoa] expected=map changed=tags,map 770ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 49 zoom-out     FAIL [swing:r35fdg] expected=map changed=tags,map 935ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 89 [swing:gfrnnk]: crops differing from start: selection
+  cycle 44 [swing:75ychg]: crops differing from start: selection
+  cycle 92 zoom-in      FAIL [swing:45kh0p] expected=map changed=tags,map 1996ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 55 zoom-in      FAIL [swing:ecmz6f] expected=map changed=tags,map 1839ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 96 [swing:3c4756]: crops differing from start: selection,map
+  cycle 65 zoom-in      FAIL [swing:nirvt8] expected=map changed=map 1688ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 107 zoom-out     FAIL [swing:n491t2] expected=map changed=map 786ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 74 zoom-out     FAIL [swing:ttkubo] expected=map changed=map 773ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 34 zoom-out     FAIL [swing:pr7bxw] expected=map changed=map 784ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 39 zoom-out     FAIL [swing:6tce5x] expected=map changed=tags,map 1073ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 46 [swing:hncgh5]: crops differing from start: selection
+  cycle 94 zoom-in      FAIL [swing:fm29ul] expected=map changed=map 1997ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 67 [swing:mazbf0]: crops differing from start: selection,map
+  cycle 58 zoom-out     FAIL [swing:5nys6v] expected=map changed=map 928ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 65 zoom-out     FAIL [swing:nirvt8] expected=map changed=tags,map 1074ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 92 zoom-out     FAIL [swing:45kh0p] expected=map changed=tags,map 773ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 49 [swing:r35fdg]: crops differing from start: selection,map
+  cycle 76 [swing:cfbyoa]: crops differing from start: selection
+  cycle 107 [swing:n491t2]: crops differing from start: tags,selection,map
+  cycle 7 zoom-out     FAIL [swing:94oynq] expected=map changed=map 1378ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 94 zoom-out     FAIL [swing:fm29ul] expected=map changed=tags,map 1079ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 39 [swing:6tce5x]: crops differing from start: selection,map
+  cycle 55 zoom-out     FAIL [swing:ecmz6f] expected=map changed=tags,map 1389ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 50 zoom-out     FAIL [swing:yv504c] expected=map changed=map 2300ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 83 zoom-out     FAIL [swing:9o1gi3] expected=map changed=map 777ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 88 zoom-in      FAIL [swing:8mjpjf] expected=map changed=map 925ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 54 zoom-out     FAIL [swing:blep6s] expected=map changed=map 1402ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 29 zoom-in      FAIL [swing:yolqiw] expected=map changed=map 924ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 74 [swing:ttkubo]: crops differing from start: selection,map
+  cycle 63 zoom-out     FAIL [swing:165g2l] expected=map changed=map 925ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 19 zoom-in      FAIL [swing:e8pg6h] expected=map changed=map 1232ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 70 zoom-out     FAIL [swing:rgt9pl] expected=map changed=map 770ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 34 [swing:pr7bxw]: crops differing from start: selection
+  cycle 58 [swing:5nys6v]: crops differing from start: tags,selection,map
+  cycle 92 [swing:45kh0p]: crops differing from start: selection,map
+  cycle 65 [swing:nirvt8]: crops differing from start: selection,map
+  cycle 50 [swing:yv504c]: crops differing from start: selection,map
+  cycle 11 [swing:s9siht]: crops differing from start: selection,map
+  cycle 29 zoom-out     FAIL [swing:yolqiw] expected=map changed=tags,map 773ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 55 [swing:ecmz6f]: crops differing from start: selection
+  cycle 16 zoom-in      FAIL [swing:5poj18] expected=map changed=map 2293ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 94 [swing:fm29ul]: crops differing from start: tags,selection,map
+  cycle 54 [swing:blep6s]: crops differing from start: tags,selection,map
+  cycle 83 [swing:9o1gi3]: crops differing from start: selection,map
+  cycle 70 [swing:rgt9pl]: crops differing from start: tags,selection,map
+  cycle 7 [swing:94oynq]: crops differing from start: selection
+  cycle 32 zoom-in      FAIL [swing:9ao4qp] expected=map changed=tags,map 2604ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 63 [swing:165g2l]: crops differing from start: selection,map
+  cycle 103 [swing:tm40wv]: crops differing from start: selection,map
+  cycle 16 zoom-out     FAIL [swing:5poj18] expected=map changed=tags,map 768ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 79 [swing:r9suvt]: crops differing from start: selection
+  cycle 99 zoom-in      FAIL [swing:q66f8t] expected=map changed=map 1530ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 19 zoom-out     FAIL [swing:e8pg6h] expected=map changed=tags,map 1075ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 88 zoom-out     FAIL [swing:8mjpjf] expected=map changed=tags,map 2148ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 26 zoom-in      FAIL [swing:c19lrh] expected=map changed=map 1401ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 29 [swing:yolqiw]: crops differing from start: selection,map
+  cycle 72 zoom-out     FAIL [swing:7yjvea] expected=map changed=map 771ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 61 zoom-out     FAIL [swing:svkfl1] expected=map changed=map 769ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 106 [swing:d8gteu]: crops differing from start: selection,map
+  cycle 82 zoom-in      FAIL [swing:paeg9h] expected=map changed=map 1528ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 32 zoom-out     FAIL [swing:9ao4qp] expected=map changed=tags,map 1850ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 101 zoom-out     FAIL [swing:t74ue7] expected=map changed=map 775ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 37 zoom-in      FAIL [swing:mtb8pv] expected=map changed=map 1833ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  mem -1,42,sb,swing:leavje,2026-09-11T09:32:01Z,1,2409.2,,2560.0,675.6,677.4,3934.7,3927.7,3934.7,3927.7,1728,557,23591.3,0.0,0,0,
+    cycles=107,106,103,100,98,96,94,92,89,87,85,83,81,79,76,74,71,70,67,65,63,60,58,55,54,50,49,46,44,41,39,36,34,31,29,25,22,18,15,11,7,0  slowest cycle 22258 ms (1 tenant: 9720)  slowest step 5992 ms (budget 2379)  stalest 95562 ms  failed 111 -> DEGRADED
+  cycle 88 [swing:8mjpjf]: crops differing from start: selection
+  cycle 26 zoom-out     FAIL [swing:c19lrh] expected=map changed=tags,map 768ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 99 zoom-out     FAIL [swing:q66f8t] expected=map changed=tags,map 775ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 19 [swing:e8pg6h]: crops differing from start: selection
+  cycle 16 [swing:5poj18]: crops differing from start: selection,map
+  cycle 72 [swing:7yjvea]: crops differing from start: selection,map
+  cycle 37 zoom-out     FAIL [swing:mtb8pv] expected=map changed=tags,map 1690ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 82 zoom-out     FAIL [swing:paeg9h] expected=map changed=tags,map 775ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 1 [swing:leavje]: crops differing from start: selection,map
+  cycle 68 zoom-in      FAIL [swing:mazbf0] expected=map changed=map 1543ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 32 [swing:9ao4qp]: crops differing from start: selection,map
+  cycle 61 [swing:svkfl1]: crops differing from start: selection
+  cycle 42 [swing:igsnjr]: crops differing from start: selection
+  cycle 101 [swing:t74ue7]: crops differing from start: tags,selection,map
+  cycle 23 [swing:pk5aza]: crops differing from start: selection,map
+  cycle 26 [swing:c19lrh]: crops differing from start: selection
+  cycle 68 zoom-out     FAIL [swing:mazbf0] expected=map changed=tags,map 2147ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 99 [swing:q66f8t]: crops differing from start: selection
+  cycle 82 [swing:paeg9h]: crops differing from start: tags,selection,map
+  cycle 45 zoom-out     FAIL [swing:75ychg] expected=map changed=map 1530ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 50 zoom-in      FAIL [swing:r35fdg] expected=map changed=map 1991ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 40 zoom-in      FAIL [swing:6tce5x] expected=map changed=map 1073ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 90 [swing:gfrnnk]: crops differing from start: selection,map
+  cycle 37 [swing:mtb8pv]: crops differing from start: selection,map
+  cycle 47 zoom-out     FAIL [swing:hncgh5] expected=map changed=tags,map 1533ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 75 zoom-in      FAIL [swing:ttkubo] expected=map changed=map 770ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 50 zoom-out     FAIL [swing:r35fdg] expected=map changed=tags,map 784ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 68 [swing:mazbf0]: crops differing from start: selection
+  cycle 59 zoom-in      FAIL [swing:5nys6v] expected=map changed=map 926ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 33 select-a     FAIL [swing:9ao4qp] expected=tags,selection changed=selection,map NEVER CHANGED
+  cycle 40 zoom-out     FAIL [swing:6tce5x] expected=map changed=tags,map 1537ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 56 zoom-in      FAIL [swing:ecmz6f] expected=map changed=map 786ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 51 zoom-in      FAIL [swing:yv504c] expected=map changed=tags,map 4275ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 24 select-a     FAIL [swing:pk5aza] expected=tags,selection changed=map NEVER CHANGED
+  cycle 93 zoom-out     FAIL [swing:45kh0p] expected=map changed=map 768ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 45 [swing:75ychg]: crops differing from start: selection,map
+  cycle 47 [swing:hncgh5]: crops differing from start: selection,map
+  cycle 75 zoom-out     FAIL [swing:ttkubo] expected=map changed=tags,map 770ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 66 zoom-in      FAIL [swing:nirvt8] expected=map changed=map 2898ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 95 zoom-out     FAIL [swing:fm29ul] expected=map changed=map 1379ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 77 [swing:cfbyoa]: crops differing from start: tags,selection,map
+  cycle 59 zoom-out     FAIL [swing:5nys6v] expected=map changed=tags,map 778ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 56 zoom-out     FAIL [swing:ecmz6f] expected=map changed=tags,map 1838ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 8 zoom-in      FAIL [swing:94oynq] expected=map changed=map 1535ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 50 [swing:r35fdg]: crops differing from start: selection
+  cycle 97 [swing:3c4756]: crops differing from start: selection
+  cycle 35 zoom-out     FAIL [swing:pr7bxw] expected=map changed=map 1232ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 66 zoom-out     FAIL [swing:nirvt8] expected=map changed=tags,map 773ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 91 select-a     FAIL [swing:gfrnnk] expected=tags,selection changed=map NEVER CHANGED
+  cycle 51 zoom-out     FAIL [swing:yv504c] expected=map changed=tags,map 1998ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 64 zoom-in      FAIL [swing:165g2l] expected=map changed=tags,selection,map 5038ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 84 zoom-out     FAIL [swing:9o1gi3] expected=map changed=map 1225ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 104 zoom-in      FAIL [swing:tm40wv] expected=map changed=map 1079ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 40 [swing:6tce5x]: crops differing from start: selection
+  cycle 108 [swing:n491t2]: crops differing from start: selection,map
+  cycle 93 [swing:45kh0p]: crops differing from start: selection,map
+  cycle 80 zoom-out     FAIL [swing:r9suvt] expected=map changed=map 1843ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 71 zoom-out     FAIL [swing:rgt9pl] expected=map changed=map 1991ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 12 [swing:s9siht]: crops differing from start: selection
+  cycle 59 [swing:5nys6v]: crops differing from start: selection,map
+  cycle 75 [swing:ttkubo]: crops differing from start: selection
+  cycle 51 [swing:yv504c]: crops differing from start: selection,map
+  cycle 95 [swing:fm29ul]: crops differing from start: selection,map
+  cycle 66 [swing:nirvt8]: crops differing from start: selection,map
+  cycle 30 zoom-out     FAIL [swing:yolqiw] expected=map changed=tags,map 1083ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 56 [swing:ecmz6f]: crops differing from start: selection
+  cycle 64 zoom-out     FAIL [swing:165g2l] expected=map changed=tags,map 2608ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 8 zoom-out     FAIL [swing:94oynq] expected=map changed=tags,map 4124ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 84 [swing:9o1gi3]: crops differing from start: selection,map
+  cycle 35 [swing:pr7bxw]: crops differing from start: selection
+  cycle 73 zoom-in      FAIL [swing:7yjvea] expected=map changed=tags,map 2601ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 104 zoom-out     FAIL [swing:tm40wv] expected=map changed=tags,map 1076ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 80 [swing:r9suvt]: crops differing from start: selection,map
+  cycle 102 zoom-in      FAIL [swing:t74ue7] expected=map changed=map 1844ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 89 zoom-out     FAIL [swing:8mjpjf] expected=map changed=map 927ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 8 [swing:94oynq]: crops differing from start: selection,map
+  cycle 71 [swing:rgt9pl]: crops differing from start: selection
+  cycle 64 [swing:165g2l]: crops differing from start: selection
+  cycle 30 [swing:yolqiw]: crops differing from start: selection,map
+  cycle 91 zoom-in      FAIL [swing:gfrnnk] expected=map changed=map 1089ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 73 zoom-out     FAIL [swing:7yjvea] expected=map changed=tags,map 1074ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 87 zoom-in      FAIL [swing:dhmyig] expected=map changed=tags,map 3824ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 102 zoom-out     FAIL [swing:t74ue7] expected=map changed=tags,map 777ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 2 zoom-out     FAIL [swing:leavje] expected=map changed=map 2145ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 33 zoom-out     FAIL [swing:9ao4qp] expected=map changed=map 1984ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 107 [swing:d8gteu]: crops differing from start: selection
+  cycle 100 zoom-in      FAIL [swing:q66f8t] expected=map changed=map 3816ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 27 zoom-in      FAIL [swing:c19lrh] expected=map changed=map 2920ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 20 [swing:e8pg6h]: crops differing from start: tags,selection,map
+  cycle 55 [swing:blep6s]: crops differing from start: selection
+  cycle 104 [swing:tm40wv]: crops differing from start: selection
+  cycle 89 [swing:8mjpjf]: crops differing from start: selection
+  cycle 87 zoom-out     FAIL [swing:dhmyig] expected=map changed=tags,map 1985ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 43 zoom-out     FAIL [swing:igsnjr] expected=map changed=map 1702ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 73 [swing:7yjvea]: crops differing from start: selection,map
+  cycle 27 zoom-out     FAIL [swing:c19lrh] expected=map changed=tags,map 1376ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 102 [swing:t74ue7]: crops differing from start: selection
+  cycle 2 [swing:leavje]: crops differing from start: selection,map
+  cycle 91 zoom-out     FAIL [swing:gfrnnk] expected=map changed=tags,map 4271ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 100 zoom-out     FAIL [swing:q66f8t] expected=map changed=tags,map 922ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 33 [swing:9ao4qp]: crops differing from start: selection
+  cycle 83 [swing:paeg9h]: crops differing from start: selection
+  cycle 17 [swing:5poj18]: crops differing from start: selection
+  cycle 62 [swing:svkfl1]: crops differing from start: selection,map
+  cycle 24 [swing:pk5aza]: crops differing from start: selection,map
+  cycle 48 zoom-in      FAIL [swing:hncgh5] expected=map changed=tags,selection,map 3366ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 43 [swing:igsnjr]: crops differing from start: selection,map
+  cycle 38 zoom-out     FAIL [swing:mtb8pv] expected=map changed=tags,map 1073ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 91 [swing:gfrnnk]: crops differing from start: selection,map
+  cycle 69 zoom-out     FAIL [swing:mazbf0] expected=map changed=map 770ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 100 [swing:q66f8t]: crops differing from start: selection,map
+  cycle 87 [swing:dhmyig]: crops differing from start: selection
+  cycle 27 [swing:c19lrh]: crops differing from start: selection,map
+  cycle 46 zoom-in      FAIL [swing:75ychg] expected=map changed=map 1542ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 98 zoom-out     FAIL [swing:3c4756] expected=map changed=map 769ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 109 zoom-in      FAIL [swing:n491t2] expected=map changed=tags,map 2759ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 78 zoom-out     FAIL [swing:cfbyoa] expected=map changed=map 1232ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 60 zoom-in      FAIL [swing:5nys6v] expected=map changed=map 2148ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 46 zoom-out     FAIL [swing:75ychg] expected=map changed=tags,map 771ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 76 zoom-in      FAIL [swing:ttkubo] expected=map changed=map 1995ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 57 zoom-in      FAIL [swing:ecmz6f] expected=map changed=map 2446ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 38 [swing:mtb8pv]: crops differing from start: selection,map
+  cycle 41 zoom-out     FAIL [swing:6tce5x] expected=map changed=tags,map 775ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 78 [swing:cfbyoa]: crops differing from start: tags,selection,map
+  cycle 98 [swing:3c4756]: crops differing from start: selection,map
+  cycle 60 zoom-out     FAIL [swing:5nys6v] expected=map changed=tags,map 772ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 94 zoom-out     FAIL [swing:45kh0p] expected=map changed=map 919ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 69 [swing:mazbf0]: crops differing from start: selection
+  cycle 65 zoom-in      FAIL [swing:165g2l] expected=map changed=map 780ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 52 zoom-out     FAIL [swing:yv504c] expected=map changed=tags,map 769ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 36 zoom-in      FAIL [swing:pr7bxw] expected=map changed=tags,map 4127ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 76 zoom-out     FAIL [swing:ttkubo] expected=map changed=tags,map 923ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 57 zoom-out     FAIL [swing:ecmz6f] expected=map changed=tags,map 772ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 56 zoom-out     FAIL [swing:blep6s] expected=map changed=tags,map 773ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 48 [swing:hncgh5]: crops differing from start: selection
+  cycle 51 [swing:r35fdg]: crops differing from start: selection
+  cycle 60 [swing:5nys6v]: crops differing from start: selection,map
+  cycle 65 zoom-out     FAIL [swing:165g2l] expected=map changed=tags,map 1388ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 41 [swing:6tce5x]: crops differing from start: selection
+  cycle 46 [swing:75ychg]: crops differing from start: selection,map
+  cycle 85 zoom-out     FAIL [swing:9o1gi3] expected=map changed=map 3209ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 36 zoom-out     FAIL [swing:pr7bxw] expected=map changed=map 796ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 67 zoom-out     FAIL [swing:nirvt8] expected=map changed=map 775ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 72 zoom-out     FAIL [swing:rgt9pl] expected=map changed=tags,map 1392ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 13 [swing:s9siht]: crops differing from start: selection
+  cycle 52 [swing:yv504c]: crops differing from start: tags,selection,map
+  cycle 105 zoom-in      FAIL [swing:tm40wv] expected=map changed=tags,map 3227ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 94 [swing:45kh0p]: crops differing from start: selection,map
+  cycle 57 [swing:ecmz6f]: crops differing from start: selection,map
+  cycle 76 [swing:ttkubo]: crops differing from start: selection,map
+  cycle 108 zoom-out     FAIL [swing:d8gteu] expected=map changed=tags,map 1225ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 109 [swing:n491t2]: crops differing from start: selection
+  cycle 56 [swing:blep6s]: crops differing from start: selection,map
+  cycle 103 zoom-in      FAIL [swing:t74ue7] expected=map changed=map 3208ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 85 [swing:9o1gi3]: crops differing from start: selection,map
+  cycle 36 [swing:pr7bxw]: crops differing from start: tags,selection,map
+  cycle 67 [swing:nirvt8]: crops differing from start: selection,map
+  cycle 90 zoom-out     FAIL [swing:8mjpjf] expected=map changed=map 767ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 9 zoom-out     FAIL [swing:94oynq] expected=map changed=map 1686ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 105 zoom-out     FAIL [swing:tm40wv] expected=map changed=map 770ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 31 zoom-out     FAIL [swing:yolqiw] expected=map changed=map 773ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 72 [swing:rgt9pl]: crops differing from start: selection,map
+  cycle 18 zoom-in      FAIL [swing:5poj18] expected=map changed=map 1690ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 49 select-a     FAIL [swing:hncgh5] expected=tags,selection changed=selection NEVER CHANGED
+  cycle 44 zoom-in      FAIL [swing:igsnjr] expected=map changed=map 2443ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 96 [swing:fm29ul]: crops differing from start: selection,map
+  cycle 25 zoom-in      FAIL [swing:pk5aza] expected=map changed=map 1992ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 108 [swing:d8gteu]: crops differing from start: selection,map
+  cycle 95 select-a     FAIL [swing:45kh0p] expected=tags,selection changed=map NEVER CHANGED
+  cycle 65 [swing:165g2l]: crops differing from start: selection
+  cycle 18 zoom-out     FAIL [swing:5poj18] expected=map changed=tags,map 1838ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 84 zoom-in      FAIL [swing:paeg9h] expected=map changed=map 3212ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 74 zoom-out     FAIL [swing:7yjvea] expected=map changed=tags,map 2598ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 44 zoom-out     FAIL [swing:igsnjr] expected=map changed=tags,map 2142ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 103 zoom-out     FAIL [swing:t74ue7] expected=map changed=tags,map 2596ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 9 [swing:94oynq]: crops differing from start: selection,map
+  cycle 90 [swing:8mjpjf]: crops differing from start: selection,map
+  cycle 31 [swing:yolqiw]: crops differing from start: selection,map
+  cycle 79 select-b     FAIL [swing:cfbyoa] expected=tags,selection changed=- NEVER CHANGED
+  cycle 81 [swing:r9suvt]: crops differing from start: selection
+  cycle 21 [swing:e8pg6h]: crops differing from start: selection
+  cycle 84 zoom-out     FAIL [swing:paeg9h] expected=map changed=tags,map 1381ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 25 zoom-out     FAIL [swing:pk5aza] expected=map changed=tags,map 4890ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 105 [swing:tm40wv]: crops differing from start: selection
+  cycle 103 [swing:t74ue7]: crops differing from start: selection
+  cycle 73 select-a     FAIL [swing:rgt9pl] expected=tags,selection changed=map NEVER CHANGED
+  cycle 74 [swing:7yjvea]: crops differing from start: selection,map
+  cycle 3 zoom-out     FAIL [swing:leavje] expected=map changed=tags,map 4732ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 25 [swing:pk5aza]: crops differing from start: tags,selection,map
+  cycle 70 zoom-in      FAIL [swing:mazbf0] expected=map changed=map 1987ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 34 [swing:9ao4qp]: crops differing from start: selection
+  cycle 18 [swing:5poj18]: crops differing from start: selection,map
+  cycle 44 [swing:igsnjr]: crops differing from start: selection,map
+  cycle 3 [swing:leavje]: crops differing from start: tags,selection,map
+  cycle 92 zoom-out     FAIL [swing:gfrnnk] expected=map changed=tags,map 3823ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 84 [swing:paeg9h]: crops differing from start: selection,map
+  cycle 63 [swing:svkfl1]: crops differing from start: selection
+  cycle 70 zoom-out     FAIL [swing:mazbf0] expected=map changed=tags,map 1535ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 77 zoom-in      FAIL [swing:ttkubo] expected=map changed=map 1381ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 88 [swing:dhmyig]: crops differing from start: tags,selection,map
+  cycle 39 zoom-out     FAIL [swing:mtb8pv] expected=map changed=map 1389ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 92 [swing:gfrnnk]: crops differing from start: selection,map
+  cycle 101 [swing:q66f8t]: crops differing from start: selection
+  cycle 28 [swing:c19lrh]: crops differing from start: tags,selection,map
+  cycle 42 zoom-in      FAIL [swing:6tce5x] expected=map changed=tags,selection,map 4425ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 70 [swing:mazbf0]: crops differing from start: tags,selection,map
+  cycle 79 zoom-out     FAIL [swing:cfbyoa] expected=map changed=map 785ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 61 zoom-in      FAIL [swing:5nys6v] expected=map changed=tags,map 3823ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 99 [swing:3c4756]: crops differing from start: selection,map
+  cycle 53 zoom-out     FAIL [swing:yv504c] expected=map changed=map 1082ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 39 [swing:mtb8pv]: crops differing from start: selection,map
+  cycle 14 zoom-out     FAIL [swing:s9siht] expected=map changed=map 776ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 86 zoom-in      FAIL [swing:9o1gi3] expected=map changed=map 2142ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 58 zoom-in      FAIL [swing:ecmz6f] expected=map changed=map 1533ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 77 zoom-out     FAIL [swing:ttkubo] expected=map changed=tags,map 3220ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 61 zoom-out     FAIL [swing:5nys6v] expected=map changed=tags,map 777ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 86 zoom-out     FAIL [swing:9o1gi3] expected=map changed=tags,map 781ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 37 zoom-in      FAIL [swing:pr7bxw] expected=map changed=map 2305ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 79 [swing:cfbyoa]: crops differing from start: selection,map
+  cycle 57 zoom-out     FAIL [swing:blep6s] expected=map changed=map 926ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 49 [swing:hncgh5]: crops differing from start: selection,map
+  cycle 58 zoom-out     FAIL [swing:ecmz6f] expected=map changed=tags,map 788ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 42 zoom-out     FAIL [swing:6tce5x] expected=map changed=tags,map 5042ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 73 zoom-out     FAIL [swing:rgt9pl] expected=map changed=map 1237ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 52 [swing:r35fdg]: crops differing from start: selection
+  cycle 14 [swing:s9siht]: crops differing from start: selection,map
+  cycle 82 zoom-in      FAIL [swing:r9suvt] expected=map changed=map 922ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 91 zoom-in      FAIL [swing:8mjpjf] expected=map changed=map 1383ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 10 zoom-in      FAIL [swing:94oynq] expected=map changed=map 2294ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 95 [swing:45kh0p]: crops differing from start: selection
+  cycle 77 [swing:ttkubo]: crops differing from start: selection
+  cycle 58 [swing:ecmz6f]: crops differing from start: tags,selection,map
+  cycle 104 zoom-in      FAIL [swing:t74ue7] expected=map changed=map 1227ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 53 [swing:yv504c]: crops differing from start: selection,map
+  cycle 61 [swing:5nys6v]: crops differing from start: selection
+  cycle 86 [swing:9o1gi3]: crops differing from start: selection,map
+  cycle 57 [swing:blep6s]: crops differing from start: selection,map
+  cycle 91 zoom-out     FAIL [swing:8mjpjf] expected=map changed=tags,map 1232ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 47 [swing:75ychg]: crops differing from start: selection
+  cycle 42 [swing:6tce5x]: crops differing from start: selection
+  cycle 37 zoom-out     FAIL [swing:pr7bxw] expected=map changed=tags,map 773ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 110 [swing:n491t2]: crops differing from start: selection,map
+  cycle 10 zoom-out     FAIL [swing:94oynq] expected=map changed=map 770ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 73 [swing:rgt9pl]: crops differing from start: selection,map
+  cycle 22 zoom-in      FAIL [swing:e8pg6h] expected=map changed=tags,map 3686ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 82 zoom-out     FAIL [swing:r9suvt] expected=map changed=tags,map 3981ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 104 zoom-out     FAIL [swing:t74ue7] expected=map changed=tags,map 931ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 109 [swing:d8gteu]: crops differing from start: selection
+  cycle 68 [swing:nirvt8]: crops differing from start: selection
+  cycle 66 [swing:165g2l]: crops differing from start: selection
+  cycle 37 [swing:pr7bxw]: crops differing from start: selection,map
+  cycle 45 zoom-in      FAIL [swing:igsnjr] expected=map changed=map 2152ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 10 [swing:94oynq]: crops differing from start: selection,map
+  cycle 97 [swing:fm29ul]: crops differing from start: tags,selection,map
+  cycle 64 zoom-in      FAIL [swing:svkfl1] expected=map changed=map 1532ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 104 [swing:t74ue7]: crops differing from start: selection,map
+  cycle 91 [swing:8mjpjf]: crops differing from start: selection
+  cycle 82 [swing:r9suvt]: crops differing from start: selection
+  cycle 85 zoom-in      FAIL [swing:paeg9h] expected=map changed=tags,map 3979ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 75 zoom-out     FAIL [swing:7yjvea] expected=map changed=map 1079ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 100 deselect     FAIL [swing:3c4756] expected=tags,map changed=- NEVER CHANGED
+  cycle 35 zoom-out     FAIL [swing:9ao4qp] expected=map changed=map 1230ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 106 [swing:tm40wv]: crops differing from start: selection,map
+  cycle 19 zoom-out     FAIL [swing:5poj18] expected=map changed=map 925ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 64 zoom-out     FAIL [swing:svkfl1] expected=map changed=tags,map 1392ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 45 zoom-out     FAIL [swing:igsnjr] expected=map changed=tags,map 779ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 22 [swing:e8pg6h]: crops differing from start: selection,map
+  cycle 32 [swing:yolqiw]: crops differing from start: selection
+  cycle 19 [swing:5poj18]: crops differing from start: selection,map
+  cycle 26 [swing:pk5aza]: crops differing from start: selection,map
+  cycle 71 zoom-out     FAIL [swing:mazbf0] expected=map changed=map 925ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 45 [swing:igsnjr]: crops differing from start: selection,map
+  cycle 75 [swing:7yjvea]: crops differing from start: selection
+  cycle 35 [swing:9ao4qp]: crops differing from start: selection
+  cycle 102 zoom-out     FAIL [swing:q66f8t] expected=map changed=map 1229ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 40 zoom-in      FAIL [swing:mtb8pv] expected=map changed=map 2751ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 93 zoom-out     FAIL [swing:gfrnnk] expected=map changed=tags,map 1839ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 4 [swing:leavje]: crops differing from start: selection,map
+  cycle 64 [swing:svkfl1]: crops differing from start: selection
+  cycle 40 zoom-out     FAIL [swing:mtb8pv] expected=map changed=tags,map 923ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 71 [swing:mazbf0]: crops differing from start: selection,map
+  cycle 43 zoom-in      FAIL [swing:6tce5x] expected=map changed=tags,map 3210ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 87 zoom-in      FAIL [swing:9o1gi3] expected=map changed=map 1686ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 85 [swing:paeg9h]: crops differing from start: selection
+  cycle 102 [swing:q66f8t]: crops differing from start: selection,map
+  cycle 80 zoom-out     FAIL [swing:cfbyoa] expected=map changed=map 1229ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 93 [swing:gfrnnk]: crops differing from start: selection,map
+  cycle 15 zoom-out     FAIL [swing:s9siht] expected=map changed=tags,map 2603ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 50 zoom-out     FAIL [swing:hncgh5] expected=map changed=tags,map 770ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 96 zoom-in      FAIL [swing:45kh0p] expected=map changed=map 2609ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 89 [swing:dhmyig]: crops differing from start: selection
+  cycle 87 zoom-out     FAIL [swing:9o1gi3] expected=map changed=tags,map 1532ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 59 zoom-in      FAIL [swing:ecmz6f] expected=map changed=tags,selection,map 3668ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 29 [swing:c19lrh]: crops differing from start: selection
+  cycle 100 [swing:3c4756]: crops differing from start: selection,map
+  cycle 96 zoom-out     FAIL [swing:45kh0p] expected=map changed=tags,map 934ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 40 [swing:mtb8pv]: crops differing from start: selection,map
+  cycle 43 zoom-out     FAIL [swing:6tce5x] expected=map changed=tags,map 4126ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 110 zoom-in      FAIL [swing:d8gteu] expected=map changed=map 1078ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 53 [swing:r35fdg]: crops differing from start: selection
+  cycle 67 zoom-in      FAIL [swing:165g2l] expected=map changed=map 1073ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 48 zoom-out     FAIL [swing:75ychg] expected=map changed=tags,map 1992ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 38 zoom-in      FAIL [swing:pr7bxw] expected=map changed=map 939ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 80 [swing:cfbyoa]: crops differing from start: selection
+  cycle 11 zoom-in      FAIL [swing:94oynq] expected=map changed=map 2912ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 107 zoom-in      FAIL [swing:tm40wv] expected=map changed=map 1082ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 50 [swing:hncgh5]: crops differing from start: selection,map
+  cycle 78 [swing:ttkubo]: crops differing from start: selection
+  cycle 58 zoom-out     FAIL [swing:blep6s] expected=map changed=tags,map 1242ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 43 [swing:6tce5x]: crops differing from start: selection,map
+  cycle 110 zoom-out     FAIL [swing:d8gteu] expected=map changed=tags,map 768ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 59 zoom-out     FAIL [swing:ecmz6f] expected=map changed=tags,map 3969ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 15 [swing:s9siht]: crops differing from start: selection
+  cycle 38 zoom-out     FAIL [swing:pr7bxw] expected=map changed=tags,map 1685ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 87 [swing:9o1gi3]: crops differing from start: selection,map
+  cycle 11 zoom-out     FAIL [swing:94oynq] expected=map changed=tags,map 1380ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 54 [swing:yv504c]: crops differing from start: selection,map
+  cycle 98 zoom-in      FAIL [swing:fm29ul] expected=map changed=map 3083ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 62 [swing:5nys6v]: crops differing from start: selection,map
+  cycle 96 [swing:45kh0p]: crops differing from start: selection,map
+  cycle 48 [swing:75ychg]: crops differing from start: selection,map
+  cycle 111 zoom-out     FAIL [swing:n491t2] expected=map changed=tags,map 3211ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 67 zoom-out     FAIL [swing:165g2l] expected=map changed=tags,map 925ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 110 [swing:d8gteu]: crops differing from start: selection,map
+  cycle 107 zoom-out     FAIL [swing:tm40wv] expected=map changed=tags,map 4286ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 74 [swing:rgt9pl]: crops differing from start: selection
+  cycle 98 zoom-out     FAIL [swing:fm29ul] expected=map changed=tags,map 770ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 76 zoom-in      FAIL [swing:7yjvea] expected=map changed=map 2003ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 58 [swing:blep6s]: crops differing from start: selection
+  cycle 111 [swing:n491t2]: crops differing from start: selection,map
+  cycle 69 [swing:nirvt8]: crops differing from start: selection
+  cycle 83 zoom-out     FAIL [swing:r9suvt] expected=map changed=map 769ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 38 [swing:pr7bxw]: crops differing from start: selection
+  cycle 92 [swing:8mjpjf]: crops differing from start: selection,map
+  cycle 59 [swing:ecmz6f]: crops differing from start: selection
+  cycle 11 [swing:94oynq]: crops differing from start: selection,map
+  cycle 76 zoom-out     FAIL [swing:7yjvea] expected=map changed=tags,map 932ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 67 [swing:165g2l]: crops differing from start: selection
+  cycle 27 zoom-out     FAIL [swing:pk5aza] expected=map changed=map 1381ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 107 [swing:tm40wv]: crops differing from start: selection
+  cycle 65 zoom-in      FAIL [swing:svkfl1] expected=map changed=map 1838ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 33 [swing:yolqiw]: crops differing from start: selection
+  cycle 105 [swing:t74ue7]: crops differing from start: selection,map
+  cycle 98 [swing:fm29ul]: crops differing from start: selection,map
+  cycle 36 [swing:9ao4qp]: crops differing from start: selection,map
+  cycle 83 [swing:r9suvt]: crops differing from start: selection,map
+  cycle 65 zoom-out     FAIL [swing:svkfl1] expected=map changed=tags,map 773ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 86 zoom-in      FAIL [swing:paeg9h] expected=map changed=map 2305ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 46 [swing:igsnjr]: crops differing from start: selection,map
+  cycle 23 [swing:e8pg6h]: crops differing from start: selection
+  cycle 27 [swing:pk5aza]: crops differing from start: selection,map
+  cycle 94 zoom-in      FAIL [swing:gfrnnk] expected=map changed=map 1835ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 76 [swing:7yjvea]: crops differing from start: selection,map
+  cycle 72 zoom-out     FAIL [swing:mazbf0] expected=map changed=map 1376ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 5 zoom-out     FAIL [swing:leavje] expected=map changed=tags,map 774ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 20 [swing:5poj18]: crops differing from start: selection,map
+  cycle 65 [swing:svkfl1]: crops differing from start: tags,selection,map
+  cycle 94 zoom-out     FAIL [swing:gfrnnk] expected=map changed=tags,map 774ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 103 zoom-out     FAIL [swing:q66f8t] expected=map changed=map 768ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 101 zoom-in      FAIL [swing:3c4756] expected=map changed=map 2306ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 81 zoom-in      FAIL [swing:cfbyoa] expected=map changed=map 1843ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 86 zoom-out     FAIL [swing:paeg9h] expected=map changed=tags,map 771ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 79 zoom-in      FAIL [swing:ttkubo] expected=map changed=tags,map 3517ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 72 [swing:mazbf0]: crops differing from start: selection,map
+  cycle 54 zoom-in      FAIL [swing:r35fdg] expected=map changed=map 2300ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 30 zoom-out     FAIL [swing:c19lrh] expected=map changed=tags,map 1393ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 103 [swing:q66f8t]: crops differing from start: tags,selection,map
+  cycle 94 [swing:gfrnnk]: crops differing from start: selection,map
+  cycle 5 [swing:leavje]: crops differing from start: selection,map
+  cycle 101 zoom-out     FAIL [swing:3c4756] expected=map changed=tags,map 1535ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 55 zoom-in      FAIL [swing:yv504c] expected=map changed=map 1385ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 75 zoom-in      FAIL [swing:rgt9pl] expected=map changed=map 1079ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 41 zoom-out     FAIL [swing:mtb8pv] expected=map changed=map 771ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 51 zoom-in      FAIL [swing:hncgh5] expected=map changed=map 2455ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 90 [swing:dhmyig]: crops differing from start: selection,map
+  cycle 44 zoom-out     FAIL [swing:6tce5x] expected=map changed=map 1073ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 86 [swing:paeg9h]: crops differing from start: selection
+  cycle 54 zoom-out     FAIL [swing:r35fdg] expected=map changed=map 774ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 81 zoom-out     FAIL [swing:cfbyoa] expected=map changed=tags,map 1996ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 30 [swing:c19lrh]: crops differing from start: selection,map
+  cycle 75 zoom-out     FAIL [swing:rgt9pl] expected=map changed=tags,map 772ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 63 zoom-out     FAIL [swing:5nys6v] expected=map changed=map 937ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 88 zoom-in      FAIL [swing:9o1gi3] expected=map changed=tags,map 4759ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 16 zoom-out     FAIL [swing:s9siht] expected=map changed=map 1086ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 97 zoom-in      FAIL [swing:45kh0p] expected=map changed=tags,selection,map 5949ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 41 [swing:mtb8pv]: crops differing from start: tags,selection,map
+  cycle 60 zoom-in      FAIL [swing:ecmz6f] expected=map changed=tags,map 4431ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 59 zoom-in      FAIL [swing:blep6s] expected=map changed=tags,map 2912ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 70 zoom-in      FAIL [swing:nirvt8] expected=map changed=map 2009ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 51 zoom-out     FAIL [swing:hncgh5] expected=map changed=tags,map 1072ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 79 [swing:ttkubo]: crops differing from start: selection,map
+  cycle 68 zoom-in      FAIL [swing:165g2l] expected=map changed=tags,map 2748ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 49 zoom-out     FAIL [swing:75ychg] expected=map changed=tags,map 775ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 88 zoom-out     FAIL [swing:9o1gi3] expected=map changed=tags,map 1229ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 101 [swing:3c4756]: crops differing from start: selection,map
+  cycle 54 [swing:r35fdg]: crops differing from start: selection,map
+  cycle 55 zoom-out     FAIL [swing:yv504c] expected=map changed=tags,map 771ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 112 zoom-in      FAIL [swing:n491t2] expected=map changed=map 2142ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 93 zoom-in      FAIL [swing:8mjpjf] expected=map changed=tags,map 1996ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 81 [swing:cfbyoa]: crops differing from start: selection
+  cycle 44 [swing:6tce5x]: crops differing from start: selection,map
+  cycle 70 zoom-out     FAIL [swing:nirvt8] expected=map changed=tags,map 775ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 63 [swing:5nys6v]: crops differing from start: selection
+  cycle 75 [swing:rgt9pl]: crops differing from start: tags,selection,map
+  cycle 111 zoom-out     FAIL [swing:d8gteu] expected=map changed=map 797ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 60 zoom-out     FAIL [swing:ecmz6f] expected=map changed=tags,map 3383ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 68 zoom-out     FAIL [swing:165g2l] expected=map changed=tags,map 1841ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 39 zoom-out     FAIL [swing:pr7bxw] expected=map changed=map 1073ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 16 [swing:s9siht]: crops differing from start: selection,map
+  cycle 93 zoom-out     FAIL [swing:8mjpjf] expected=map changed=tags,map 768ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 84 zoom-in      FAIL [swing:r9suvt] expected=map changed=map 3213ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 88 [swing:9o1gi3]: crops differing from start: selection,map
+  cycle 59 zoom-out     FAIL [swing:blep6s] expected=map changed=tags,map 4727ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 77 zoom-in      FAIL [swing:7yjvea] expected=map changed=tags,map 2293ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 51 [swing:hncgh5]: crops differing from start: selection
+  cycle 24 zoom-in      FAIL [swing:e8pg6h] expected=map changed=map 2766ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 49 [swing:75ychg]: crops differing from start: selection,map
+  cycle 55 [swing:yv504c]: crops differing from start: selection
+  cycle 47 zoom-in      FAIL [swing:igsnjr] expected=map changed=map 3358ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 112 zoom-out     FAIL [swing:n491t2] expected=map changed=tags,map 786ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 12 [swing:94oynq]: crops differing from start: selection
+  cycle 28 zoom-in      FAIL [swing:pk5aza] expected=map changed=map 766ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 70 [swing:nirvt8]: crops differing from start: selection,map
+  cycle 93 [swing:8mjpjf]: crops differing from start: tags,selection,map
+  cycle 99 zoom-out     FAIL [swing:fm29ul] expected=map changed=map 773ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 111 [swing:d8gteu]: crops differing from start: selection
+  cycle 37 zoom-out     FAIL [swing:9ao4qp] expected=map changed=map 1230ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 39 [swing:pr7bxw]: crops differing from start: selection
+  cycle 24 zoom-out     FAIL [swing:e8pg6h] expected=map changed=tags,map 2164ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 60 [swing:ecmz6f]: crops differing from start: selection
+  cycle 84 zoom-out     FAIL [swing:r9suvt] expected=map changed=tags,map 3522ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 28 zoom-out     FAIL [swing:pk5aza] expected=map changed=tags,map 782ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 59 [swing:blep6s]: crops differing from start: selection
+  cycle 97 [swing:45kh0p]: crops differing from start: selection
+  cycle 106 zoom-out     FAIL [swing:t74ue7] expected=map changed=map 1229ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 47 zoom-out     FAIL [swing:igsnjr] expected=map changed=tags,map 770ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 77 zoom-out     FAIL [swing:7yjvea] expected=map changed=tags,map 786ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 68 [swing:165g2l]: crops differing from start: selection
+  cycle 108 [swing:tm40wv]: crops differing from start: selection
+  cycle 34 [swing:yolqiw]: crops differing from start: selection
+  cycle 84 [swing:r9suvt]: crops differing from start: selection,map
+  cycle 112 [swing:n491t2]: crops differing from start: selection
+  cycle 47 [swing:igsnjr]: crops differing from start: selection,map
+  cycle 73 zoom-in      FAIL [swing:mazbf0] expected=map changed=map 772ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 24 [swing:e8pg6h]: crops differing from start: selection,map
+  cycle 106 [swing:t74ue7]: crops differing from start: selection
+  cycle 99 [swing:fm29ul]: crops differing from start: selection,map
+  cycle 102 deselect     FAIL [swing:3c4756] expected=tags,map changed=- NEVER CHANGED
+  cycle 37 [swing:9ao4qp]: crops differing from start: selection
+  cycle 77 [swing:7yjvea]: crops differing from start: selection
+  cycle 87 zoom-in      FAIL [swing:paeg9h] expected=map changed=map 2903ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 82 deselect     FAIL [swing:cfbyoa] expected=tags,map changed=- NEVER CHANGED
+  cycle 28 [swing:pk5aza]: crops differing from start: selection
+  cycle 66 [swing:svkfl1]: crops differing from start: selection
+  cycle 102 zoom-in      FAIL [swing:3c4756] expected=map changed=tags,selection,map 923ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 95 zoom-out     FAIL [swing:gfrnnk] expected=map changed=tags,map 771ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 112 select-b     FAIL [swing:d8gteu] expected=tags,selection changed=- NEVER CHANGED
+  cycle 21 [swing:5poj18]: crops differing from start: selection
+  cycle 102 zoom-out     FAIL [swing:3c4756] expected=map changed=tags,map 1383ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 87 zoom-out     FAIL [swing:paeg9h] expected=map changed=tags,map 1537ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 25 select-a     FAIL [swing:e8pg6h] expected=tags,selection changed=selection,map NEVER CHANGED
+  cycle 73 zoom-out     FAIL [swing:mazbf0] expected=map changed=tags,map 7327ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 31 zoom-out     FAIL [swing:c19lrh] expected=map changed=map 1688ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 82 zoom-in      FAIL [swing:cfbyoa] expected=map changed=tags,selection,map 765ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 104 [swing:q66f8t]: crops differing from start: selection,map
+  cycle 45 zoom-in      FAIL [swing:6tce5x] expected=map changed=map 3056ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 42 zoom-out     FAIL [swing:mtb8pv] expected=map changed=map 1842ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 71 deselect     FAIL [swing:nirvt8] expected=tags,map changed=- NEVER CHANGED
+  cycle 95 [swing:gfrnnk]: crops differing from start: selection,map
+  cycle 73 [swing:mazbf0]: crops differing from start: tags,selection,map
+  cycle 45 zoom-out     FAIL [swing:6tce5x] expected=map changed=tags,map 775ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 80 zoom-out     FAIL [swing:ttkubo] expected=map changed=tags,map 935ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 102 [swing:3c4756]: crops differing from start: selection,map
+  cycle 82 zoom-out     FAIL [swing:cfbyoa] expected=map changed=tags,map 770ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 38 select-b     FAIL [swing:9ao4qp] expected=tags,selection changed=- NEVER CHANGED
+  cycle 87 [swing:paeg9h]: crops differing from start: selection,map
+  cycle 56 zoom-in      FAIL [swing:yv504c] expected=map changed=map 2602ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 64 zoom-out     FAIL [swing:5nys6v] expected=map changed=tags,map 2908ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 91 [swing:dhmyig]: crops differing from start: selection
+  cycle 76 zoom-out     FAIL [swing:rgt9pl] expected=map changed=tags,map 786ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 40 zoom-in      FAIL [swing:pr7bxw] expected=map changed=map 929ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 31 [swing:c19lrh]: crops differing from start: selection,map
+  cycle 13 zoom-out     FAIL [swing:94oynq] expected=map changed=tags,map 1223ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 64 [swing:5nys6v]: crops differing from start: tags,selection,map
+  cycle 80 [swing:ttkubo]: crops differing from start: selection,map
+  cycle 42 [swing:mtb8pv]: crops differing from start: selection
+  cycle 6 [swing:leavje]: crops differing from start: selection
+  cycle 98 zoom-in      FAIL [swing:45kh0p] expected=map changed=map 4599ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 25 deselect     FAIL [swing:e8pg6h] expected=tags,map changed=- NEVER CHANGED
+  cycle 55 [swing:r35fdg]: crops differing from start: selection
+  cycle 94 zoom-out     FAIL [swing:8mjpjf] expected=map changed=map 1680ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 56 zoom-out     FAIL [swing:yv504c] expected=map changed=tags,map 1377ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 82 [swing:cfbyoa]: crops differing from start: selection,map
+  cycle 61 zoom-out     FAIL [swing:ecmz6f] expected=map changed=map 1528ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 71 zoom-out     FAIL [swing:nirvt8] expected=map changed=tags,map 1689ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 60 zoom-in      FAIL [swing:blep6s] expected=map changed=map 3519ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 107 zoom-in      FAIL [swing:t74ue7] expected=map changed=map 1386ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 45 [swing:6tce5x]: crops differing from start: selection,map
+  cycle 103 select-a     FAIL [swing:3c4756] expected=tags,selection changed=map NEVER CHANGED
+  cycle 76 [swing:rgt9pl]: crops differing from start: selection,map
+  cycle 52 [swing:hncgh5]: crops differing from start: selection
+  cycle 40 zoom-out     FAIL [swing:pr7bxw] expected=map changed=tags,map 7177ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 48 zoom-in      FAIL [swing:igsnjr] expected=map changed=map 2602ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 60 zoom-out     FAIL [swing:blep6s] expected=map changed=tags,map 781ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 112 [swing:d8gteu]: crops differing from start: selection,map
+  cycle 94 [swing:8mjpjf]: crops differing from start: selection,map
+  cycle 17 [swing:s9siht]: crops differing from start: selection
+  cycle 13 [swing:94oynq]: crops differing from start: selection
+  cycle 78 zoom-out     FAIL [swing:7yjvea] expected=map changed=map 1083ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 43 select-a     FAIL [swing:mtb8pv] expected=tags,selection changed=- NEVER CHANGED
+  cycle 56 [swing:yv504c]: crops differing from start: selection
+  cycle 50 [swing:75ychg]: crops differing from start: selection
+  cycle 89 [swing:9o1gi3]: crops differing from start: selection
+  cycle 67 zoom-in      FAIL [swing:svkfl1] expected=map changed=map 1241ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 61 [swing:ecmz6f]: crops differing from start: selection,map
+  cycle 48 zoom-out     FAIL [swing:igsnjr] expected=map changed=tags,map 3067ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 40 [swing:pr7bxw]: crops differing from start: selection
+  cycle 71 [swing:nirvt8]: crops differing from start: tags,selection,map
+  cycle 98 [swing:45kh0p]: crops differing from start: selection
+  cycle 60 [swing:blep6s]: crops differing from start: selection,map
+  cycle 113 zoom-out     FAIL [swing:n491t2] expected=map changed=map 1535ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 109 [swing:tm40wv]: crops differing from start: tags,selection,map
+  cycle 69 [swing:165g2l]: crops differing from start: tags,selection,map
+  cycle 100 zoom-out     FAIL [swing:fm29ul] expected=map changed=map 1383ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 77 select-a     FAIL [swing:rgt9pl] expected=tags,selection changed=map NEVER CHANGED
+  cycle 53 select-a     FAIL [swing:hncgh5] expected=tags,selection changed=selection NEVER CHANGED
+  cycle 67 zoom-out     FAIL [swing:svkfl1] expected=map changed=tags,map 1379ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 78 [swing:7yjvea]: crops differing from start: selection
+  cycle 107 [swing:t74ue7]: crops differing from start: selection
+  cycle 105 zoom-in      FAIL [swing:q66f8t] expected=map changed=map 3659ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 85 [swing:r9suvt]: crops differing from start: selection,map
+  cycle 35 [swing:yolqiw]: crops differing from start: selection
+  cycle 48 [swing:igsnjr]: crops differing from start: selection,map
+  cycle 100 [swing:fm29ul]: crops differing from start: selection,map
+  cycle 113 [swing:n491t2]: crops differing from start: selection,map
+  cycle 67 [swing:svkfl1]: crops differing from start: selection,map
+  cycle 74 zoom-in      FAIL [swing:mazbf0] expected=map changed=map 2291ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 38 [swing:9ao4qp]: crops differing from start: selection
+  cycle 61 select-a     FAIL [swing:blep6s] expected=tags,selection changed=map NEVER CHANGED
+  cycle 29 [swing:pk5aza]: crops differing from start: tags,selection,map
+  cycle 22 [swing:5poj18]: crops differing from start: selection
+  cycle 92 zoom-in      FAIL [swing:dhmyig] expected=map changed=map 3819ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 74 zoom-out     FAIL [swing:mazbf0] expected=map changed=tags,map 1531ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 105 zoom-out     FAIL [swing:q66f8t] expected=map changed=tags,map 772ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 79 select-a     FAIL [swing:7yjvea] expected=tags,selection changed=- NEVER CHANGED
+  cycle 25 [swing:e8pg6h]: crops differing from start: selection
+  cycle 88 zoom-out     FAIL [swing:paeg9h] expected=map changed=tags,map 768ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 7 zoom-in      FAIL [swing:leavje] expected=map changed=tags,map 4127ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 65 zoom-out     FAIL [swing:5nys6v] expected=map changed=map 774ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 96 [swing:gfrnnk]: crops differing from start: tags,selection,map
+  cycle 74 [swing:mazbf0]: crops differing from start: selection
+  cycle 114 select-a     FAIL [swing:n491t2] expected=tags,selection changed=map NEVER CHANGED
+  cycle 105 [swing:q66f8t]: crops differing from start: selection
+  cycle 92 zoom-out     FAIL [swing:dhmyig] expected=map changed=tags,map 4884ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 7 zoom-out     FAIL [swing:leavje] expected=map changed=tags,map 2141ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 103 [swing:3c4756]: crops differing from start: selection,map
+  cycle 72 deselect     FAIL [swing:nirvt8] expected=tags,map changed=- NEVER CHANGED
+  cycle 88 [swing:paeg9h]: crops differing from start: selection,map
+  cycle 81 zoom-out     FAIL [swing:ttkubo] expected=map changed=map 3984ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 65 [swing:5nys6v]: crops differing from start: selection,map
+  cycle 92 [swing:dhmyig]: crops differing from start: selection,map
+  cycle 43 [swing:mtb8pv]: crops differing from start: selection
+  cycle 57 zoom-out     FAIL [swing:yv504c] expected=map changed=map 4745ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 32 [swing:c19lrh]: crops differing from start: selection
+  cycle 53 zoom-out     FAIL [swing:hncgh5] expected=map changed=map 2149ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 7 [swing:leavje]: crops differing from start: selection,map
+  cycle 62 zoom-out     FAIL [swing:ecmz6f] expected=map changed=map 1532ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 113 zoom-out     FAIL [swing:d8gteu] expected=map changed=map 1984ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 83 [swing:cfbyoa]: crops differing from start: selection
+  cycle 81 [swing:ttkubo]: crops differing from start: selection
+  cycle 70 zoom-in      FAIL [swing:165g2l] expected=map changed=map 3670ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 57 [swing:yv504c]: crops differing from start: tags,selection,map
+  cycle 56 [swing:r35fdg]: crops differing from start: selection
+  cycle 46 [swing:6tce5x]: crops differing from start: selection
+  cycle 61 zoom-out     FAIL [swing:blep6s] expected=map changed=map 5029ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 89 select-a     FAIL [swing:paeg9h] expected=tags,selection changed=map NEVER CHANGED
+  cycle 70 zoom-out     FAIL [swing:165g2l] expected=map changed=tags,map 1696ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 62 [swing:ecmz6f]: crops differing from start: selection,map
+  cycle 53 [swing:hncgh5]: crops differing from start: selection
+  cycle 77 [swing:rgt9pl]: crops differing from start: selection,map
+  cycle 23 zoom-in      FAIL [swing:5poj18] expected=map changed=map 3054ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 18 [swing:s9siht]: crops differing from start: selection
+  cycle 106 select-b     FAIL [swing:q66f8t] expected=tags,selection changed=- NEVER CHANGED
+  cycle 90 [swing:9o1gi3]: crops differing from start: selection,map
+  cycle 8 select-a     FAIL [swing:leavje] expected=tags,selection changed=selection,map NEVER CHANGED
+  cycle 39 zoom-out     FAIL [swing:9ao4qp] expected=map changed=map 2296ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 79 zoom-out     FAIL [swing:7yjvea] expected=map changed=map 1533ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 14 [swing:94oynq]: crops differing from start: selection,map
+  cycle 61 [swing:blep6s]: crops differing from start: tags,selection,map
+  cycle 86 zoom-in      FAIL [swing:r9suvt] expected=map changed=tags,map 3975ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 23 zoom-out     FAIL [swing:5poj18] expected=map changed=tags,map 1530ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 68 zoom-out     FAIL [swing:svkfl1] expected=map changed=map 773ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 113 [swing:d8gteu]: crops differing from start: selection
+  cycle 70 [swing:165g2l]: crops differing from start: selection,map
+  cycle 114 zoom-out     FAIL [swing:n491t2] expected=map changed=tags,map 2758ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 51 [swing:75ychg]: crops differing from start: selection,map
+  cycle 86 zoom-out     FAIL [swing:r9suvt] expected=map changed=tags,map 798ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 110 [swing:tm40wv]: crops differing from start: selection
+  cycle 101 zoom-out     FAIL [swing:fm29ul] expected=map changed=map 1075ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 33 select-b     FAIL [swing:c19lrh] expected=tags,selection changed=- NEVER CHANGED
+  cycle 99 [swing:45kh0p]: crops differing from start: selection
+  cycle 95 [swing:8mjpjf]: crops differing from start: selection
+  cycle 63 select-a     FAIL [swing:ecmz6f] expected=tags,selection changed=map NEVER CHANGED
+  cycle 72 [swing:nirvt8]: crops differing from start: selection
+  cycle 79 [swing:7yjvea]: crops differing from start: selection,map
+  cycle 78 select-a     FAIL [swing:rgt9pl] expected=tags,selection changed=map NEVER CHANGED
+  cycle 41 [swing:pr7bxw]: crops differing from start: selection
+  cycle 108 [swing:t74ue7]: crops differing from start: selection
+  cycle 39 [swing:9ao4qp]: crops differing from start: selection,map
+  cycle 68 [swing:svkfl1]: crops differing from start: selection,map
+  cycle 114 [swing:n491t2]: crops differing from start: selection
+  cycle 23 [swing:5poj18]: crops differing from start: selection,map
+  cycle 101 [swing:fm29ul]: crops differing from start: selection,map
+  cycle 49 [swing:igsnjr]: crops differing from start: selection
+  cycle 8 deselect     FAIL [swing:leavje] expected=tags,map changed=- NEVER CHANGED
+  cycle 36 [swing:yolqiw]: crops differing from start: selection
+  cycle 86 [swing:r9suvt]: crops differing from start: tags,selection,map
+  cycle 106 zoom-out     FAIL [swing:q66f8t] expected=map changed=tags,map 786ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 93 zoom-in      FAIL [swing:dhmyig] expected=map changed=map 2751ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 30 [swing:pk5aza]: crops differing from start: selection
+  cycle 66 zoom-out     FAIL [swing:5nys6v] expected=map changed=map 2151ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 63 deselect     FAIL [swing:ecmz6f] expected=tags,map changed=- NEVER CHANGED
+  cycle 93 zoom-out     FAIL [swing:dhmyig] expected=map changed=tags,map 1997ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 115 select-a     FAIL [swing:n491t2] expected=tags,selection changed=selection NEVER CHANGED
+  cycle 24 select-a     FAIL [swing:5poj18] expected=tags,selection changed=map NEVER CHANGED
+  cycle 78 zoom-in      FAIL [swing:rgt9pl] expected=map changed=tags,selection,map 768ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 106 [swing:q66f8t]: crops differing from start: tags,selection,map
+  cycle 75 [swing:mazbf0]: crops differing from start: selection
+  cycle 26 [swing:e8pg6h]: crops differing from start: selection
+  cycle 87 select-a     FAIL [swing:r9suvt] expected=tags,selection changed=tags,map NEVER CHANGED
+  cycle 104 [swing:3c4756]: crops differing from start: tags,selection,map
+  cycle 57 zoom-in      FAIL [swing:r35fdg] expected=map changed=tags,map 5040ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 97 [swing:gfrnnk]: crops differing from start: selection
+  cycle 84 zoom-out     FAIL [swing:cfbyoa] expected=map changed=map 1992ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 100 deselect     FAIL [swing:45kh0p] expected=tags,map changed=- NEVER CHANGED
+  cycle 15 deselect     FAIL [swing:94oynq] expected=tags,map changed=- NEVER CHANGED
+  cycle 78 zoom-out     FAIL [swing:rgt9pl] expected=map changed=tags,map 2291ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 58 zoom-out     FAIL [swing:yv504c] expected=map changed=map 1531ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 89 [swing:paeg9h]: crops differing from start: selection,map
+  cycle 54 zoom-in      FAIL [swing:hncgh5] expected=map changed=map 4733ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 93 [swing:dhmyig]: crops differing from start: tags,selection,map
+  cycle 57 zoom-out     FAIL [swing:r35fdg] expected=map changed=tags,map 1532ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 66 [swing:5nys6v]: crops differing from start: selection
+  cycle 73 deselect     FAIL [swing:nirvt8] expected=tags,map changed=- NEVER CHANGED
+  cycle 91 zoom-in      FAIL [swing:9o1gi3] expected=map changed=- NEVER CHANGED scale x0.1250 (want x0.1250)
+  cycle 82 zoom-out     FAIL [swing:ttkubo] expected=map changed=tags,map 1379ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 19 zoom-in      FAIL [swing:s9siht] expected=map changed=map 4143ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 44 [swing:mtb8pv]: crops differing from start: selection
+  cycle 58 [swing:yv504c]: crops differing from start: selection,map
+  cycle 78 [swing:rgt9pl]: crops differing from start: selection,map
+  cycle 54 zoom-out     FAIL [swing:hncgh5] expected=map changed=tags,map 936ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 33 [swing:c19lrh]: crops differing from start: selection
+  cycle 84 [swing:cfbyoa]: crops differing from start: selection,map
+  cycle 52 zoom-out     FAIL [swing:75ychg] expected=map changed=map 1387ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 96 zoom-out     FAIL [swing:8mjpjf] expected=map changed=tags,map 782ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 8 [swing:leavje]: crops differing from start: selection
+  cycle 90 select-a     FAIL [swing:paeg9h] expected=tags,selection changed=map NEVER CHANGED
+  cycle 69 zoom-in      FAIL [swing:svkfl1] expected=map changed=tags,map 3827ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 19 zoom-out     FAIL [swing:s9siht] expected=map changed=tags,map 768ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 15 zoom-out     FAIL [swing:94oynq] expected=map changed=tags,map 769ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 94 select-a     FAIL [swing:dhmyig] expected=tags,selection changed=tags,map NEVER CHANGED
+  cycle 73 zoom-in      FAIL [swing:nirvt8] expected=map changed=tags,selection,map 775ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 57 [swing:r35fdg]: crops differing from start: selection
+  cycle 47 [swing:6tce5x]: crops differing from start: selection
+  cycle 109 zoom-in      FAIL [swing:t74ue7] expected=map changed=map 4887ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 67 select-a     FAIL [swing:5nys6v] expected=tags,selection changed=- NEVER CHANGED
+  cycle 71 zoom-out     FAIL [swing:165g2l] expected=map changed=tags,map 775ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 82 [swing:ttkubo]: crops differing from start: selection,map
+  cycle 73 zoom-out     FAIL [swing:nirvt8] expected=map changed=tags,map 771ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 52 [swing:75ychg]: crops differing from start: selection
+  cycle 96 [swing:8mjpjf]: crops differing from start: tags,selection,map
+  cycle 109 zoom-out     FAIL [swing:t74ue7] expected=map changed=tags,map 1225ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 27 select-b     FAIL [swing:e8pg6h] expected=tags,selection changed=- NEVER CHANGED
+  cycle 63 [swing:ecmz6f]: crops differing from start: selection,map
+  cycle 59 select-a     FAIL [swing:yv504c] expected=tags,selection changed=map NEVER CHANGED
+  cycle 69 zoom-out     FAIL [swing:svkfl1] expected=map changed=tags,map 3207ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 79 select-a     FAIL [swing:rgt9pl] expected=tags,selection changed=- NEVER CHANGED
+  cycle 54 [swing:hncgh5]: crops differing from start: selection
+  cycle 80 zoom-out     FAIL [swing:7yjvea] expected=map changed=map 3530ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 19 [swing:s9siht]: crops differing from start: selection,map
+  cycle 15 [swing:94oynq]: crops differing from start: selection,map
+  cycle 115 zoom-out     FAIL [swing:n491t2] expected=map changed=map 921ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 31 deselect     FAIL [swing:pk5aza] expected=tags,map changed=- NEVER CHANGED
+  cycle 91 [swing:9o1gi3]: crops differing from start: selection
+  cycle 100 [swing:45kh0p]: crops differing from start: selection
+  cycle 50 zoom-out     FAIL [swing:igsnjr] expected=map changed=map 923ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 111 [swing:tm40wv]: crops differing from start: selection
+  cycle 42 [swing:pr7bxw]: crops differing from start: selection
+  cycle 73 [swing:nirvt8]: crops differing from start: tags,selection,map
+  cycle 105 zoom-in      FAIL [swing:3c4756] expected=map changed=tags,selection,map 2748ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 62 [swing:blep6s]: crops differing from start: selection
+  cycle 80 [swing:7yjvea]: crops differing from start: selection,map
+  cycle 69 [swing:svkfl1]: crops differing from start: selection
+  cycle 115 [swing:n491t2]: crops differing from start: selection,map
+  cycle 71 [swing:165g2l]: crops differing from start: selection,map
+  cycle 102 zoom-out     FAIL [swing:fm29ul] expected=map changed=tags,map 5793ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 105 zoom-out     FAIL [swing:3c4756] expected=map changed=tags,map 797ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 24 [swing:5poj18]: crops differing from start: tags,selection,map
+  cycle 67 deselect     FAIL [swing:5nys6v] expected=tags,map changed=- NEVER CHANGED
+  cycle 107 zoom-out     FAIL [swing:q66f8t] expected=map changed=map 1227ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 109 [swing:t74ue7]: crops differing from start: selection,map
+  cycle 64 select-a     FAIL [swing:ecmz6f] expected=tags,selection changed=selection,map NEVER CHANGED
+  cycle 76 zoom-in      FAIL [swing:mazbf0] expected=map changed=map 1077ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 55 select-a     FAIL [swing:hncgh5] expected=tags,selection changed=- NEVER CHANGED
+  cycle 20 select-a     FAIL [swing:s9siht] expected=tags,selection changed=map NEVER CHANGED
+  cycle 98 zoom-in      FAIL [swing:gfrnnk] expected=map changed=tags,map 4280ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 50 [swing:igsnjr]: crops differing from start: selection,map
+  cycle 101 select-a     FAIL [swing:45kh0p] expected=tags,selection changed=- NEVER CHANGED
+  cycle 40 [swing:9ao4qp]: crops differing from start: selection
+  cycle 27 zoom-in      FAIL [swing:e8pg6h] expected=map changed=- NEVER CHANGED scale x0.1250 (want x0.1250)
+  cycle 37 [swing:yolqiw]: crops differing from start: selection
+  cycle 76 zoom-out     FAIL [swing:mazbf0] expected=map changed=tags,map 1836ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 98 zoom-out     FAIL [swing:gfrnnk] expected=map changed=tags,map 2296ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 102 [swing:fm29ul]: crops differing from start: selection
+  cycle 34 deselect     FAIL [swing:c19lrh] expected=tags,map changed=- NEVER CHANGED
+  cycle 72 select-a     FAIL [swing:165g2l] expected=tags,selection changed=map NEVER CHANGED
+  cycle 87 [swing:r9suvt]: crops differing from start: selection
+  cycle 105 [swing:3c4756]: crops differing from start: selection
+  cycle 107 [swing:q66f8t]: crops differing from start: selection,map
+  cycle 34 zoom-in      FAIL [swing:c19lrh] expected=map changed=tags,selection,map 771ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 90 zoom-out     FAIL [swing:paeg9h] expected=map changed=map 1235ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 115 zoom-in      FAIL [swing:d8gteu] expected=map changed=tags,selection,map 4430ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 98 [swing:gfrnnk]: crops differing from start: selection,map
+  cycle 58 zoom-in      FAIL [swing:r35fdg] expected=map changed=map 2449ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 76 [swing:mazbf0]: crops differing from start: selection
+  cycle 20 deselect     FAIL [swing:s9siht] expected=tags,map changed=- NEVER CHANGED
+  cycle 31 [swing:pk5aza]: crops differing from start: tags,selection,map
+  cycle 51 select-a     FAIL [swing:igsnjr] expected=tags,selection changed=map NEVER CHANGED
+  cycle 9 zoom-in      FAIL [swing:leavje] expected=map changed=map 1078ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 34 zoom-out     FAIL [swing:c19lrh] expected=map changed=map 2003ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 48 zoom-in      FAIL [swing:6tce5x] expected=map changed=map 1687ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 115 zoom-out     FAIL [swing:d8gteu] expected=map changed=tags,map 1841ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 58 zoom-out     FAIL [swing:r35fdg] expected=map changed=tags,map 1833ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 79 zoom-out     FAIL [swing:rgt9pl] expected=map changed=tags,map 796ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 64 zoom-in      FAIL [swing:ecmz6f] expected=map changed=tags,selection,map 2143ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 90 [swing:paeg9h]: crops differing from start: selection
+  cycle 67 [swing:5nys6v]: crops differing from start: selection,map
+  cycle 106 select-a     FAIL [swing:3c4756] expected=tags,selection changed=- NEVER CHANGED
+  cycle 16 zoom-in      FAIL [swing:94oynq] expected=map changed=map 1845ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 94 [swing:dhmyig]: crops differing from start: selection
+  cycle 92 zoom-in      FAIL [swing:9o1gi3] expected=map changed=tags,map 3511ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 108 select-a     FAIL [swing:q66f8t] expected=tags,selection changed=map NEVER CHANGED
+  cycle 48 zoom-out     FAIL [swing:6tce5x] expected=map changed=tags,map 770ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 27 [swing:e8pg6h]: crops differing from start: selection
+  cycle 64 zoom-out     FAIL [swing:ecmz6f] expected=map changed=tags,map 2602ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 79 [swing:rgt9pl]: crops differing from start: tags,selection,map
+  cycle 45 [swing:mtb8pv]: crops differing from start: selection
+  cycle 9 zoom-out     FAIL [swing:leavje] expected=map changed=tags,map 926ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 116 deselect     FAIL [swing:n491t2] expected=tags,map changed=- NEVER CHANGED
+  cycle 115 [swing:d8gteu]: crops differing from start: selection,map
+  cycle 101 zoom-in      FAIL [swing:45kh0p] expected=map changed=- NEVER CHANGED scale x0.1250 (want x0.1250)
+  cycle 34 [swing:c19lrh]: crops differing from start: selection,map
+  cycle 58 [swing:r35fdg]: crops differing from start: selection
+  cycle 103 select-b     FAIL [swing:fm29ul] expected=tags,selection changed=- NEVER CHANGED
+  cycle 74 zoom-out     FAIL [swing:nirvt8] expected=map changed=map 2594ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 112 zoom-in      FAIL [swing:tm40wv] expected=map changed=map 5190ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 43 zoom-in      FAIL [swing:pr7bxw] expected=map changed=tags,map 4878ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 63 zoom-in      FAIL [swing:blep6s] expected=map changed=map 2446ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 116 zoom-in      FAIL [swing:n491t2] expected=map changed=tags,selection,map 769ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 77 select-b     FAIL [swing:mazbf0] expected=tags,selection changed=- NEVER CHANGED
+  cycle 68 select-a     FAIL [swing:5nys6v] expected=tags,selection changed=map NEVER CHANGED
+  cycle 92 zoom-out     FAIL [swing:9o1gi3] expected=map changed=tags,map 6871ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 95 select-a     FAIL [swing:dhmyig] expected=tags,selection changed=- NEVER CHANGED
+  cycle 16 zoom-out     FAIL [swing:94oynq] expected=map changed=tags,map 8079ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 43 zoom-out     FAIL [swing:pr7bxw] expected=map changed=tags,map 1991ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 108 deselect     FAIL [swing:q66f8t] expected=tags,map changed=- NEVER CHANGED
+  cycle 48 [swing:6tce5x]: crops differing from start: selection,map
+  cycle 59 [swing:yv504c]: crops differing from start: selection
+  cycle 64 [swing:ecmz6f]: crops differing from start: selection
+  cycle 97 [swing:8mjpjf]: crops differing from start: selection
+  cycle 72 zoom-out     FAIL [swing:165g2l] expected=map changed=map 2140ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 112 zoom-out     FAIL [swing:tm40wv] expected=map changed=tags,map 769ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 116 zoom-out     FAIL [swing:n491t2] expected=map changed=map 2462ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 63 zoom-out     FAIL [swing:blep6s] expected=map changed=tags,map 768ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 101 zoom-out     FAIL [swing:45kh0p] expected=map changed=map 5185ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 70 zoom-out     FAIL [swing:svkfl1] expected=map changed=map 1228ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 41 zoom-in      FAIL [swing:9ao4qp] expected=map changed=map 4907ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 53 [swing:75ychg]: crops differing from start: selection
+  cycle 9 [swing:leavje]: crops differing from start: selection
+  cycle 92 [swing:9o1gi3]: crops differing from start: selection,map
+  cycle 16 [swing:94oynq]: crops differing from start: tags,selection,map
+  cycle 85 [swing:cfbyoa]: crops differing from start: selection
+  cycle 116 select-a     FAIL [swing:d8gteu] expected=tags,selection changed=selection,map NEVER CHANGED
+  cycle 74 [swing:nirvt8]: crops differing from start: selection,map
+  cycle 55 [swing:hncgh5]: crops differing from start: selection
+  cycle 35 select-a     FAIL [swing:c19lrh] expected=tags,selection changed=map NEVER CHANGED
+  cycle 83 [swing:ttkubo]: crops differing from start: selection
+  cycle 112 [swing:tm40wv]: crops differing from start: tags,selection,map
+  cycle 63 [swing:blep6s]: crops differing from start: tags,selection,map
+  cycle 43 [swing:pr7bxw]: crops differing from start: selection,map
+  cycle 41 zoom-out     FAIL [swing:9ao4qp] expected=map changed=tags,map 1393ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 101 [swing:45kh0p]: crops differing from start: selection,map
+  cycle 32 zoom-in      FAIL [swing:pk5aza] expected=map changed=map 2759ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 20 [swing:s9siht]: crops differing from start: selection
+  cycle 68 deselect     FAIL [swing:5nys6v] expected=tags,map changed=tags,selection NEVER CHANGED
+  cycle 70 [swing:svkfl1]: crops differing from start: selection
+  cycle 72 [swing:165g2l]: crops differing from start: selection
+  cycle 32 zoom-out     FAIL [swing:pk5aza] expected=map changed=tags,map 1080ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 116 [swing:n491t2]: crops differing from start: selection,map
+  cycle 81 [swing:7yjvea]: crops differing from start: selection
+  cycle 38 [swing:yolqiw]: crops differing from start: selection
+  cycle 41 [swing:9ao4qp]: crops differing from start: selection,map
+  cycle 93 select-a     FAIL [swing:9o1gi3] expected=tags,selection changed=map NEVER CHANGED
+  cycle 51 [swing:igsnjr]: crops differing from start: selection
+  cycle 75 select-a     FAIL [swing:nirvt8] expected=tags,selection changed=map NEVER CHANGED
+  cycle 25 [swing:5poj18]: crops differing from start: selection
+  cycle 110 [swing:t74ue7]: crops differing from start: selection
+  cycle 35 deselect     FAIL [swing:c19lrh] expected=tags,map changed=- NEVER CHANGED
+  cycle 64 select-a     FAIL [swing:blep6s] expected=tags,selection changed=tags,map NEVER CHANGED
+  cycle 44 select-a     FAIL [swing:pr7bxw] expected=tags,selection changed=map NEVER CHANGED
+  cycle 99 zoom-out     FAIL [swing:gfrnnk] expected=map changed=map 2298ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 28 zoom-in      FAIL [swing:e8pg6h] expected=map changed=tags,map 3975ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 32 [swing:pk5aza]: crops differing from start: selection,map
+  cycle 106 [swing:3c4756]: crops differing from start: selection,map
+  cycle 103 [swing:fm29ul]: crops differing from start: selection,map
+  cycle 28 zoom-out     FAIL [swing:e8pg6h] expected=map changed=tags,map 1532ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 35 zoom-in      FAIL [swing:c19lrh] expected=map changed=tags,selection,map 776ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 88 [swing:r9suvt]: crops differing from start: selection
+  cycle 77 [swing:mazbf0]: crops differing from start: selection,map
+  cycle 46 zoom-in      FAIL [swing:mtb8pv] expected=map changed=map 4579ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 108 [swing:q66f8t]: crops differing from start: selection,map
+  cycle 99 [swing:gfrnnk]: crops differing from start: selection,map
+  cycle 71 select-b     FAIL [swing:svkfl1] expected=tags,selection changed=- NEVER CHANGED
+  cycle 59 zoom-in      FAIL [swing:r35fdg] expected=map changed=map 2899ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 46 zoom-out     FAIL [swing:mtb8pv] expected=map changed=tags,map 772ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 64 deselect     FAIL [swing:blep6s] expected=tags,map changed=tags,selection NEVER CHANGED
+  cycle 39 select-b     FAIL [swing:yolqiw] expected=tags,selection changed=tags,selection,map NEVER CHANGED
+  cycle 28 [swing:e8pg6h]: crops differing from start: selection,map
+  cycle 59 zoom-out     FAIL [swing:r35fdg] expected=map changed=tags,map 795ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 107 select-a     FAIL [swing:3c4756] expected=tags,selection changed=map NEVER CHANGED
+  cycle 60 zoom-out     FAIL [swing:yv504c] expected=map changed=map 1236ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 86 zoom-in      FAIL [swing:cfbyoa] expected=map changed=selection NEVER CHANGED scale x0.1250 (want x0.1250)
+  cycle 95 [swing:dhmyig]: crops differing from start: selection,map
+  cycle 35 zoom-out     FAIL [swing:c19lrh] expected=map changed=tags,map 1995ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 113 zoom-in      FAIL [swing:tm40wv] expected=map changed=tags,map 5499ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 65 zoom-out     FAIL [swing:ecmz6f] expected=map changed=tags,map 1685ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 68 [swing:5nys6v]: crops differing from start: selection,map
+  cycle 46 [swing:mtb8pv]: crops differing from start: selection,map
+  cycle 84 zoom-in      FAIL [swing:ttkubo] expected=map changed=map 2751ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 117 zoom-in      FAIL [swing:n491t2] expected=map changed=map 1999ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 59 [swing:r35fdg]: crops differing from start: selection,map
+  cycle 116 [swing:d8gteu]: crops differing from start: selection
+  cycle 52 deselect     FAIL [swing:igsnjr] expected=tags,map changed=- NEVER CHANGED
+  cycle 91 [swing:paeg9h]: crops differing from start: selection
+  cycle 35 [swing:c19lrh]: crops differing from start: selection,map
+  cycle 21 zoom-in      FAIL [swing:s9siht] expected=map changed=map 2746ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 39 deselect     FAIL [swing:yolqiw] expected=tags,map changed=- NEVER CHANGED
+  cycle 102 zoom-out     FAIL [swing:45kh0p] expected=map changed=map 1833ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 29 select-a     FAIL [swing:e8pg6h] expected=tags,selection changed=map NEVER CHANGED
+  cycle 60 [swing:yv504c]: crops differing from start: selection,map
+  cycle 71 zoom-out     FAIL [swing:svkfl1] expected=map changed=map 1683ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 96 select-a     FAIL [swing:dhmyig] expected=tags,selection changed=map NEVER CHANGED
+  cycle 107 deselect     FAIL [swing:3c4756] expected=tags,map changed=- NEVER CHANGED
+  cycle 113 zoom-out     FAIL [swing:tm40wv] expected=map changed=tags,map 7023ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 89 deselect     FAIL [swing:r9suvt] expected=tags,map changed=- NEVER CHANGED
+  cycle 56 zoom-out     FAIL [swing:hncgh5] expected=map changed=map 769ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 82 zoom-in      FAIL [swing:7yjvea] expected=map changed=tags,map 5950ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 69 select-a     FAIL [swing:5nys6v] expected=tags,selection changed=map NEVER CHANGED
+  cycle 78 select-b     FAIL [swing:mazbf0] expected=tags,selection changed=- NEVER CHANGED
+  cycle 26 zoom-in      FAIL [swing:5poj18] expected=map changed=map 5643ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 80 [swing:rgt9pl]: crops differing from start: selection
+  cycle 65 [swing:ecmz6f]: crops differing from start: selection
+  cycle 49 [swing:6tce5x]: crops differing from start: selection
+  cycle 47 select-a     FAIL [swing:mtb8pv] expected=tags,selection changed=selection,map NEVER CHANGED
+  cycle 21 zoom-out     FAIL [swing:s9siht] expected=map changed=tags,map 3206ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 98 [swing:8mjpjf]: crops differing from start: selection
+  cycle 86 [swing:cfbyoa]: crops differing from start: selection
+  cycle 117 zoom-out     FAIL [swing:n491t2] expected=map changed=tags,map 6859ms scale x0.2500 (want x8.0000) <-- MISMATCH
+  cycle 102 [swing:45kh0p]: crops differing from start: selection,map
+  cycle 60 select-a     FAIL [swing:r35fdg] expected=tags,selection changed=map NEVER CHANGED
+  cycle 117 select-a     FAIL [swing:d8gteu] expected=tags,selection changed=selection NEVER CHANGED
+  cycle 54 [swing:75ychg]: crops differing from start: selection
+  cycle 93 [swing:9o1gi3]: crops differing from start: selection,map
+  cycle 33 zoom-in      FAIL [swing:pk5aza] expected=map changed=map 926ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 26 zoom-out     FAIL [swing:5poj18] expected=map changed=tags,map 1077ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 61 select-a     FAIL [swing:yv504c] expected=tags,selection changed=map NEVER CHANGED
+tenant 43 ready: [swing:ce93rg]  canvas 1920x1080
+  cycle 84 [swing:ttkubo]: crops differing from start: selection,map
+  cycle 10 [swing:leavje]: crops differing from start: selection
+  cycle 113 [swing:tm40wv]: crops differing from start: selection
+  cycle 71 [swing:svkfl1]: crops differing from start: selection,map
+  cycle 82 zoom-out     FAIL [swing:7yjvea] expected=map changed=tags,map 5803ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 56 [swing:hncgh5]: crops differing from start: selection,map
+  cycle 44 [swing:pr7bxw]: crops differing from start: selection
+  cycle 111 [swing:t74ue7]: crops differing from start: selection,map
+  cycle 75 [swing:nirvt8]: crops differing from start: selection
+  cycle 21 [swing:s9siht]: crops differing from start: selection,map
+  cycle 117 [swing:n491t2]: crops differing from start: tags,selection,map
+  cycle 29 deselect     FAIL [swing:e8pg6h] expected=tags,map changed=- NEVER CHANGED
+  cycle 33 zoom-out     FAIL [swing:pk5aza] expected=map changed=map 774ms scale x0.5000 (want x8.0000) <-- MISMATCH
+  cycle 64 [swing:blep6s]: crops differing from start: selection
+  cycle 104 zoom-out     FAIL [swing:fm29ul] expected=map changed=tags,map 766ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 42 [swing:9ao4qp]: crops differing from start: selection,map
+  cycle 26 [swing:5poj18]: crops differing from start: selection
+  cycle 47 deselect     FAIL [swing:mtb8pv] expected=tags,map changed=- NEVER CHANGED
+  cycle 17 [swing:94oynq]: crops differing from start: selection
+  cycle 82 [swing:7yjvea]: crops differing from start: selection
+  cycle 89 zoom-out     FAIL [swing:r9suvt] expected=map changed=map 1996ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 39 [swing:yolqiw]: crops differing from start: selection,map
+  cycle 33 [swing:pk5aza]: crops differing from start: selection
+  cycle 107 [swing:3c4756]: crops differing from start: selection
+  cycle 104 [swing:fm29ul]: crops differing from start: selection
+  cycle 52 [swing:igsnjr]: crops differing from start: selection
+  cycle 89 [swing:r9suvt]: crops differing from start: selection,map
+  cycle 92 zoom-in      FAIL [swing:paeg9h] expected=map changed=map 1222ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 100 [swing:gfrnnk]: crops differing from start: tags,selection,map
+  cycle 69 zoom-out     FAIL [swing:5nys6v] expected=map changed=tags,map 778ms scale x2.0000 (want x8.0000) <-- MISMATCH
+  cycle 78 [swing:mazbf0]: crops differing from start: selection,map
+  cycle 66 zoom-in      FAIL [swing:ecmz6f] expected=map changed=tags,map 2151ms scale x0.2500 (want x0.1250) <-- MISMATCH
+  cycle 50 zoom-in      FAIL [swing:6tce5x] expected=map changed=tags,map 1681ms scale x0.5000 (want x0.1250) <-- MISMATCH
+  cycle 117 zoom-out     FAIL [swing:d8gteu] expected=map changed=map 767ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 96 [swing:dhmyig]: crops differing from start: selection
+  cycle 29 [swing:e8pg6h]: crops differing from start: selection
+  cycle 69 [swing:5nys6v]: crops differing from start: selection
+  cycle 47 [swing:mtb8pv]: crops differing from start: selection,map
+  cycle 50 zoom-out     FAIL [swing:6tce5x] expected=map changed=tags,map 765ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 66 zoom-out     FAIL [swing:ecmz6f] expected=map changed=tags,map 769ms scale x4.0000 (want x8.0000) <-- MISMATCH
+  cycle 1 [swing:ce93rg]: crops differing from start: selection
+  cycle 2 [swing:ce93rg]: crops differing from start: selection
+  cycle 3 [swing:ce93rg]: crops differing from start: selection
+
+==== ACTIVE-USER CEILING ====
+  last healthy : 39 active tenants
+  stopped at   : 42
+  why          : tenant 43 could not start: timed out
+  cycles run   : 2954 total
+  which resource ran out is in the monitor's CSV, not here: this side only knows that it stopped
+WARNING scenario.tenants was set to '1' and never read by this driver — misspelt, or meant for another driver
+REMOTE-EXIT=0
+remote exit: 0
+
+==== WHAT RAN OUT ====
+  budget            : 4 GiB, swap disabled
+  peak in the scope : 4096 MB of 4096 MB (100.0%)
+  oom kills         : 0  (cgroup counter -- kills the cell SURVIVED only)
+  kernel kill       : no (systemd journal)
+  java OOM in log   : 0
+  tenants reached   : 42
+  scope alive thru  : 42 tenants
+  monitor CSV       : /home/eftunv/dev/git/vaadin-swing-bridge/swing-bridge-memory-harness/reports/20260911091231-ceiling-sb-2560m.monitor.csv
+  2026-09-11T09:37:41Z,1478,42,4095.8,4096,100.0,0,0.0,13.86,8.9,1,11671.7,0.0,2.01,0.05,0,0,2,1765,1765,33988,5.01,,106535,25134,0,0,991
+  2026-09-11T09:37:46Z,1483,42,4093.8,4096,99.9,0,0.0,12.75,10.2,1,11688.5,0.0,1.97,0.06,0,0,2,1724,1724,33988,4.61,,106505,25064,0,0,959
+  2026-09-11T09:37:51Z,1488,42,4086.8,4096,99.8,0,0.0,11.81,9.4,2,11703.9,0.0,2.23,0.05,0,0,2,1652,1652,33988,4.24,,106430,25004,0,0,1087
+  2026-09-11T09:37:56Z,1494,42,4082.9,4096,99.7,0,0.0,10.86,6.5,1,11714.4,0.0,1.41,0.27,0,0,0,1603,1603,33988,3.90,,108163,25269,0,0,749
+--- tearing down ---
