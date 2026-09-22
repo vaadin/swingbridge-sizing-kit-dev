@@ -25,15 +25,19 @@ launches.
 
 ## Guest: JOSM
 
-Source: `/home/eftun/dev/git/josm` — fork `eftunv/josm` of `JOSM/josm`, branch
-`web-multitenancy`, based on tag **19555-tested**, which is the exact revision the
-reference jar was built from (`REVISION` says `19555`, built 2026-03-29). Keeping
-the base identical to the measured jar means a memory difference cannot be a
-version difference.
+Source: fork **`eftunv/josm`** of `JOSM/josm` (public), branch `web-multitenancy`,
+at commit **`d9c0439`** — six commits on top of tag **19555-tested**, which is the
+exact revision the reference jar was built from (`REVISION` says `19555`, built
+2026-03-29). Keeping the base identical to the measured jar means a memory
+difference cannot be a version difference.
+
+That commit is the source the patched jar below was built from, so the two
+correspond. JOSM is GPL v2 or later: anyone given the binary is entitled to this
+source, and the jar carries JOSM's own `LICENSE` at its root.
 
 | # | Patch | Class | Files | Status |
 |---|---|---|---|---|
-| 1 | **Widget-bounds reporter** (also publishes the map scale and a timestamp, which is what let the driver tell its own tenant's readings from another's, and a fresh reading from a stale one). Publishes where widgets and map objects are, as one line on stdout, so a test driver aims by name instead of by hard-coded pixel coordinates | **C** | `tools/WidgetBounds.java` (new), `gui/MainApplication.java` (one call, one import) | done, verified natively |
+| 1 | **Widget-bounds reporter** — publishes, as one line on stdout, where widgets and map objects are, plus the map scale, a timestamp and the state the session has accumulated. A test driver aims by name instead of by hard-coded pixel coordinates, and can assert what a gesture did rather than infer it from a repaint. One hook, several fields; see below | **C** | `tools/WidgetBounds.java` (new), `gui/MainApplication.java` (one call, one import) | done, verified natively |
 | 2 | **Skippable start-up failure dialog** (`-Djosm.unattended`) | **C** | `gui/MainApplication.java` | done, verified |
 | 3 | **Per-instance directories** — `josm.home.<thread-group>` preferred over `josm.home` | **B** | `data/preferences/JosmBaseDirectories.java` | done, verified with two concurrent tenants |
 
@@ -46,6 +50,17 @@ application that did nothing. This project has already retracted a published
 number for exactly that reason. The hook lives in the *application*, so the driver
 reads what the application itself reports. The alternative — a hook inside the
 bridge — would have been an instrument that knows things a real browser cannot.
+
+**What the line reports, and why each field is there.** The reporter grew over five
+commits to the same new file, so it is one patch rather than five; each field exists
+because a driver could otherwise not tell two different outcomes apart.
+
+| Field | Why it exists |
+|---|---|
+| `window`, `widgets`, `targets` | Where things are. Without them targets are pixel coordinates, which are brittle and fail *silently* — see below. |
+| `scale` | A driver can verify a zoom changed the map, but not *by how much*; a wheel notch is not the same quantity as a wheel pixel delta, so two hosts can both pass a change check while doing very different work. With it, one host was found to move three zoom steps per gesture, another exactly one step per event whatever the delta, and a third not to zoom at all while still repainting. |
+| `t` (timestamp) | Whether a reading describes the gesture it is being compared against. Without a stamp a periodic sampler is indistinguishable from an application that ignored the input — which is how a frozen gauge was once read as a missing feature. |
+| `data` | What the session has *accumulated*: the edit layer's node, way and relation counts, the number of layers, and the undo and redo stack sizes. A profile meant to accumulate is otherwise indistinguishable from a steady one that happens to be drifting, and that difference is the whole measurement. Counts are `-1` when there is no edit layer, so an absent dataset reads as absent rather than as zero. |
 
 **Why stdout.** The bridge captures a guest's stdout and tags it per tenant, so
 one line per update reaches the server log with the tenant's id in front of it.
@@ -123,7 +138,7 @@ differ. Every run loads this same file.
 | | |
 |---|---|
 | reference | `/home/eftun/dev/josm/josm-tested.jar` · sha256 `3afa6435ea696da4a76416d1907aa821511584ac61b89613143666d67e6b7a29` |
-| patched | `/home/eftun/dev/josm/josm-web-patched.jar` · sha256 `6df567638a9acd9534547bac82cfde1e5ed4c22547a68ed9ed722fd5e7993787` (all three patches, hook reporting scale) — **round 2**; round 1 recorded `09e1b01c…` for the same source, see below |
+| patched | `/home/eftun/dev/josm/josm-web-patched.jar` · sha256 `6df567638a9acd9534547bac82cfde1e5ed4c22547a68ed9ed722fd5e7993787` (all three patches, hook reporting scale, timestamp and accumulated data) — **round 2**; round 1 recorded `09e1b01c…` for the same source, see below |
 | difference | 1 entry added (`WidgetBounds.class`), 12 changed (`MainApplication` and `JosmBaseDirectories` with their inner classes, plus `MANIFEST.MF`), 2 removed (`META-INF/JOSMTEAM.SF`, `.RSA`) |
 
 **The sha256 is not a stable identity, and was already stale.** The hash above was
